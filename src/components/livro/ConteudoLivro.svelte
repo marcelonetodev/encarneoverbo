@@ -1,6 +1,8 @@
 <script lang="ts">
+  import livros from "../../constants/livros";
   import Botao from "../shared/Botao.svelte";
   import Titulo from "../shared/Titulo.svelte";
+  import Texto from "../shared/Texto.svelte";
   export let livro: any = null;
 
   /** @type {number} */
@@ -11,16 +13,15 @@
   export let reference: any = null;
   export let count: any = 1;
 
-  async function api() {
+  async function api(capitulo = count) {
     const response = await fetch(
-      `https://bible-api.com/${livro.id}+${count}?translation=almeida`
+      `https://bible-api.com/${livro.id}+${capitulo}?translation=almeida`
     );
     book = await response.json();
     text = book.text;
-    verses = book.verses.text;
-    chapter = book.verses.chapter;
+    verses = book.verses;
     reference = book.reference;
-    console.log(chapter, reference);
+    // console.log(chapter, reference);
     count++;
   }
 </script>
@@ -33,37 +34,37 @@
       class="h-96 object-cover rounded-md"
     />
     <article>
-      <Titulo principal={livro.titulo} secundario={livro.descricao} />
+      <Titulo
+        principal="Livro de {livro.titulo}"
+        secundario={livro.descricao}
+      />
       <div>
-        <p class="font-light text-sm p-10">
-          O livro de {livro.titulo} foi escrito por {livro.autor}, {livro.ano}.
+        <Texto
+          texto="          O livro de {livro.titulo} foi escrito por {livro.autor}, {livro.ano}.
           Possui {livro.capitulo} capítulos e {livro.versiculo} versículos. {livro.contexto_historico}
-        </p>
+"
+        />
+        <Titulo principal="Contexto geral" />
+        <Texto textoMarkdown={livro.contexto} />
       </div>
       <div class="gap-5 flex flex-col">
         <Titulo principal={reference} />
-        <span class="border-b border border-zinc-800"></span>
-
-        <!-- {#if book === null}
-          <Botao texto="{livro.titulo} 1" funcao={api} />
-        {/if} -->
-
         {#if book !== null}
-          <div class="flex border border-zinc-800 rounded-md gap-5">
-            <p class="p-5">{text}</p>
-          </div>
-          <!-- {#each verses as verse}
-    <p>{verses.text}</p>
-  {/each} -->
+          <Texto texto={text} />
         {/if}
-        <Botao texto="Ir para {livro.titulo} {count}" funcao={api} />
-      </div>
-      <!-- <div class="flex flex-col p-5">
+        <span class="border-b border border-zinc-800"></span>
         <Titulo principal="Capítulos" />
-        <div class="flex grid grid-10 gap-5">
-          <Botao texto="1" funcao={api} />
+        <!-- <span class="border-b border border-zinc-800"></span> -->
+        <div class="justify-center flex p-5">
+          <div class="grid grid-cols-10 gap-4">
+            {#each { length: livro.capitulo }, cap}
+              <Botao texto={cap + 1} funcao={() => api(cap + 1)} />
+            {/each}
+          </div>
         </div>
-      </div> -->
+
+        <!-- <Botao texto="Ir para {livro.titulo} {count}" funcao={api} /> -->
+      </div>
     </article>
   </div>
 {/if}

@@ -10,7 +10,7 @@
     secundario="Conheça os livros das principais histórias que você ama!"
   />
 
-  <div class="flex flex-col grid grid-cols-2 gap-5">
+  <div class="flex flex-col grid grid-cols-3 gap-5">
     {#each livros as livro}
       <ItemLivro {livro} />
     {/each}

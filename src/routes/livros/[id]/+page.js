@@ -14,5 +14,5 @@ export function load(dados) {
         }
     }
 
-    error(404, "Série não encontrada.")
+    error(404, "Livro não encontrado.")
 }

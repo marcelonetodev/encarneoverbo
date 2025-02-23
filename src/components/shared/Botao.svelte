@@ -6,7 +6,7 @@
 {#if funcao}
   <button
     onclick={funcao}
-    class=" cursor-pointer border-zinc-800 border rounded-md p-2"
+    class=" cursor-pointer border-zinc-800 border rounded-md p-2 text-zinc-400 hover:bg-zinc-600"
     >{texto}</button
   >
 {/if}
