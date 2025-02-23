@@ -18,6 +18,7 @@
     text = book.text;
     reference = book.reference;
     count++;
+    window.scrollTo(0, 0);
   }
 </script>
 

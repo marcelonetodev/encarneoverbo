@@ -8,9 +8,9 @@
 >
   <Menu titulo="Navegação">
     <MenuItem texto="Início" href="/" />
-    <MenuItem texto="Livros" href="/livros" />
-    <MenuItem texto="Contexto Histórico" href="/" />
-    <MenuItem texto="Artigos" href="/" />
+    <MenuItem texto="Contexto Histórico" href="/livros" />
+    <!-- <MenuItem texto="Livros" href="/livros" />
+    <MenuItem texto="Artigos" href="/" /> -->
   </Menu>
   <Menu titulo="Pentateuco">
     <MenuItem texto="Gênesis" href="/livros/GEN" />
