@@ -8,7 +8,7 @@
 <div
   class="
           flex flex-col min-h-screen
-          bg-black text-white
+          bg-black text-white dark:bg-black-800
           "
 >
   <Cabecalho />
