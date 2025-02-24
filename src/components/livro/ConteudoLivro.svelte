@@ -202,13 +202,6 @@
         />
         <Titulo principal="Contexto geral" />
         <Texto textoMarkdown={livro.contexto} />
-        <button
-          class="bg-zinc-800/20 text-white px-2 py-1 rounded-md text-sm hover:bg-zinc-800 focus:outline-none absolute top-0 right-0"
-          on:click={copiarTexto}
-          title="Copiar Texto"
-        >
-          ⎘ Copiar
-        </button>
       </div>
       <div class="gap-5 flex flex-col">
         {#if book !== null}

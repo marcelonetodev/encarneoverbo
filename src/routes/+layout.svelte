@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>Meu Site - Página Inicial</title>
+  <title>Encarne o Verbo - Página Inicial</title>
   <meta
     name="description"
     content="Encarne o Verbo é sobre Cristo! É sobre buscar ao unico tesouro precioso que não poderíamos merecer, mas nos foi dado de bom grado por Cristo."

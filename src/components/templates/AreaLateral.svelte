@@ -94,11 +94,11 @@
   <Menu titulo="Apocalipse">
     <MenuItem texto="Apocalipse" href="/livros/REV" />
   </Menu>
-  <Menu titulo="Outras categorias">
+  <!-- <Menu titulo="Outras categorias">
     <MenuItem texto="Ultimas notícias" href="/" />
     <MenuItem texto="Séries populares" href="/" />
     <MenuItem texto="Facebook" href="/" />
     <MenuItem texto="Instagram" href="/" />
     <MenuItem texto="Youtube" href="/" />
-  </Menu>
+  </Menu> -->
 </aside>
