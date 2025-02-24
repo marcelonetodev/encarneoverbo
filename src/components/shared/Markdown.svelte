@@ -55,6 +55,12 @@
     mensagem = localStorage.getItem("anotacoes");
     mensagem ? (mostrar = true) : (mostrar = false);
   });
+
+  function setar() {
+    localStorage.setItem("anotacoes", markdown);
+    markdown ? (mostrar = true) : (mostrar = false);
+    markdown ? (mensagem = markdown) : (mensagem = null);
+  }
 </script>
 
 {#if mostrar}
@@ -73,9 +79,5 @@
     bind:value={markdown}
     placeholder={mensagem}
   ></textarea>
-
-  <Botao
-    funcao={() => localStorage.setItem("anotacoes", markdown)}
-    texto="Salvar"
-  />
+  <Botao funcao={() => setar()} texto="Salvar" />
 </div>
