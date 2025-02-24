@@ -19,7 +19,7 @@
 {#if funcao}
   <button
     onclick={funcao}
-    class="cursor-pointer border border-zinc-800 rounded-md p-2 text-zinc-400 hover:bg-zinc-600 text-sm sm:text-base px-4 sm:px-6"
+    class="cursor-pointer border text-align text-center justify-center border-zinc-800 rounded-md p-2 text-zinc-400 hover:bg-zinc-600 text-sm sm:text-base px-4 sm:px-6"
   >
     {texto}
   </button>
