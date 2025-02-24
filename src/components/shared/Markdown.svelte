@@ -61,6 +61,10 @@
     markdown ? (mostrar = true) : (mostrar = false);
     markdown ? (mensagem = markdown) : (mensagem = null);
   }
+  function apagar() {
+    localStorage.removeItem("anotacoes");
+    mensagem ? (mostrar = false) : (mostrar = true);
+  }
 </script>
 
 {#if mostrar}
@@ -69,6 +73,7 @@
   >
     <p class="font-semibold text-2xl sm:text-3xl">Mensagem gravada:</p>
     <p>{@html marked(mensagem)}</p>
+    <Botao texto="Apagar" funcaoApagar={() => apagar()} />
   </div>
 {/if}
 <div
@@ -79,5 +84,5 @@
     bind:value={markdown}
     placeholder={mensagem}
   ></textarea>
-  <Botao funcao={() => setar()} texto="Salvar" />
+  <Botao funcaoSalvar={() => setar()} texto="Salvar" />
 </div>
