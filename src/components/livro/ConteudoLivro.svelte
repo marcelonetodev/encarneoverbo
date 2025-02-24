@@ -220,7 +220,6 @@
         <span class="border-b border border-zinc-800"></span>
         <Titulo principal="Capítulos" />
         <div class="relative flex justify-center p-5">
-          <!-- Botão de copiar no mesmo estilo do botão de capítulo -->
           <div
             class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
           >
