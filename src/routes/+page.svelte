@@ -7,7 +7,6 @@
 
   export let book: any = null;
   export let text: any = null;
-  export let chapter: any = null;
   export let reference: any = null;
   export let count: any = 1;
 
@@ -24,10 +23,6 @@
 </script>
 
 <div class="flex flex-col gap-10">
-  <Titulo
-    principal="Bíblia"
-    secundario="Todos os livros da bíblia ao seu alcance."
-  />
   <Texto
     texto="Bem-vindo ao encarne o verbo!
 Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida. Explore passagens, capítulos e versículos de forma simples, facilitando seu estudo e meditação. Seja você um devoto em busca de inspiração diária ou alguém que deseja se aprofundar no conhecimento bíblico, nosso site está aqui para ajudar. Navegue e descubra o poder transformador da Palavra!"
@@ -36,9 +31,13 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
     principal="Anotações"
     secundario="Fique livre para escrever suas ideias."
   />
-  <Markdown mensagem="Digite suas anotações aqui" />
-  <Titulo principal={reference} />
+  <Markdown />
+  <Titulo
+    principal="Bíblia"
+    secundario="Todos os livros da bíblia ao seu alcance."
+  />
   {#if book !== null}
+    <Titulo principal={reference} />
     <Texto texto={text} />
   {/if}
   {#each livros as lv}
