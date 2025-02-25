@@ -85,7 +85,7 @@
       class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-md bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
       on:change={handleBookSelection}
     >
-      <option class="bg-black" selected>Clique para escolher o livro, de Gênesis a Apocalipse</option>
+      <option class="bg-black" selected>Escolha o livro</option>
       {#each livros as lv}
         <option class="bg-black" value={lv.titulo}>{lv.titulo}</option>
       {/each}
