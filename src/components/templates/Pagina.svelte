@@ -17,7 +17,7 @@
   <Cabecalho />
 
   <div
-    class="lg:hidden border-t-2 border-zinc-800 rounded-lg list-none text-white p-1 bg-black grid grid-cols-3 fixed z-1 bottom-0 w-full"
+    class="lg:hidden border-t-2 border-zinc-800 px-1 gap-1 rounded-lg list-none text-white p-1 bg-black grid grid-cols-3 fixed z-1 bottom-0 w-full"
   >
     <!-- <Menu titulo="Navegação"> -->
     <MenuItem
