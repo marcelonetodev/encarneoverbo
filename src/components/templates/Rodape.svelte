@@ -7,8 +7,8 @@
     <Logo />
     <p class="p-5 text-zinc-700 text-center">
       <i>
-        E o Verbo se fez carne, e habitou entre nós, cheio de graça e de
-        verdade; e vimos a sua glória, como a glória do unigênito do Pai.
+        "E o Verbo se fez carne, e habitou entre nós, cheio de graça e de
+        verdade; e vimos a sua glória, como a glória do unigênito do Pai."
       </i><br />
       João 1:14
     </p>
