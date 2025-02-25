@@ -8,8 +8,8 @@
 >
   <Menu titulo="Navegação">
     <MenuItem texto="Bíblia" href="/" />
-    <MenuItem texto="Contexto Histórico" href="/livros" />
-    <MenuItem texto="Anotações" href="/anotacoes" />
+    <MenuItem texto="Estudo" href="/livros" />
+    <MenuItem texto="Notas" href="/anotacoes" />
   </Menu>
   <Menu titulo="Pentateuco">
     <MenuItem texto="Gênesis" href="/livros/GEN" />
