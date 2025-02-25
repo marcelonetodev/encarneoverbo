@@ -1,15 +1,15 @@
 const livros = [
-    {
-        id: "GEN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Gênesis",
-        descricao: "Primeiro livro da Bíblia escrito por Moisés, que narra o início da criação e da humanidade.",
-        autor: "Moisés",
-        ano: "aproximadamente 4000 a.C.",
-        versiculo: 1533,
-        capitulo: 50,
-        contexto_historico: "Relata a criação do mundo, a queda do homem, o dilúvio e a história dos patriarcas até a ascensão de José no Egito.",
-        contexto: `O **Livro de Gênesis** é o primeiro livro da Bíblia e faz parte do Antigo Testamento. Ele descreve a criação do mundo, a origem da humanidade, as primeiras histórias de fé e a formação do povo de Israel. Ele é considerado um livro essencial para a compreensão das raízes da fé judaica e cristã. A seguir, faço um resumo detalhado, destacando as partes mais marcantes.
+   {
+      id: "GEN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Gênesis",
+      descricao: "Primeiro livro da Bíblia escrito por Moisés, que narra o início da criação e da humanidade.",
+      autor: "Moisés",
+      ano: "aproximadamente 4000 a.C.",
+      versiculo: 1533,
+      capitulo: 50,
+      contexto_historico: "Relata a criação do mundo, a queda do homem, o dilúvio e a história dos patriarcas até a ascensão de José no Egito.",
+      contexto: `O **Livro de Gênesis** é o primeiro livro da Bíblia e faz parte do Antigo Testamento. Ele descreve a criação do mundo, a origem da humanidade, as primeiras histórias de fé e a formação do povo de Israel. Ele é considerado um livro essencial para a compreensão das raízes da fé judaica e cristã. A seguir, faço um resumo detalhado, destacando as partes mais marcantes.
 
 ### 1. **A Criação (Gênesis 1-2)**
 O livro começa com a narrativa da **criação do mundo**. Deus cria o universo em seis dias, separando luz das trevas, criando o céu, a terra, os mares, a vegetação, os animais e, por fim, o ser humano, Adão e Eva, à Sua imagem e semelhança. O sétimo dia é consagrado como o dia de descanso. A criação humana é descrita como a culminação da obra divina, e o Jardim do Éden é preparado para Adão e Eva viverem em harmonia com Deus.
@@ -45,18 +45,18 @@ José, o filho favorito de Jacó, é vendido como escravo por seus irmãos, que 
 O livro de Gênesis termina com a morte de Jacó e José, e a promessa de que os israelitas seriam libertados da escravidão no Egito, o que configura os eventos que se desdobram no **livro de Êxodo**. O Livro de Gênesis é fundamental para entender o início da história do povo de Israel, a importância da fé e da obediência a Deus, além das complexas relações humanas e divinas.
 
 As partes mais marcantes incluem a criação do mundo, a queda do homem, o dilúvio e a aliança com Noé, a promessa a Abraão e seus descendentes, a luta de Jacó e sua transformação em Israel, e a história de José, que exemplifica a providência divina e o perdão. Essas histórias formam a base da narrativa bíblica e são fundamentais para a compreensão dos ensinamentos cristãos e judaicos.`
-    },
-    {
-        id: "EXO",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Êxodo",
-        descricao: "Segundo livro da Bíblia, escrito por Moisés, que narra a libertação do povo de Israel da escravidão no Egito.",
-        autor: "Moisés",
-        ano: "aproximadamente 1445 a.C.",
-        versiculo: 1213,
-        capitulo: 40,
-        contexto_historico: "Descreve a saída dos israelitas do Egito e a entrega da Lei no Monte Sinai.",
-        contexto: `O livro de Êxodo, o segundo livro da Bíblia, faz parte do Antigo Testamento e conta a história da libertação dos israelitas da escravidão no Egito, sob a liderança de Moisés. Ele é fundamental para entender a formação da identidade do povo de Israel e seu relacionamento com Deus. Abaixo, apresento um resumo detalhado, destacando as partes mais marcantes:
+   },
+   {
+      id: "EXO",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Êxodo",
+      descricao: "Segundo livro da Bíblia, escrito por Moisés, que narra a libertação do povo de Israel da escravidão no Egito.",
+      autor: "Moisés",
+      ano: "aproximadamente 1445 a.C.",
+      versiculo: 1213,
+      capitulo: 40,
+      contexto_historico: "Descreve a saída dos israelitas do Egito e a entrega da Lei no Monte Sinai.",
+      contexto: `O livro de Êxodo, o segundo livro da Bíblia, faz parte do Antigo Testamento e conta a história da libertação dos israelitas da escravidão no Egito, sob a liderança de Moisés. Ele é fundamental para entender a formação da identidade do povo de Israel e seu relacionamento com Deus. Abaixo, apresento um resumo detalhado, destacando as partes mais marcantes:
 
 ### 1. **A Escravidão no Egito e o Nascimento de Moisés**
 O livro começa com a descrição da opressão dos israelitas no Egito. Eles são forçados a trabalhar como escravos para o faraó, que teme o crescimento do número de israelitas. Em resposta a isso, o faraó ordena que todos os recém-nascidos hebreus do sexo masculino sejam mortos. No entanto, a mãe de Moisés, para salvá-lo, o coloca em um cesto no rio Nilo, onde ele é encontrado pela filha do faraó e adotado como seu filho.
@@ -89,18 +89,18 @@ Ao longo do livro, Moisés é retratado como um líder exemplar, que, apesar de 
 O livro de Êxodo é fundamental para entender a formação do povo de Israel como uma nação separada e dedicada a Deus. Ele revela temas como a libertação, a aliança divina, a obediência às leis de Deus e a importância da adoração. A travessia do Mar Vermelho, a recepção dos Dez Mandamentos e o episódio do bezerro de ouro são eventos centrais que refletem o caráter de Deus e a relação com seu povo escolhido.
 
 Esses eventos não só marcam a história bíblica, mas também têm profunda influência na tradição religiosa de judeus, cristãos e muçulmanos.`
-    },
-    {
-        id: "LEV",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Levítico",
-        descricao: "Terceiro livro da Bíblia, escrito por Moisés, que contém as leis e regulamentos para o povo de Israel.",
-        autor: "Moisés",
-        ano: "aproximadamente 1445 a.C.",
-        versiculo: 859,
-        capitulo: 27,
-        contexto_historico: "Fornece leis sobre o culto a Deus, as ofertas e os rituais de purificação.",
-        contexto: `O **Livro de Levítico** é o terceiro livro da Bíblia, situado entre Êxodo e Números, e faz parte do Pentateuco, os cinco primeiros livros da Bíblia atribuídos a Moisés. Levítico é uma obra que se foca em aspectos da **lei religiosa e moral** e dos **rituais de culto** do povo de Israel, estabelecendo um conjunto de instruções para o sacerdócio, o culto a Deus e a pureza do povo. Seu nome vem de "levita", a tribo designada para funções sacerdotais e litúrgicas. Aqui está um resumo detalhado com as partes mais marcantes:
+   },
+   {
+      id: "LEV",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Levítico",
+      descricao: "Terceiro livro da Bíblia, escrito por Moisés, que contém as leis e regulamentos para o povo de Israel.",
+      autor: "Moisés",
+      ano: "aproximadamente 1445 a.C.",
+      versiculo: 859,
+      capitulo: 27,
+      contexto_historico: "Fornece leis sobre o culto a Deus, as ofertas e os rituais de purificação.",
+      contexto: `O **Livro de Levítico** é o terceiro livro da Bíblia, situado entre Êxodo e Números, e faz parte do Pentateuco, os cinco primeiros livros da Bíblia atribuídos a Moisés. Levítico é uma obra que se foca em aspectos da **lei religiosa e moral** e dos **rituais de culto** do povo de Israel, estabelecendo um conjunto de instruções para o sacerdócio, o culto a Deus e a pureza do povo. Seu nome vem de "levita", a tribo designada para funções sacerdotais e litúrgicas. Aqui está um resumo detalhado com as partes mais marcantes:
 
 ### 1. **As Ofertas e Sacrifícios (Capítulos 1–7)**
 O livro começa com a descrição de diferentes tipos de **sacrifícios** e **ofertas** que o povo deveria fazer para Deus. Estes rituais tinham o propósito de manter a pureza e a relação com Deus, incluindo:
@@ -151,18 +151,18 @@ Levítico também aborda questões econômicas e sociais, como a **lei do jubile
 
 ### Conclusão
 O **Livro de Levítico** apresenta um conjunto detalhado de leis e regulamentos para o culto a Deus, a pureza do povo e a vida em comunidade. Sua ênfase na **santidade de Deus** e na **necessidade de pureza** e **moralidade** destaca a forma como o povo de Israel deveria se separar das nações vizinhas e ser um modelo de justiça e santidade. As leis sobre sacrifícios, pureza, moralidade e a instituição de rituais como o **Dia da Expiação** são marcos centrais no livro e refletem um desejo de manter uma relação pura e santa com o Senhor.`
-    },
-    {
-        id: "NUM",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Números",
-        descricao: "Quarto livro da Bíblia, escrito por Moisés, que relata as viagens do povo de Israel pelo deserto.",
-        autor: "Moisés",
-        ano: "aproximadamente 1406 a.C.",
-        versiculo: 1288,
-        capitulo: 36,
-        contexto_historico: "Faz o censo do povo e relata os eventos durante a peregrinação no deserto até a Terra Prometida.",
-        contexto: `O **Livro de Números** é o quarto livro da Bíblia e faz parte do **Pentateuco**. Ele narra a jornada dos israelitas durante os 40 anos que passaram no deserto após a libertação do Egito, até a chegada à porta da Terra Prometida. O nome "Números" vem da contagem dos israelitas, que acontece no início e no final do livro. A obra contém uma mistura de censos, relatos de viagens, lutas, desafios de fé e rebeliões do povo de Israel.
+   },
+   {
+      id: "NUM",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Números",
+      descricao: "Quarto livro da Bíblia, escrito por Moisés, que relata as viagens do povo de Israel pelo deserto.",
+      autor: "Moisés",
+      ano: "aproximadamente 1406 a.C.",
+      versiculo: 1288,
+      capitulo: 36,
+      contexto_historico: "Faz o censo do povo e relata os eventos durante a peregrinação no deserto até a Terra Prometida.",
+      contexto: `O **Livro de Números** é o quarto livro da Bíblia e faz parte do **Pentateuco**. Ele narra a jornada dos israelitas durante os 40 anos que passaram no deserto após a libertação do Egito, até a chegada à porta da Terra Prometida. O nome "Números" vem da contagem dos israelitas, que acontece no início e no final do livro. A obra contém uma mistura de censos, relatos de viagens, lutas, desafios de fé e rebeliões do povo de Israel.
 
 Aqui está um **resumo detalhado** do livro, destacando as partes mais marcantes:
 
@@ -203,18 +203,18 @@ O livro de Números termina com o povo de Israel prestes a cruzar o Jordão e en
 
 ### **Conclusão**
 O **Livro de Números** é, ao mesmo tempo, um relato de desafios e vitórias, mas também de falhas e rebeliões. O povo de Israel, embora libertado do Egito, continua a lutar com sua fé, confiança em Deus e obediência às suas ordens. A jornada no deserto serve como um período de preparação e purificação para o povo, que finalmente está prestes a entrar na Terra Prometida. A **obediência a Deus**, o **sacrifício** e a **fidelidade** são temas centrais, e o livro serve como um lembrete de que, embora Deus seja fiel, a desobediência e a incredulidade trazem sérias consequências.`
-    },
-    {
-        id: "DEU",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Deuteronômio",
-        descricao: "Quinto livro da Bíblia, escrito por Moisés, que contém discursos e leis reforçando a aliança de Deus com Israel.",
-        autor: "Moisés",
-        ano: "aproximadamente 1406 a.C.",
-        versiculo: 959,
-        capitulo: 34,
-        contexto_historico: "Reafirma a Lei de Deus antes de entrar na Terra Prometida e a morte de Moisés.",
-        contexto: `O **Livro de Deuteronômio** é o quinto e último livro do Pentateuco, que contém as últimas palavras de Moisés antes de sua morte e a entrada do povo de Israel na Terra Prometida. O nome "Deuteronômio" significa "segunda lei" e, de fato, o livro é uma reprise e explicação das leis que já haviam sido dadas anteriormente, com a intenção de preparar as novas gerações para viverem conforme os princípios de Deus na Terra Prometida. Através de três discursos de Moisés, o livro reafirma a aliança de Deus com Israel, as bênçãos que seriam resultantes da obediência e as maldições da desobediência.
+   },
+   {
+      id: "DEU",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Deuteronômio",
+      descricao: "Quinto livro da Bíblia, escrito por Moisés, que contém discursos e leis reforçando a aliança de Deus com Israel.",
+      autor: "Moisés",
+      ano: "aproximadamente 1406 a.C.",
+      versiculo: 959,
+      capitulo: 34,
+      contexto_historico: "Reafirma a Lei de Deus antes de entrar na Terra Prometida e a morte de Moisés.",
+      contexto: `O **Livro de Deuteronômio** é o quinto e último livro do Pentateuco, que contém as últimas palavras de Moisés antes de sua morte e a entrada do povo de Israel na Terra Prometida. O nome "Deuteronômio" significa "segunda lei" e, de fato, o livro é uma reprise e explicação das leis que já haviam sido dadas anteriormente, com a intenção de preparar as novas gerações para viverem conforme os princípios de Deus na Terra Prometida. Através de três discursos de Moisés, o livro reafirma a aliança de Deus com Israel, as bênçãos que seriam resultantes da obediência e as maldições da desobediência.
 
 Aqui está um **resumo detalhado** de **Deuteronômio**, com os principais acontecimentos e temas:
 
@@ -267,18 +267,18 @@ Antes de sua morte, Moisés sobe ao Monte Nebo, onde Deus lhe mostra a Terra Pro
 O **Livro de Deuteronômio** é uma reiteração das leis e princípios dados a Israel, agora voltados para a geração que iria entrar na Terra Prometida. Moisés, ao longo de seus discursos, exorta o povo a obedecer a Deus, a manter sua aliança e a viver uma vida justa e santa. O livro destaca a centralidade do **amor a Deus**, a **responsabilidade da próxima geração** e o papel fundamental da **obediência para experimentar as bênçãos de Deus**.
 
 Deuteronômio também serve como um lembrete de que, embora Deus tenha feito promessas de bênçãos, a desobediência traz consequências severas, mas a misericórdia divina está sempre disponível para quem se arrepende e se volta para Ele. A obra é essencial para compreender o caráter de Deus e a forma como Ele se relaciona com o Seu povo, sendo um guia de fé e moral para as gerações futuras.`
-    },
-    {
-        id: "JOS",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Josué",
-        descricao: "Sexto livro da Bíblia, escrito por Josué, que narra a conquista e divisão da Terra Prometida.",
-        autor: "Josué",
-        ano: "aproximadamente 1370 a.C.",
-        versiculo: 658,
-        capitulo: 24,
-        contexto_historico: "Descreve a liderança de Josué e a tomada de Canaã pelos israelitas.",
-        contexto: `O **Livro de Josué** é o sexto livro da Bíblia e marca a entrada e a conquista da **Terra Prometida** por Israel sob a liderança de **Josué**, sucessor de Moisés. Este livro narra a realização da promessa feita por Deus aos patriarcas de Israel, começando com a travessia do rio Jordão e culminando na divisão das terras entre as tribos de Israel. A principal ênfase do livro é a **obediência a Deus** e a **fidelidade ao pacto** estabelecido com o povo de Israel.
+   },
+   {
+      id: "JOS",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Josué",
+      descricao: "Sexto livro da Bíblia, escrito por Josué, que narra a conquista e divisão da Terra Prometida.",
+      autor: "Josué",
+      ano: "aproximadamente 1370 a.C.",
+      versiculo: 658,
+      capitulo: 24,
+      contexto_historico: "Descreve a liderança de Josué e a tomada de Canaã pelos israelitas.",
+      contexto: `O **Livro de Josué** é o sexto livro da Bíblia e marca a entrada e a conquista da **Terra Prometida** por Israel sob a liderança de **Josué**, sucessor de Moisés. Este livro narra a realização da promessa feita por Deus aos patriarcas de Israel, começando com a travessia do rio Jordão e culminando na divisão das terras entre as tribos de Israel. A principal ênfase do livro é a **obediência a Deus** e a **fidelidade ao pacto** estabelecido com o povo de Israel.
 
 ### 1. **A Preparação para a Conquista (Capítulos 1–5)**
 
@@ -324,18 +324,18 @@ Após a vitória nas batalhas, o próximo passo é a **divisão da terra** entre
 O **Livro de Josué** é uma narrativa de vitória, obediência e fidelidade à aliança com Deus. Ele descreve a **conquista militar** da Terra Prometida e a **divisão da terra** entre as tribos, mas também enfatiza a importância da **obediência a Deus** e da **fidelidade ao pacto**. A história de **Raabe**, a vitória sobre Jericó, a derrota de Ai e as campanhas contra os reis das regiões sul e norte são alguns dos momentos mais marcantes, mostrando que **Deus é o verdadeiro líder de Israel** e que sua presença traz sucesso.
 
 Além disso, o livro de Josué também ensina lições de **justiça, misericórdia, e o risco de desobedecer a Deus**. Ao final, a renovação da aliança e as palavras de Josué destacam a necessidade de escolher constantemente servir a Deus, reafirmando que **a obediência resulta em bênçãos** e a desobediência em consequências negativas.`
-    },
-    {
-        id: "JDG",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Juízes",
-        descricao: "Sétimo livro da Bíblia, escrito por diversos autores, que narra a história dos juízes de Israel e a transição para a monarquia.",
-        autor: "Diversos autores",
-        ano: "aproximadamente 1050 a.C.",
-        versiculo: 618,
-        capitulo: 21,
-        contexto_historico: "Fala sobre os períodos de opressão e libertação do povo de Israel sob os juízes.",
-        contexto: `O **Livro de Juízes** é o sétimo livro da Bíblia e relata a história de Israel durante o período entre a morte de Josué e o estabelecimento da monarquia. Esse livro descreve uma época de **ciclos de desobediência, opressão, arrependimento e libertação** em que Deus levanta juízes (líderes temporários) para salvar o povo de Israel de seus inimigos. A narrativa de **Juízes** é marcada pela instabilidade espiritual e moral do povo, que constantemente se afastava de Deus e, depois, clamava por Sua ajuda em momentos de opressão. O ciclo de desobediência e arrependimento se repete várias vezes ao longo do livro.
+   },
+   {
+      id: "JDG",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Juízes",
+      descricao: "Sétimo livro da Bíblia, escrito por diversos autores, que narra a história dos juízes de Israel e a transição para a monarquia.",
+      autor: "Diversos autores",
+      ano: "aproximadamente 1050 a.C.",
+      versiculo: 618,
+      capitulo: 21,
+      contexto_historico: "Fala sobre os períodos de opressão e libertação do povo de Israel sob os juízes.",
+      contexto: `O **Livro de Juízes** é o sétimo livro da Bíblia e relata a história de Israel durante o período entre a morte de Josué e o estabelecimento da monarquia. Esse livro descreve uma época de **ciclos de desobediência, opressão, arrependimento e libertação** em que Deus levanta juízes (líderes temporários) para salvar o povo de Israel de seus inimigos. A narrativa de **Juízes** é marcada pela instabilidade espiritual e moral do povo, que constantemente se afastava de Deus e, depois, clamava por Sua ajuda em momentos de opressão. O ciclo de desobediência e arrependimento se repete várias vezes ao longo do livro.
 
 Aqui está um **resumo detalhado** do **Livro de Juízes**, destacando as partes mais marcantes:
 
@@ -399,18 +399,18 @@ O livro de Juízes termina com a famosa frase: "**Naqueles dias não havia rei e
 
 ### **Conclusão**
 O **Livro de Juízes** é uma história de altos e baixos, destacando tanto a fidelidade de Deus quanto as falhas do povo de Israel. Ele ensina que **desobediência e idolatria** trazem destruição e que, sem uma liderança centrada em Deus, a sociedade se desintegra moral e espiritualmente. No entanto, o livro também revela a **misericórdia e graça de Deus**, que nunca deixa o Seu povo totalmente abandonado, sempre levantando líderes para salvar Israel, mesmo nos momentos mais sombrios.`
-    },
-    {
-        id: "RUT",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Rute",
-        descricao: "Oitavo livro da Bíblia, escrito por um autor anônimo, que narra a história de Rute, uma mulher moabita que se torna parte do povo de Israel.",
-        autor: "Anônimo",
-        ano: "aproximadamente 1100 a.C.",
-        versiculo: 85,
-        capitulo: 4,
-        contexto_historico: "Relata a fidelidade de Rute e sua inclusão na linhagem do rei Davi.",
-        contexto: `O **Livro de Rute** é o oitavo livro do Antigo Testamento e se destaca por sua narrativa de **fé, lealdade e redenção**. A história acontece durante o período dos juízes e é centrada na figura de **Rute**, uma moabita que se torna uma das antepassadas de **Davi** e, mais importante, da linhagem de **Jesus Cristo**. O livro é curto, com apenas quatro capítulos, mas carrega lições profundas sobre a **fidelidade a Deus e ao próximo**, a **graça divina** e os **caminhos da providência divina**.
+   },
+   {
+      id: "RUT",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Rute",
+      descricao: "Oitavo livro da Bíblia, escrito por um autor anônimo, que narra a história de Rute, uma mulher moabita que se torna parte do povo de Israel.",
+      autor: "Anônimo",
+      ano: "aproximadamente 1100 a.C.",
+      versiculo: 85,
+      capitulo: 4,
+      contexto_historico: "Relata a fidelidade de Rute e sua inclusão na linhagem do rei Davi.",
+      contexto: `O **Livro de Rute** é o oitavo livro do Antigo Testamento e se destaca por sua narrativa de **fé, lealdade e redenção**. A história acontece durante o período dos juízes e é centrada na figura de **Rute**, uma moabita que se torna uma das antepassadas de **Davi** e, mais importante, da linhagem de **Jesus Cristo**. O livro é curto, com apenas quatro capítulos, mas carrega lições profundas sobre a **fidelidade a Deus e ao próximo**, a **graça divina** e os **caminhos da providência divina**.
 
 ### 1. **Introdução: A Tragédia e a Decisão de Rute (Capítulos 1)**
 O livro começa com uma **tragédia familiar**. **Elimeleque**, um homem de **Belém**, vai para a terra de **Moabe** devido a uma fome em Israel, levando sua esposa **Noemi** e seus dois filhos, **Malom** e **Quilion**. No entanto, Elimeleque morre, e, mais tarde, os dois filhos de Noemi também falecem, deixando Noemi e suas duas noras, **Rute** e **Orfa**, viúvas. Essa situação de luto e desespero leva Noemi a decidir retornar a Israel, pois ouve que a fome em Belém havia terminado.
@@ -459,18 +459,18 @@ O **Livro de Rute** é uma história de **redenção** e **transformação**. El
 4. **A inclusão e graça de Deus**: Rute, uma moabita, é aceita na família de Israel, demonstrando que a graça de Deus não tem limites geográficos ou étnicos e que Ele pode usar qualquer pessoa que tenha fé n'Ele.
 
 O livro de Rute, portanto, é um testemunho poderoso de como a **fidelidade a Deus** e ao próximo, assim como a confiança em Sua providência, pode trazer **transformação, restauração e bênçãos**, até mesmo em tempos de dificuldades.`
-    },
-    {
-        id: "1SA",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Samuel",
-        descricao: "Nono livro da Bíblia, escrito por diversos autores, que narra a transição de Israel de uma teocracia para uma monarquia.",
-        autor: "Diversos autores",
-        ano: "aproximadamente 1050 a.C.",
-        versiculo: 810,
-        capitulo: 31,
-        contexto_historico: "Descreve a vida do profeta Samuel, a unção de Saul como o primeiro rei de Israel e a ascensão de Davi.",
-        contexto: `O **Livro de 1 Samuel** é o primeiro livro das **Crônicas dos Reis de Israel** e descreve a transição de Israel de uma confederação de tribos para uma monarquia unificada. A narrativa abrange uma série de eventos marcantes, incluindo a escolha de **Saul**, o primeiro rei de Israel, a ascensão de **Davi** como um líder escolhido por Deus, e os conflitos entre os dois. O livro explora temas de **liderança**, **obediência a Deus**, **arrependimento** e **divina providência**. Vamos a um resumo detalhado dos acontecimentos mais significativos.
+   },
+   {
+      id: "1SA",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Samuel",
+      descricao: "Nono livro da Bíblia, escrito por diversos autores, que narra a transição de Israel de uma teocracia para uma monarquia.",
+      autor: "Diversos autores",
+      ano: "aproximadamente 1050 a.C.",
+      versiculo: 810,
+      capitulo: 31,
+      contexto_historico: "Descreve a vida do profeta Samuel, a unção de Saul como o primeiro rei de Israel e a ascensão de Davi.",
+      contexto: `O **Livro de 1 Samuel** é o primeiro livro das **Crônicas dos Reis de Israel** e descreve a transição de Israel de uma confederação de tribos para uma monarquia unificada. A narrativa abrange uma série de eventos marcantes, incluindo a escolha de **Saul**, o primeiro rei de Israel, a ascensão de **Davi** como um líder escolhido por Deus, e os conflitos entre os dois. O livro explora temas de **liderança**, **obediência a Deus**, **arrependimento** e **divina providência**. Vamos a um resumo detalhado dos acontecimentos mais significativos.
 
 ### 1. **A Introdução e o Chamado de Samuel (Capítulos 1–3)**
 O livro começa com a história de **Ana**, uma mulher estéril que ora fervorosamente a Deus pedindo um filho. Deus atende à sua oração, e Ana dá à luz **Samuel**, que é dedicado ao serviço de Deus ainda jovem, conforme a promessa de sua mãe. Samuel cresce no templo sob a tutela do sacerdote **Eli**, e, apesar da corrupção de seus filhos, ele se destaca por sua fidelidade a Deus.
@@ -527,18 +527,18 @@ Algumas lições principais incluem:
 - A **providência divina** está presente em momentos difíceis e decisivos, como em Davi derrotando Golias ou sendo protegido de Saul.
 
 Em suma, 1 Samuel nos ensina que a **fé**, a **obediência** e a **confiança em Deus** são essenciais para um líder, e que Deus cumpre Seus planos, mesmo quando as circunstâncias parecem difíceis ou adversas.`
-    },
-    {
-        id: "2SA",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Samuel",
-        descricao: "Décimo livro da Bíblia, escrito por diversos autores, que continua a história de Davi como rei de Israel.",
-        autor: "Diversos autores",
-        ano: "aproximadamente 970 a.C.",
-        versiculo: 695,
-        capitulo: 24,
-        contexto_historico: "Relata o reinado de Davi, suas vitórias, seus pecados e as consequências de suas ações.",
-        contexto: `O **Livro de 2 Samuel** é o segundo volume da história de **Davi**, iniciada no Livro de 1 Samuel, e segue a ascensão, reinado, conflitos e quedas do **segundo rei de Israel**, Davi. O livro narra a transição de um líder ungido, mas perseguido, para o rei consolidado de Israel, mas também destaca a tragédia que se segue ao seu pecado e as consequências para sua casa e seu reino. O livro está cheio de temas de **arrependimento**, **perdão**, **justiça divina**, **liderança**, **poder** e **família**.
+   },
+   {
+      id: "2SA",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Samuel",
+      descricao: "Décimo livro da Bíblia, escrito por diversos autores, que continua a história de Davi como rei de Israel.",
+      autor: "Diversos autores",
+      ano: "aproximadamente 970 a.C.",
+      versiculo: 695,
+      capitulo: 24,
+      contexto_historico: "Relata o reinado de Davi, suas vitórias, seus pecados e as consequências de suas ações.",
+      contexto: `O **Livro de 2 Samuel** é o segundo volume da história de **Davi**, iniciada no Livro de 1 Samuel, e segue a ascensão, reinado, conflitos e quedas do **segundo rei de Israel**, Davi. O livro narra a transição de um líder ungido, mas perseguido, para o rei consolidado de Israel, mas também destaca a tragédia que se segue ao seu pecado e as consequências para sua casa e seu reino. O livro está cheio de temas de **arrependimento**, **perdão**, **justiça divina**, **liderança**, **poder** e **família**.
 
 ### 1. **A Ascensão de Davi ao Trono de Israel (Capítulos 1–5)**
 Após a morte de **Saul**, Davi se torna o **rei de Judá** e estabelece sua capital em **Hebrom**. Contudo, as tribos do norte de Israel, sob a liderança de **Isbosete**, filho de Saul, se recusam a reconhecê-lo imediatamente como rei. Durante este período, há várias batalhas e tensões, incluindo o assassinato de **Abner**, o comandante do exército de Isbosete, que tentava unir as tribos sob Davi. A morte de Isbosete, posteriormente, elimina qualquer resistência ao reinado de Davi.
@@ -591,18 +591,18 @@ Algumas lições chave incluem:
 3. **A soberania de Deus**: A história de Davi revela que Deus, apesar das falhas humanas, ainda pode cumprir Seus propósitos através dos Seus escolhidos, e que **Ele é fiel** a Suas promessas.
 
 O livro termina com a preparação para a transição do reinado para **Salomão**, o filho de Davi, estabelecendo os alicerces para a continuidade do **reinado davídico** e a construção do **Templo de Jerusalém**.`
-    },
-    {
-        id: "1KI",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Reis",
-        descricao: "Décimo primeiro livro da Bíblia, escrito por diversos autores, que descreve o reinado de Salomão e a divisão do reino de Israel.",
-        autor: "Diversos autores",
-        ano: "aproximadamente 900 a.C.",
-        versiculo: 816,
-        capitulo: 22,
-        contexto_historico: "Descreve a ascensão de Salomão, a construção do Templo e a divisão do reino após sua morte.",
-        contexto: `O **Livro de 1 Reis** faz parte da narrativa histórica de Israel e Judá e cobre um período desde o reinado de **Salomão**, filho de Davi, até a divisão do Reino de Israel em duas partes e a ascensão de diversos reis. O livro é central na história do **Reino de Israel**, especialmente no que diz respeito ao reinado de **Salomão** e os eventos que levaram à separação das tribos de Israel. Ele também destaca a vida de profetas como **Elias**, que foram fundamentais na luta contra a apostasia em Israel. O livro é crucial para entender as dinâmicas políticas e religiosas dos reinos de Israel e Judá.
+   },
+   {
+      id: "1KI",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Reis",
+      descricao: "Décimo primeiro livro da Bíblia, escrito por diversos autores, que descreve o reinado de Salomão e a divisão do reino de Israel.",
+      autor: "Diversos autores",
+      ano: "aproximadamente 900 a.C.",
+      versiculo: 816,
+      capitulo: 22,
+      contexto_historico: "Descreve a ascensão de Salomão, a construção do Templo e a divisão do reino após sua morte.",
+      contexto: `O **Livro de 1 Reis** faz parte da narrativa histórica de Israel e Judá e cobre um período desde o reinado de **Salomão**, filho de Davi, até a divisão do Reino de Israel em duas partes e a ascensão de diversos reis. O livro é central na história do **Reino de Israel**, especialmente no que diz respeito ao reinado de **Salomão** e os eventos que levaram à separação das tribos de Israel. Ele também destaca a vida de profetas como **Elias**, que foram fundamentais na luta contra a apostasia em Israel. O livro é crucial para entender as dinâmicas políticas e religiosas dos reinos de Israel e Judá.
 
 ### 1. **O Reinado de Salomão e a Construção do Templo (Capítulos 1–11)**
 
@@ -672,18 +672,18 @@ Algumas lições chave incluem:
 3. A necessidade de **profetas fiéis**, como **Elias** e **Eliseu**, que mantêm a verdade de Deus viva em tempos de apostasia.
 
 Em última análise, 1 Reis sublinha que, quando um líder ou nação se afasta de Deus, as consequências são graves, e a fidelidade a Deus é fundamental para a sobrevivência e a prosperidade.`
-    },
-    {
-        id: "2KI",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Reis",
-        descricao: "Décimo segundo livro da Bíblia, escrito por diversos autores, que relata a história do reino de Israel até o exílio babilônico.",
-        autor: "Diversos autores",
-        ano: "aproximadamente 586 a.C.",
-        versiculo: 719,
-        capitulo: 25,
-        contexto_historico: "Fala sobre a queda de Israel e Judá e o exílio do povo de Israel.",
-        contexto: `O **Livro de 2 Reis** é a continuação do **Livro de 1 Reis** e narra a história dos reinos de Israel e Judá após a morte de Acabe, com foco no ministério de profetas como **Eliseu**, a queda de ambos os reinos e os eventos que levaram ao exílio de Israel e Judá. O livro descreve como a infidelidade dos reis e o afastamento de Deus resultaram no declínio e na destruição dos dois reinos, culminando no exílio de Israel pelos assírios e, mais tarde, o cativeiro de Judá pelos babilônios. O livro também destaca a importância da **fidelidade a Deus** e da **justiça divina**, além de mostrar o papel central dos profetas na preservação da verdade de Deus em tempos de apostasia.
+   },
+   {
+      id: "2KI",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Reis",
+      descricao: "Décimo segundo livro da Bíblia, escrito por diversos autores, que relata a história do reino de Israel até o exílio babilônico.",
+      autor: "Diversos autores",
+      ano: "aproximadamente 586 a.C.",
+      versiculo: 719,
+      capitulo: 25,
+      contexto_historico: "Fala sobre a queda de Israel e Judá e o exílio do povo de Israel.",
+      contexto: `O **Livro de 2 Reis** é a continuação do **Livro de 1 Reis** e narra a história dos reinos de Israel e Judá após a morte de Acabe, com foco no ministério de profetas como **Eliseu**, a queda de ambos os reinos e os eventos que levaram ao exílio de Israel e Judá. O livro descreve como a infidelidade dos reis e o afastamento de Deus resultaram no declínio e na destruição dos dois reinos, culminando no exílio de Israel pelos assírios e, mais tarde, o cativeiro de Judá pelos babilônios. O livro também destaca a importância da **fidelidade a Deus** e da **justiça divina**, além de mostrar o papel central dos profetas na preservação da verdade de Deus em tempos de apostasia.
 
 ### 1. **O Ministério de Eliseu (Capítulos 1–13)**
 Após a morte de Elias, o profeta **Eliseu** assume seu lugar como o principal profeta de Israel. Eliseu realiza muitos milagres e trabalha para manter o povo em fidelidade a Deus durante um período de grande instabilidade política e religiosa.
@@ -749,18 +749,18 @@ Algumas lições chave incluem:
 3. **Deus é fiel, mas o pecado tem consequências**: Mesmo em meio ao juízo, Deus continua a agir com misericórdia e a preservar um remanescente fiel, como visto no exílio e nas promessas de restauração.
 
 O livro de 2 Reis encerra a narrativa histórica dos reinos de Israel e Judá, com a queda dos dois reinos e o início do cativeiro, marcando um momento de grande tristeza, mas também preparando o cenário para o retorno e a reconstrução do povo de Deus, como será visto nos livros de **Esdras** e **Neemias**.`
-    },
-    {
-        id: "1CH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Crônicas",
-        descricao: "Décimo terceiro livro da Bíblia, escrito por Esdras, que revisita a história de Israel, destacando o reinado de Davi.",
-        autor: "Esdras",
-        ano: "aproximadamente 450 a.C.",
-        versiculo: 942,
-        capitulo: 29,
-        contexto_historico: "Reconta a história de Israel com ênfase no reinado de Davi e nos preparativos para a construção do Templo.",
-        contexto: `O **Livro de 1 Crônicas** é o primeiro de dois livros históricos que recontam a história de Israel, com um foco especial na **dinastia de Davi** e no estabelecimento de Jerusalém como o centro religioso e político do reino. Esse livro tem uma abordagem mais teológica do que os livros de **Samuel** e **Reis**, destacando o papel de **Deus** na liderança de Israel e enfatizando a importância do culto e da adoração no templo. 1 Crônicas abrange desde a genealogia de Adão até o reinado de Davi, culminando na preparação para a construção do templo, que será realizada por seu filho **Salomão**.
+   },
+   {
+      id: "1CH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Crônicas",
+      descricao: "Décimo terceiro livro da Bíblia, escrito por Esdras, que revisita a história de Israel, destacando o reinado de Davi.",
+      autor: "Esdras",
+      ano: "aproximadamente 450 a.C.",
+      versiculo: 942,
+      capitulo: 29,
+      contexto_historico: "Reconta a história de Israel com ênfase no reinado de Davi e nos preparativos para a construção do Templo.",
+      contexto: `O **Livro de 1 Crônicas** é o primeiro de dois livros históricos que recontam a história de Israel, com um foco especial na **dinastia de Davi** e no estabelecimento de Jerusalém como o centro religioso e político do reino. Esse livro tem uma abordagem mais teológica do que os livros de **Samuel** e **Reis**, destacando o papel de **Deus** na liderança de Israel e enfatizando a importância do culto e da adoração no templo. 1 Crônicas abrange desde a genealogia de Adão até o reinado de Davi, culminando na preparação para a construção do templo, que será realizada por seu filho **Salomão**.
 
 ### 1. **Genealogias (Capítulos 1–9)**
 
@@ -823,18 +823,18 @@ O **Livro de 1 Crônicas** destaca vários temas importantes, com a intenção d
 
 ### **Conclusão**
 O **Livro de 1 Crônicas** oferece uma visão teológica sobre a história de Israel, com um foco especial no reinado de Davi, mostrando como ele foi escolhido por Deus para estabelecer uma nação centrada na adoração ao Senhor. A obra prepara o terreno para a construção do templo e o reinado de Salomão, sublinhando a importância da fidelidade a Deus e da organização do culto em Israel.`
-    },
-    {
-        id: "2CH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Crônicas",
-        descricao: "Décimo quarto livro da Bíblia, escrito por Esdras, que continua a história de Israel, focando no reinado de Salomão até a queda de Judá.",
-        autor: "Esdras",
-        ano: "aproximadamente 430 a.C.",
-        versiculo: 822,
-        capitulo: 36,
-        contexto_historico: "Descreve a história dos reis de Judá e a destruição de Jerusalém.",
-        contexto: `O **Livro de 2 Crônicas** dá continuidade ao **Livro de 1 Crônicas**, narrando a história de **Judá** desde o reinado de **Salomão** até a queda de **Jerusalém** e o exílio para a Babilônia. Embora tenha um foco principal no reino de **Judá**, o livro oferece um olhar sobre os reis que governaram esse reino, os desafios enfrentados, a importância da adoração a Deus e como a fidelidade ao Senhor resultava em bênçãos, enquanto a desobediência levava à destruição.
+   },
+   {
+      id: "2CH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Crônicas",
+      descricao: "Décimo quarto livro da Bíblia, escrito por Esdras, que continua a história de Israel, focando no reinado de Salomão até a queda de Judá.",
+      autor: "Esdras",
+      ano: "aproximadamente 430 a.C.",
+      versiculo: 822,
+      capitulo: 36,
+      contexto_historico: "Descreve a história dos reis de Judá e a destruição de Jerusalém.",
+      contexto: `O **Livro de 2 Crônicas** dá continuidade ao **Livro de 1 Crônicas**, narrando a história de **Judá** desde o reinado de **Salomão** até a queda de **Jerusalém** e o exílio para a Babilônia. Embora tenha um foco principal no reino de **Judá**, o livro oferece um olhar sobre os reis que governaram esse reino, os desafios enfrentados, a importância da adoração a Deus e como a fidelidade ao Senhor resultava em bênçãos, enquanto a desobediência levava à destruição.
 
 **2 Crônicas** tem uma ênfase teológica em como o reinado de **Davi** e a **adoração no templo** foram estabelecidos e como essas práticas foram mantidas ou negligenciadas ao longo das gerações. A obra também enfatiza a centralidade do **templo** de Jerusalém como o centro espiritual de Israel e destaca a importância de seguir as orientações de Deus para alcançar a prosperidade e paz. 
 
@@ -920,18 +920,18 @@ O livro termina com a descrição da **queda de Jerusalém** e a destruição do
 ### **Conclusão e Lições de 2 Crônicas**
 
 **2 Crônicas** enfatiza a importância de **adorar a Deus de forma genuína**, a necessidade de **reformas espirituais** e a centralidade do **templo** como lugar de encontro com Deus. O livro destaca os reis justos que buscaram Deus e experimentaram bênçãos, contrastando com os reis ímpios que causaram a queda de Judá. Ele nos ensina que a **fidelidade a Deus** é fundamental para a prosperidade espiritual e material de uma nação e que a desobediência traz juízo e destruição.`
-    },
-    {
-        id: "EZR",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Esdras",
-        descricao: "Décimo quinto livro da Bíblia, escrito por Esdras, que narra o retorno dos judeus do exílio babilônico e a reconstrução do Templo.",
-        autor: "Esdras",
-        ano: "aproximadamente 450 a.C.",
-        versiculo: 280,
-        capitulo: 10,
-        contexto_historico: "Relata o retorno dos exilados e a restauração do culto e da adoração a Deus.",
-        contexto: `O **Livro de Esdras** narra o retorno dos **judeus exilados na Babilônia** para a **terra prometida** e a reconstrução do **Templo de Jerusalém**, um evento de grande importância na história do povo de Israel após o exílio babilônico. O livro, que é uma continuação dos **Livros de Crônicas**, está dividido em duas partes principais: o **retorno da primeira leva de exilados**, liderada por **Zorobabel** e o **reconhecimento da lei** sob a liderança de **Esdras**, um escriba e sacerdote.
+   },
+   {
+      id: "EZR",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Esdras",
+      descricao: "Décimo quinto livro da Bíblia, escrito por Esdras, que narra o retorno dos judeus do exílio babilônico e a reconstrução do Templo.",
+      autor: "Esdras",
+      ano: "aproximadamente 450 a.C.",
+      versiculo: 280,
+      capitulo: 10,
+      contexto_historico: "Relata o retorno dos exilados e a restauração do culto e da adoração a Deus.",
+      contexto: `O **Livro de Esdras** narra o retorno dos **judeus exilados na Babilônia** para a **terra prometida** e a reconstrução do **Templo de Jerusalém**, um evento de grande importância na história do povo de Israel após o exílio babilônico. O livro, que é uma continuação dos **Livros de Crônicas**, está dividido em duas partes principais: o **retorno da primeira leva de exilados**, liderada por **Zorobabel** e o **reconhecimento da lei** sob a liderança de **Esdras**, um escriba e sacerdote.
 
 Esdras destaca a fidelidade de Deus em cumprir Suas promessas de restaurar Israel, a importância da **adoração e da pureza espiritual**, e o papel fundamental da **lei de Deus** para a reconstrução tanto física quanto espiritual de Israel. O livro também enfatiza como a restauração da comunidade judaica não é apenas um processo físico de reconstrução, mas também um processo espiritual, no qual o povo se volta para Deus e renova seu compromisso com Ele.
 
@@ -986,18 +986,18 @@ Como resultado da oração de Esdras e do seu ensino da **lei de Deus**, o povo 
 ### **Conclusão**
 
 O **Livro de Esdras** é um relato sobre a restauração espiritual e física do povo de Israel após o exílio babilônico. Ele destaca a importância da **adoração a Deus**, da **obediência à Sua palavra** e da **pureza espiritual** para que o povo possa viver de acordo com os propósitos divinos. A história de Esdras e Zorobabel nos ensina que a verdadeira renovação começa com um coração arrependido, disposto a obedecer a Deus e a restaurar a Sua adoração. O livro também mostra como Deus usa indivíduos fiéis, como Esdras, para guiar Seu povo e cumprir os Seus planos.`
-    },
-    {
-        id: "NEH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Neemias",
-        descricao: "Décimo sexto livro da Bíblia, escrito por Neemias, que relata a reconstrução dos muros de Jerusalém e a reforma religiosa.",
-        autor: "Neemias",
-        ano: "aproximadamente 445 a.C.",
-        versiculo: 406,
-        capitulo: 13,
-        contexto_historico: "Fala sobre o trabalho de Neemias para reconstruir os muros de Jerusalém e restaurar o culto a Deus.",
-        contexto: `O **Livro de Neemias** narra a história da reconstrução de **Jerusalém** e da restauração espiritual e social dos judeus após o **exílio babilônico**. Neemias, um judeu que servia como copeiro do rei persa **Artaxerxes**, é convocado por Deus para liderar o projeto de reconstrução dos muros de Jerusalém, que estavam em ruínas. O livro combina elementos de liderança, oração, perseverança e reforma espiritual, mostrando como Neemias guiou o povo de Israel a cumprir a vontade de Deus e restaurar a dignidade de Jerusalém.
+   },
+   {
+      id: "NEH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Neemias",
+      descricao: "Décimo sexto livro da Bíblia, escrito por Neemias, que relata a reconstrução dos muros de Jerusalém e a reforma religiosa.",
+      autor: "Neemias",
+      ano: "aproximadamente 445 a.C.",
+      versiculo: 406,
+      capitulo: 13,
+      contexto_historico: "Fala sobre o trabalho de Neemias para reconstruir os muros de Jerusalém e restaurar o culto a Deus.",
+      contexto: `O **Livro de Neemias** narra a história da reconstrução de **Jerusalém** e da restauração espiritual e social dos judeus após o **exílio babilônico**. Neemias, um judeu que servia como copeiro do rei persa **Artaxerxes**, é convocado por Deus para liderar o projeto de reconstrução dos muros de Jerusalém, que estavam em ruínas. O livro combina elementos de liderança, oração, perseverança e reforma espiritual, mostrando como Neemias guiou o povo de Israel a cumprir a vontade de Deus e restaurar a dignidade de Jerusalém.
 
 Neemias é retratado como um líder dedicado e um homem de oração, cujas ações e decisões têm um forte foco na **reconstrução física e espiritual** do povo de Deus. O livro destaca a importância de **trabalho em equipe**, **determinação** diante da oposição, e o **retorno à obediência à lei** de Deus como elementos essenciais para a restauração de Israel.
 
@@ -1071,18 +1071,18 @@ Neemias retorna a **Persia** após um tempo e, quando retorna a Jerusalém, desc
 ### **Conclusão e Lições do Livro de Neemias**
 
 O **Livro de Neemias** é uma narrativa poderosa sobre **liderança**, **perseverança** e **fé**. Ele ensina como um líder pode ser usado por Deus para realizar grandes obras, não apenas no aspecto físico (como a reconstrução dos muros), mas também na restauração espiritual do povo. Neemias é um exemplo de como a oração, a justiça social e a obediência à Lei de Deus são fundamentais para o sucesso de qualquer missão. O livro também destaca que a verdadeira restauração de uma nação ou comunidade começa com a **transformação espiritual**, e não apenas com ações externas.`
-    },
-    {
-        id: "EST",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Ester",
-        descricao: "Décimo sétimo livro da Bíblia, escrito por Mordecai e Ester, que narra como Ester salvou o povo judeu da destruição.",
-        autor: "Mordecai e Ester",
-        ano: "aproximadamente 465 a.C.",
-        versiculo: 167,
-        capitulo: 10,
-        contexto_historico: "Relata a história de Ester e sua coragem ao interceder pelo povo judeu diante do rei persa.",
-        contexto: `O **Livro de Ester** é um relato sobre a **salvação do povo judeu** que vive no Império Persa, em um contexto onde os judeus estavam espalhados por várias províncias. A história ocorre em um cenário de **perigo iminente** para os judeus e revela a coragem e a sabedoria de uma mulher judia, **Ester**, que se torna rainha da Pérsia e desempenha um papel fundamental na salvação do seu povo.
+   },
+   {
+      id: "EST",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Ester",
+      descricao: "Décimo sétimo livro da Bíblia, escrito por Mordecai e Ester, que narra como Ester salvou o povo judeu da destruição.",
+      autor: "Mordecai e Ester",
+      ano: "aproximadamente 465 a.C.",
+      versiculo: 167,
+      capitulo: 10,
+      contexto_historico: "Relata a história de Ester e sua coragem ao interceder pelo povo judeu diante do rei persa.",
+      contexto: `O **Livro de Ester** é um relato sobre a **salvação do povo judeu** que vive no Império Persa, em um contexto onde os judeus estavam espalhados por várias províncias. A história ocorre em um cenário de **perigo iminente** para os judeus e revela a coragem e a sabedoria de uma mulher judia, **Ester**, que se torna rainha da Pérsia e desempenha um papel fundamental na salvação do seu povo.
 
 O livro é uma narrativa de **fé, providência divina e coragem**, e destaca a importância de **agir com sabedoria**, confiar em Deus e estar disposto a fazer sacrifícios em momentos de crise. Embora o nome de Deus não seja mencionado explicitamente no livro, Ele está presente em cada evento que ocorre, mostrando Sua **providência e cuidado** com o Seu povo.
 
@@ -1157,18 +1157,18 @@ Entre as lições mais importantes estão:
 - **A sabedoria estratégica**: A paciência e o planejamento cuidadoso de Ester garantem que sua revelação seja eficaz.
 - **A fidelidade de Deus**: Mesmo em tempos de perigo, Deus está trabalhando nos bastidores para proteger e restaurar Seu povo.
 - **O valor da oração e da ação**: Ester e Mardoqueu oram e jejuam antes de agir, mostrando que a ação eficaz deve ser precedida de **oração** e **dependência de Deus**.`
-    },
-    {
-        id: "JOB",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Jó",
-        descricao: "Décimo oitavo livro da Bíblia, escrito por um autor anônimo, que trata do sofrimento de Jó e da soberania de Deus.",
-        autor: "Anônimo",
-        ano: "aproximadamente 2000 a.C.",
-        versiculo: 1070,
-        capitulo: 42,
-        contexto_historico: "Fala sobre o sofrimento de Jó, sua fé em Deus e os diálogos com seus amigos sobre o sofrimento humano.",
-        contexto: `O **Livro de Jó** é um dos livros mais profundos e filosóficos da Bíblia, situado entre os livros poéticos. Ele aborda questões como o sofrimento humano, a justiça divina e o mistério da existência. O livro conta a história de um homem justo chamado Jó, que enfrenta uma série de calamidades inesperadas e devastadoras, e seu diálogo com amigos e com Deus ao longo de sua dor.
+   },
+   {
+      id: "JOB",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Jó",
+      descricao: "Décimo oitavo livro da Bíblia, escrito por um autor anônimo, que trata do sofrimento de Jó e da soberania de Deus.",
+      autor: "Anônimo",
+      ano: "aproximadamente 2000 a.C.",
+      versiculo: 1070,
+      capitulo: 42,
+      contexto_historico: "Fala sobre o sofrimento de Jó, sua fé em Deus e os diálogos com seus amigos sobre o sofrimento humano.",
+      contexto: `O **Livro de Jó** é um dos livros mais profundos e filosóficos da Bíblia, situado entre os livros poéticos. Ele aborda questões como o sofrimento humano, a justiça divina e o mistério da existência. O livro conta a história de um homem justo chamado Jó, que enfrenta uma série de calamidades inesperadas e devastadoras, e seu diálogo com amigos e com Deus ao longo de sua dor.
 
 ### Estrutura do Livro de Jó:
 
@@ -1223,18 +1223,18 @@ O livro pode ser dividido em quatro partes principais:
 
 ### Conclusão:
 O Livro de Jó é uma reflexão profunda sobre o sofrimento humano e a busca por respostas diante da dor. Ele não dá respostas fáceis, mas nos convida a confiar na sabedoria e soberania de Deus, mesmo quando não conseguimos entender as razões para o sofrimento. O livro também nos ensina sobre a importância da integridade, da humildade diante de Deus e da fé inabalável, mesmo em tempos de desespero.`
-    },
-    {
-        id: "PSA",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Salmos",
-        descricao: "Décimo nono livro da Bíblia, uma coleção de cânticos, orações e poesias, muitos escritos por Davi.",
-        autor: "Diversos autores, incluindo Davi",
-        ano: "aproximadamente 1000 a.C.",
-        versiculo: 150,
-        capitulo: 150,
-        contexto_historico: "É um livro de louvor, adoração, arrependimento e pedido de ajuda a Deus, com muitos salmos atribuídos a Davi.",
-        contexto: `O livro de Salmos é um dos livros poéticos e de louvor da Bíblia, composto por 150 capítulos (ou "salmos"). Ele abrange uma variedade de emoções e situações humanas, desde momentos de angústia e desespero até expressões de alegria e gratidão a Deus. Cada salmo pode ser visto como uma oração ou cântico, refletindo a experiência de uma pessoa ou do povo de Israel com Deus.
+   },
+   {
+      id: "PSA",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Salmos",
+      descricao: "Décimo nono livro da Bíblia, uma coleção de cânticos, orações e poesias, muitos escritos por Davi.",
+      autor: "Diversos autores, incluindo Davi",
+      ano: "aproximadamente 1000 a.C.",
+      versiculo: 2.461,
+      capitulo: 150,
+      contexto_historico: "É um livro de louvor, adoração, arrependimento e pedido de ajuda a Deus, com muitos salmos atribuídos a Davi.",
+      contexto: `O livro de Salmos é um dos livros poéticos e de louvor da Bíblia, composto por 150 capítulos (ou "salmos"). Ele abrange uma variedade de emoções e situações humanas, desde momentos de angústia e desespero até expressões de alegria e gratidão a Deus. Cada salmo pode ser visto como uma oração ou cântico, refletindo a experiência de uma pessoa ou do povo de Israel com Deus.
 
 Aqui está um resumo detalhado, destacando algumas das partes mais marcantes:
 
@@ -1272,18 +1272,18 @@ Aqui está um resumo detalhado, destacando algumas das partes mais marcantes:
 
 ### Conclusão
 O livro de Salmos é um reflexo poderoso da relação entre o ser humano e Deus. Ele abrange uma vasta gama de emoções, desde o sofrimento até o louvor exuberante, e oferece conselhos sobre como viver com fé e confiança em Deus. Com suas belas poesias e orações, o livro de Salmos continua a ser uma fonte de inspiração, consolo e sabedoria para milhões de pessoas ao redor do mundo.`
-    },
-    {
-        id: "PRO",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Provérbios",
-        descricao: "Vigésimo livro da Bíblia, escrito principalmente por Salomão, contendo sabedoria prática sobre a vida.",
-        autor: "Salomão",
-        ano: "aproximadamente 950 a.C.",
-        versiculo: 915,
-        capitulo: 31,
-        contexto_historico: "Oferece conselhos sobre moralidade, comportamento e sabedoria.",
-        contexto: `O **Livro de Provérbios** é um dos livros de sabedoria da Bíblia, composto por 31 capítulos, e tradicionalmente atribuído ao rei Salomão. Ele reúne uma série de ensinamentos sobre a sabedoria, a justiça, o comportamento moral e a relação com Deus. O livro é dividido em várias seções, com cada uma contendo provérbios curtos, diretos e práticos sobre como viver uma vida de virtude e sabedoria.
+   },
+   {
+      id: "PRO",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Provérbios",
+      descricao: "Vigésimo livro da Bíblia, escrito principalmente por Salomão, contendo sabedoria prática sobre a vida.",
+      autor: "Salomão",
+      ano: "aproximadamente 950 a.C.",
+      versiculo: 915,
+      capitulo: 31,
+      contexto_historico: "Oferece conselhos sobre moralidade, comportamento e sabedoria.",
+      contexto: `O **Livro de Provérbios** é um dos livros de sabedoria da Bíblia, composto por 31 capítulos, e tradicionalmente atribuído ao rei Salomão. Ele reúne uma série de ensinamentos sobre a sabedoria, a justiça, o comportamento moral e a relação com Deus. O livro é dividido em várias seções, com cada uma contendo provérbios curtos, diretos e práticos sobre como viver uma vida de virtude e sabedoria.
 
 ### Estrutura e Temática:
 
@@ -1333,18 +1333,18 @@ O livro de Salmos é um reflexo poderoso da relação entre o ser humano e Deus.
 
 ### Conclusão:
 O Livro de Provérbios oferece uma visão prática e profunda de como viver de maneira sábia e justa. Seus conselhos abrangem uma gama de temas que são relevantes tanto para a vida espiritual quanto para as interações cotidianas. A busca pela sabedoria e a reverência a Deus são os principais pilares, e os provérbios servem como guias para uma vida de sucesso moral, físico e espiritual.`
-    },
-    {
-        id: "ECC",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Eclesiastes",
-        descricao: "Vigésimo primeiro livro da Bíblia, escrito por Salomão, que reflete sobre o sentido da vida e a futilidade das coisas terrenas.",
-        autor: "Salomão",
-        ano: "aproximadamente 935 a.C.",
-        versiculo: 222,
-        capitulo: 12,
-        contexto_historico: "Explora a busca de significado e a vanidade das realizações humanas.",
-        contexto: `O livro de **Eclesiastes** é um dos livros poéticos e sapienciais do Antigo Testamento, tradicionalmente atribuído ao **Rei Salomão**. Ele explora a busca pelo sentido da vida, refletindo sobre a futilidade das preocupações humanas diante da grandeza e mistério de Deus. O livro tem uma abordagem filosófica e, muitas vezes, melancólica sobre a existência humana, suas limitações e o caráter efêmero das realizações terrenas.
+   },
+   {
+      id: "ECC",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Eclesiastes",
+      descricao: "Vigésimo primeiro livro da Bíblia, escrito por Salomão, que reflete sobre o sentido da vida e a futilidade das coisas terrenas.",
+      autor: "Salomão",
+      ano: "aproximadamente 935 a.C.",
+      versiculo: 222,
+      capitulo: 12,
+      contexto_historico: "Explora a busca de significado e a vanidade das realizações humanas.",
+      contexto: `O livro de **Eclesiastes** é um dos livros poéticos e sapienciais do Antigo Testamento, tradicionalmente atribuído ao **Rei Salomão**. Ele explora a busca pelo sentido da vida, refletindo sobre a futilidade das preocupações humanas diante da grandeza e mistério de Deus. O livro tem uma abordagem filosófica e, muitas vezes, melancólica sobre a existência humana, suas limitações e o caráter efêmero das realizações terrenas.
 
 Aqui está um **resumo detalhado** de Eclesiastes, destacando suas partes mais marcantes:
 
@@ -1384,18 +1384,18 @@ Aqui está um **resumo detalhado** de Eclesiastes, destacando suas partes mais m
 5. **A Alegria nas Pequenas Coisas**: Apesar de todas as dificuldades, Eclesiastes sugere que devemos encontrar prazer nas coisas simples da vida, como o trabalho, os relacionamentos e a apreciação de Deus.
 
 Em resumo, **Eclesiastes** desafia o leitor a refletir sobre o propósito da vida, a fragilidade das realizações humanas e a necessidade de buscar significado em Deus. O livro oferece uma visão realista e, às vezes, até sombria da existência humana, mas também aponta para a sabedoria de temer a Deus e viver de maneira simples e fiel.`
-    },
-    {
-        id: "SNG",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Cantares",
-        descricao: "Vigésimo segundo livro da Bíblia, escrito por Salomão, que é um poema de amor e celebração entre o noivo e a noiva.",
-        autor: "Salomão",
-        ano: "aproximadamente 950 a.C.",
-        versiculo: 117,
-        capitulo: 8,
-        contexto_historico: "É um poema alegórico de amor, muitas vezes interpretado como símbolo do relacionamento de Deus com seu povo.",
-        contexto: `**O Cântico dos Cânticos** (também conhecido como **Cantares de Salomão**) é um dos livros poéticos do Antigo Testamento da Bíblia. Ele é tradicionalmente atribuído ao rei Salomão e é composto por uma série de poemas líricos que celebram o amor, a beleza e o desejo entre um homem e uma mulher. O livro é único por sua linguagem rica e sensual, abordando temas como o amor romântico e a união espiritual.
+   },
+   {
+      id: "SNG",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Cantares",
+      descricao: "Vigésimo segundo livro da Bíblia, escrito por Salomão, que é um poema de amor e celebração entre o noivo e a noiva.",
+      autor: "Salomão",
+      ano: "aproximadamente 950 a.C.",
+      versiculo: 117,
+      capitulo: 8,
+      contexto_historico: "É um poema alegórico de amor, muitas vezes interpretado como símbolo do relacionamento de Deus com seu povo.",
+      contexto: `**O Cântico dos Cânticos** (também conhecido como **Cantares de Salomão**) é um dos livros poéticos do Antigo Testamento da Bíblia. Ele é tradicionalmente atribuído ao rei Salomão e é composto por uma série de poemas líricos que celebram o amor, a beleza e o desejo entre um homem e uma mulher. O livro é único por sua linguagem rica e sensual, abordando temas como o amor romântico e a união espiritual.
 
 Aqui está um resumo detalhado e com destaque para as partes mais marcantes:
 
@@ -1447,18 +1447,18 @@ Ao longo de sua leitura, o **Cântico dos Cânticos** estabelece uma profunda co
 **O Cântico dos Cânticos** é um livro riquíssimo que celebra a beleza do amor, tanto em sua forma física e sensual quanto em sua expressão espiritual. Suas imagens poéticas, metáforas e diálogos apaixonados tornaram-no um dos textos mais profundos e belos da literatura bíblica. As passagens mais marcantes estão na celebração do amor verdadeiro, com todas as suas forças e desafios, e na sua capacidade de transcender o tempo e as adversidades.
 
 Em suma, o livro é uma homenagem ao poder do amor, seja ele terreno ou divino, e à busca incessante pela união e pela intimidade entre os amantes.`
-    },
-    {
-        id: "ISA",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Isaías",
-        descricao: "Livro do Antigo Testamento, escrito por Isaías, que contém mensagens de julgamento e esperança para Israel e as nações.",
-        autor: "Isaías",
-        ano: "aproximadamente 740 a.C.",
-        versiculo: 1292,
-        capitulo: 66,
-        contexto_historico: "Profetiza sobre a vinda do Messias, o juízo de Deus contra as nações e o futuro de Israel.",
-        contexto: `O livro de Isaías é um dos mais importantes da Bíblia, localizado no Antigo Testamento. Ele é atribuído ao profeta Isaías, que atuou durante o reinado dos reis Uzias, Jotão, Acaz e Ezequias, entre os séculos VIII e VII a.C., no Reino de Judá. O livro é uma coletânea de mensagens proféticas, visões e oráculos que Isaías recebeu de Deus, e que refletem tanto advertências quanto promessas de esperança. O conteúdo de Isaías pode ser dividido em várias seções que abordam temas de juízo, salvação e redenção.
+   },
+   {
+      id: "ISA",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Isaías",
+      descricao: "Livro do Antigo Testamento, escrito por Isaías, que contém mensagens de julgamento e esperança para Israel e as nações.",
+      autor: "Isaías",
+      ano: "aproximadamente 740 a.C.",
+      versiculo: 1292,
+      capitulo: 66,
+      contexto_historico: "Profetiza sobre a vinda do Messias, o juízo de Deus contra as nações e o futuro de Israel.",
+      contexto: `O livro de Isaías é um dos mais importantes da Bíblia, localizado no Antigo Testamento. Ele é atribuído ao profeta Isaías, que atuou durante o reinado dos reis Uzias, Jotão, Acaz e Ezequias, entre os séculos VIII e VII a.C., no Reino de Judá. O livro é uma coletânea de mensagens proféticas, visões e oráculos que Isaías recebeu de Deus, e que refletem tanto advertências quanto promessas de esperança. O conteúdo de Isaías pode ser dividido em várias seções que abordam temas de juízo, salvação e redenção.
 
 Aqui está um resumo detalhado das partes mais marcantes do livro de Isaías:
 
@@ -1492,18 +1492,18 @@ Aqui está um resumo detalhado das partes mais marcantes do livro de Isaías:
 4. **A visão apocalíptica do novo céu e nova terra (Isaías 65:17-25):** Isaías encerra o livro com uma visão gloriosa de um futuro onde Deus trará paz, justiça e prosperidade eterna para os fiéis.
 
 Em resumo, o livro de Isaías é uma obra complexa que mistura juízo e esperança. Ele oferece uma mensagem de condenação para aqueles que rejeitam Deus, mas também uma promessa de salvação e restauração, tanto para o povo de Israel quanto para as nações. É uma das principais fontes de profecias messiânicas e tem sido central para a compreensão cristã de Jesus Cristo como o Salvador prometido.`
-    },
-    {
-        id: "JER",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Jeremias",
-        descricao: "Livro do Antigo Testamento, escrito por Jeremias, que descreve o ministério do profeta durante a queda de Jerusalém e o exílio babilônico.",
-        autor: "Jeremias",
-        ano: "aproximadamente 627 a.C. - 586 a.C.",
-        versiculo: 1364,
-        capitulo: 52,
-        contexto_historico: "Relata a advertência de Jeremias sobre o julgamento de Deus, a destruição de Jerusalém e a promessa de restauração.",
-        contexto: `O **Livro de Jeremias** é um dos livros proféticos do Antigo Testamento, que apresenta a vida, as profecias e os feitos do profeta Jeremias. Ele foi escrito durante o período de declínio e destruição do Reino de Judá, especialmente antes e durante o exílio babilônico. Jeremias, conhecido como o “profeta chorão”, é visto como alguém que transmitiu mensagens de juízo divino, mas também de esperança para o povo de Israel. O livro é dividido em várias seções, com diferentes tipos de textos, incluindo oráculos, biografias, poemas e relatos históricos.
+   },
+   {
+      id: "JER",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Jeremias",
+      descricao: "Livro do Antigo Testamento, escrito por Jeremias, que descreve o ministério do profeta durante a queda de Jerusalém e o exílio babilônico.",
+      autor: "Jeremias",
+      ano: "aproximadamente 627 a.C. - 586 a.C.",
+      versiculo: 1364,
+      capitulo: 52,
+      contexto_historico: "Relata a advertência de Jeremias sobre o julgamento de Deus, a destruição de Jerusalém e a promessa de restauração.",
+      contexto: `O **Livro de Jeremias** é um dos livros proféticos do Antigo Testamento, que apresenta a vida, as profecias e os feitos do profeta Jeremias. Ele foi escrito durante o período de declínio e destruição do Reino de Judá, especialmente antes e durante o exílio babilônico. Jeremias, conhecido como o “profeta chorão”, é visto como alguém que transmitiu mensagens de juízo divino, mas também de esperança para o povo de Israel. O livro é dividido em várias seções, com diferentes tipos de textos, incluindo oráculos, biografias, poemas e relatos históricos.
 
 Aqui está um **resumo detalhado** com destaque para as partes mais marcantes:
 
@@ -1551,18 +1551,18 @@ Aqui está um **resumo detalhado** com destaque para as partes mais marcantes:
 O **Livro de Jeremias** é uma poderosa combinação de juízo e misericórdia. A mensagem principal é que, apesar da severidade de Deus contra o pecado, há sempre uma promessa de restauração e renovação, mesmo nas situações mais desesperadoras. Jeremias é um profeta que, embora tenha sofrido intensamente pela rejeição de sua mensagem, manteve sua fé na soberania de Deus e na possibilidade de redenção.
 
 Esse livro reflete sobre os temas da fidelidade de Deus, o pecado, o arrependimento e a esperança em meio ao julgamento. Para os cristãos, a promessa do novo pacto é vista como uma antecipação da vinda de Cristo, que traz a salvação e a nova aliança com Deus.`
-    },
-    {
-        id: "LAM",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Lamentações",
-        descricao: "Livro do Antigo Testamento, tradicionalmente atribuído a Jeremias, que expressa o lamento pela destruição de Jerusalém.",
-        autor: "Jeremias",
-        ano: "aproximadamente 586 a.C.",
-        versiculo: 154,
-        capitulo: 5,
-        contexto_historico: "Lamentações poéticas que refletem o sofrimento do povo de Israel após a queda de Jerusalém.",
-        contexto: `O **Livro de Lamentações** é um dos livros do Antigo Testamento da Bíblia, tradicionalmente atribuído ao profeta Jeremias. Ele descreve o sofrimento e a desolação de Jerusalém após a destruição da cidade pelos babilônios em 586 a.C., e é composto por cinco capítulos, cada um refletindo uma lamentação em forma de poema. O livro possui um tom de profunda tristeza, mas também de reflexão sobre a punição de Deus devido aos pecados do povo.
+   },
+   {
+      id: "LAM",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Lamentações",
+      descricao: "Livro do Antigo Testamento, tradicionalmente atribuído a Jeremias, que expressa o lamento pela destruição de Jerusalém.",
+      autor: "Jeremias",
+      ano: "aproximadamente 586 a.C.",
+      versiculo: 154,
+      capitulo: 5,
+      contexto_historico: "Lamentações poéticas que refletem o sofrimento do povo de Israel após a queda de Jerusalém.",
+      contexto: `O **Livro de Lamentações** é um dos livros do Antigo Testamento da Bíblia, tradicionalmente atribuído ao profeta Jeremias. Ele descreve o sofrimento e a desolação de Jerusalém após a destruição da cidade pelos babilônios em 586 a.C., e é composto por cinco capítulos, cada um refletindo uma lamentação em forma de poema. O livro possui um tom de profunda tristeza, mas também de reflexão sobre a punição de Deus devido aos pecados do povo.
 
 ### Estrutura do Livro
 
@@ -1598,18 +1598,18 @@ Esse livro reflete sobre os temas da fidelidade de Deus, o pecado, o arrependime
 - **Esperança e misericórdia**: Apesar da dor, há uma ênfase na esperança. No meio do sofrimento, a certeza de que Deus é misericordioso e que a punição não é permanente se mantém presente, especialmente no capítulo 3.
 
 Em resumo, o Livro de Lamentações é uma obra profunda que expressa a dor da perda e da punição, mas também aponta para a possibilidade de restauração e reconciliação com Deus, por meio do arrependimento e da esperança em Sua misericórdia.`
-    },
-    {
-        id: "EZK",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Ezequiel",
-        descricao: "Livro do Antigo Testamento, escrito pelo profeta Ezequiel, que descreve suas visões e profecias durante o exílio babilônico.",
-        autor: "Ezequiel",
-        ano: "aproximadamente 593 a.C. - 571 a.C.",
-        versiculo: 1273,
-        capitulo: 48,
-        contexto_historico: "Contém profecias de julgamento, restauração e uma visão detalhada de um futuro templo em Jerusalém.",
-        contexto: `O **Livro de Ezequiel** é um dos livros proféticos do Antigo Testamento e foi escrito por **Ezequiel**, um sacerdote e profeta que exerceu seu ministério durante o período do exílio babilônico (cerca de 593-571 a.C.). Ezequiel teve uma visão única de Deus e de eventos futuros, com forte ênfase em temas de julgamento, restauração e a soberania divina sobre as nações. Ele é conhecido por suas visões dramáticas, simbolismos enigmáticos e profecias intensas. 
+   },
+   {
+      id: "EZK",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Ezequiel",
+      descricao: "Livro do Antigo Testamento, escrito pelo profeta Ezequiel, que descreve suas visões e profecias durante o exílio babilônico.",
+      autor: "Ezequiel",
+      ano: "aproximadamente 593 a.C. - 571 a.C.",
+      versiculo: 1273,
+      capitulo: 48,
+      contexto_historico: "Contém profecias de julgamento, restauração e uma visão detalhada de um futuro templo em Jerusalém.",
+      contexto: `O **Livro de Ezequiel** é um dos livros proféticos do Antigo Testamento e foi escrito por **Ezequiel**, um sacerdote e profeta que exerceu seu ministério durante o período do exílio babilônico (cerca de 593-571 a.C.). Ezequiel teve uma visão única de Deus e de eventos futuros, com forte ênfase em temas de julgamento, restauração e a soberania divina sobre as nações. Ele é conhecido por suas visões dramáticas, simbolismos enigmáticos e profecias intensas. 
 
 A seguir, apresento um resumo detalhado do **Livro de Ezequiel**, destacando as partes mais marcantes:
 
@@ -1645,18 +1645,18 @@ Esses capítulos falam sobre a **purificação do templo** e a **restauração d
 
 ### Conclusão
 O Livro de Ezequiel é caracterizado por visões dramáticas e simbolismos que destacam tanto o **julgamento** quanto a **restauração** de Israel. O profeta Ezequiel, embora tenha proclamado a destruição e a disciplina de Deus, também trouxe uma mensagem de **esperança e renovação**. Ele apresentou a restauração de Israel, o surgimento de um novo templo e a presença contínua de Deus com Seu povo. O livro destaca a soberania de Deus sobre as nações, a necessidade de arrependimento, a importância de uma verdadeira adoração e a certeza de que, apesar das aflições, a fidelidade de Deus nunca falhará.`
-    },
-    {
-        id: "DAN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Daniel",
-        descricao: "Livro do Antigo Testamento, escrito por Daniel, que narra a história de Daniel e seus amigos no exílio babilônico e suas visões apocalípticas.",
-        autor: "Daniel",
-        ano: "aproximadamente 605 a.C. - 536 a.C.",
-        versiculo: 1212,
-        capitulo: 12,
-        contexto_historico: "Relata eventos significativos durante o exílio babilônico, incluindo as visões proféticas de Daniel sobre os reinos futuros.",
-        contexto: `O **Livro de Daniel** é uma obra que combina elementos históricos e apocalípticos, narrando a vida de Daniel, um jovem judeu levado cativo para a Babilônia, onde se destaca pela sua fidelidade a Deus, sua sabedoria e visão profética. O livro está dividido em duas seções principais: os primeiros seis capítulos narram eventos da vida de Daniel e seus amigos no exílio babilônico, enquanto os últimos seis capítulos contêm visões apocalípticas e profecias. A principal mensagem do livro é que, apesar do domínio dos impérios humanos, **Deus é soberano e Seu reino prevalecerá para sempre**.
+   },
+   {
+      id: "DAN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Daniel",
+      descricao: "Livro do Antigo Testamento, escrito por Daniel, que narra a história de Daniel e seus amigos no exílio babilônico e suas visões apocalípticas.",
+      autor: "Daniel",
+      ano: "aproximadamente 605 a.C. - 536 a.C.",
+      versiculo: 1212,
+      capitulo: 12,
+      contexto_historico: "Relata eventos significativos durante o exílio babilônico, incluindo as visões proféticas de Daniel sobre os reinos futuros.",
+      contexto: `O **Livro de Daniel** é uma obra que combina elementos históricos e apocalípticos, narrando a vida de Daniel, um jovem judeu levado cativo para a Babilônia, onde se destaca pela sua fidelidade a Deus, sua sabedoria e visão profética. O livro está dividido em duas seções principais: os primeiros seis capítulos narram eventos da vida de Daniel e seus amigos no exílio babilônico, enquanto os últimos seis capítulos contêm visões apocalípticas e profecias. A principal mensagem do livro é que, apesar do domínio dos impérios humanos, **Deus é soberano e Seu reino prevalecerá para sempre**.
 
 ### 1. **Daniel na Babilônia (Capítulos 1–6)**
 
@@ -1732,18 +1732,18 @@ O **Livro de Daniel** ensina que, apesar do domínio de impérios poderosos, **D
 4. **A certeza do julgamento e da vitória final de Deus**: Embora o mal pareça prevalecer por um tempo, a vitória final será de Deus e dos Seus justos.
 
 O livro de Daniel é uma mensagem de esperança para os fiéis, mostrando que, mesmo em tempos de crise, **Deus está no controle**, e Seu reino será eterno.`
-    },
-    {
-        id: "HOS",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Oséias",
-        descricao: "Livro do Antigo Testamento, escrito por Oséias, que retrata o relacionamento de Deus com Israel, comparado a um casamento infiel.",
-        autor: "Oséias",
-        ano: "aproximadamente 755 a.C. - 710 a.C.",
-        versiculo: 197,
-        capitulo: 14,
-        contexto_historico: "Descreve a infidelidade de Israel a Deus e as consequências, mas também promete restauração e amor de Deus.",
-        contexto: `O livro de **Oséias** é um dos doze livros dos profetas menores do Antigo Testamento. Escrito pelo profeta Oséias, ele é um dos textos mais emotivos da Bíblia, com um forte enfoque na infidelidade do povo de Israel e no amor incondicional de Deus, apesar das transgressões. O livro é frequentemente descrito como uma metáfora para o relacionamento entre Deus e Israel, com Oséias simbolizando o próprio Deus e a sua relação com o povo.
+   },
+   {
+      id: "HOS",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Oséias",
+      descricao: "Livro do Antigo Testamento, escrito por Oséias, que retrata o relacionamento de Deus com Israel, comparado a um casamento infiel.",
+      autor: "Oséias",
+      ano: "aproximadamente 755 a.C. - 710 a.C.",
+      versiculo: 197,
+      capitulo: 14,
+      contexto_historico: "Descreve a infidelidade de Israel a Deus e as consequências, mas também promete restauração e amor de Deus.",
+      contexto: `O livro de **Oséias** é um dos doze livros dos profetas menores do Antigo Testamento. Escrito pelo profeta Oséias, ele é um dos textos mais emotivos da Bíblia, com um forte enfoque na infidelidade do povo de Israel e no amor incondicional de Deus, apesar das transgressões. O livro é frequentemente descrito como uma metáfora para o relacionamento entre Deus e Israel, com Oséias simbolizando o próprio Deus e a sua relação com o povo.
 
 A seguir, apresento um **resumo detalhado** do livro de Oséias, destacando as partes mais marcantes.
 
@@ -1800,18 +1800,18 @@ O livro de Oséias revela o **tema central** de um Deus amoroso e justo, que, ap
 O livro de Oséias é uma obra profundamente emocional e teológica, que oferece um retrato dramático do relacionamento entre Deus e Israel. Ele revela o **amor incondicional de Deus** e Sua **disposição para restaurar**, mesmo quando o povo se afasta e peca. A infidelidade de Israel é tratada com severidade, mas a misericórdia divina é sempre oferecida como uma esperança renovadora. O livro termina com uma **mensagem de esperança**, chamando os israelitas ao arrependimento e à reconciliação com Deus.
 
 Essa mensagem continua a ressoar para os cristãos, pois a misericórdia de Deus e a reconciliação oferecida são vistas como um modelo para o relacionamento entre Deus e a humanidade.`
-    },
-    {
-        id: "JOL",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Joel",
-        descricao: "Livro do Antigo Testamento, escrito por Joel, que profetiza sobre o juízo de Deus, mas também sobre a promessa do derramamento do Espírito Santo.",
-        autor: "Joel",
-        ano: "aproximadamente 835 a.C.",
-        versiculo: 73,
-        capitulo: 3,
-        contexto_historico: "Fala sobre o juízo de Deus sobre as nações e a promessa de restauração através do derramamento do Espírito.",
-        contexto: `O **Livro de Joel** é um dos livros menores do Antigo Testamento da Bíblia e faz parte dos **doze profetas menores**. A obra é composta por **três capítulos** e é atribuída ao profeta Joel, cujo nome significa "O Senhor é Deus". O contexto histórico do livro não é completamente claro, mas muitos estudiosos sugerem que Joel profetizou durante um período de crise, possivelmente após uma invasão de gafanhotos que devastou a terra de Judá, mas também com uma visão profética que abrange outros momentos de julgamento e restauração.
+   },
+   {
+      id: "JOL",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Joel",
+      descricao: "Livro do Antigo Testamento, escrito por Joel, que profetiza sobre o juízo de Deus, mas também sobre a promessa do derramamento do Espírito Santo.",
+      autor: "Joel",
+      ano: "aproximadamente 835 a.C.",
+      versiculo: 73,
+      capitulo: 3,
+      contexto_historico: "Fala sobre o juízo de Deus sobre as nações e a promessa de restauração através do derramamento do Espírito.",
+      contexto: `O **Livro de Joel** é um dos livros menores do Antigo Testamento da Bíblia e faz parte dos **doze profetas menores**. A obra é composta por **três capítulos** e é atribuída ao profeta Joel, cujo nome significa "O Senhor é Deus". O contexto histórico do livro não é completamente claro, mas muitos estudiosos sugerem que Joel profetizou durante um período de crise, possivelmente após uma invasão de gafanhotos que devastou a terra de Judá, mas também com uma visão profética que abrange outros momentos de julgamento e restauração.
 
 A mensagem central do livro é um chamado ao arrependimento, à renovação espiritual e à expectativa de um futuro messiânico, com a promessa de restauração para o povo de Israel e a vinda do **Espírito de Deus**.
 
@@ -1874,18 +1874,18 @@ Além disso, o livro encerra com a promessa de que Deus habitará para sempre em
 ### Conclusão
 
 O **Livro de Joel** é uma mensagem de advertência, arrependimento e, ao mesmo tempo, esperança. Ele começa com uma grande calamidade, um juízo divino sobre o pecado, mas se move em direção à promessa de restauração, um futuro de renovação espiritual e a derramamento do Espírito Santo. O "Dia do Senhor" aparece como um conceito central, sendo tanto um tempo de julgamento para os inimigos de Deus quanto um tempo de bênçãos para os que se arrependem e retornam ao Senhor. O livro também antecipa o **Pentecostes** e a **era messiânica**, quando Deus agirá poderosamente no mundo, trazendo salvação e renovação para todos.`
-    },
-    {
-        id: "AMO",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Amós",
-        descricao: "Livro do Antigo Testamento, escrito por Amós, que traz uma mensagem de julgamento contra a injustiça social e a adoração falsa em Israel.",
-        autor: "Amós",
-        ano: "aproximadamente 760 a.C.",
-        versiculo: 146,
-        capitulo: 9,
-        contexto_historico: "Foca no juízo de Deus sobre as nações ao redor de Israel e sobre o próprio Israel, devido à corrupção moral e religiosa.",
-        contexto: `O livro de **Amós** é um dos **doze profetas menores** do Antigo Testamento, escrito por Amós, um pastor e cultivador de sicômoros, que foi chamado por Deus para profetizar sobre o reino de Israel durante o reinado de **Jeroboão II**, por volta de **750 a.C.** O livro é uma mensagem de julgamento e advertência, com foco na **injustiça social**, na **idolatria** e na **opressão dos pobres**, que caracterizavam a sociedade israelita da época. Amós é conhecido por sua coragem em denunciar os pecados de Israel, apesar de não ser um profeta profissional.
+   },
+   {
+      id: "AMO",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Amós",
+      descricao: "Livro do Antigo Testamento, escrito por Amós, que traz uma mensagem de julgamento contra a injustiça social e a adoração falsa em Israel.",
+      autor: "Amós",
+      ano: "aproximadamente 760 a.C.",
+      versiculo: 146,
+      capitulo: 9,
+      contexto_historico: "Foca no juízo de Deus sobre as nações ao redor de Israel e sobre o próprio Israel, devido à corrupção moral e religiosa.",
+      contexto: `O livro de **Amós** é um dos **doze profetas menores** do Antigo Testamento, escrito por Amós, um pastor e cultivador de sicômoros, que foi chamado por Deus para profetizar sobre o reino de Israel durante o reinado de **Jeroboão II**, por volta de **750 a.C.** O livro é uma mensagem de julgamento e advertência, com foco na **injustiça social**, na **idolatria** e na **opressão dos pobres**, que caracterizavam a sociedade israelita da época. Amós é conhecido por sua coragem em denunciar os pecados de Israel, apesar de não ser um profeta profissional.
 
 Aqui está um **resumo detalhado** de **Amós**, destacando as partes mais marcantes:
 
@@ -1933,18 +1933,18 @@ Aqui está um **resumo detalhado** de **Amós**, destacando as partes mais marca
 5. **Esperança de Restauração**: Apesar da severidade das condenações, o livro termina com a promessa de que Deus restaurará Israel, indicando que o juízo não é final, mas prepara o caminho para um novo começo.
 
 **Amós** é um livro que combina duras críticas com uma mensagem de esperança, oferecendo lições sobre justiça social, fidelidade a Deus e o cumprimento das promessas divinas.`
-    },
-    {
-        id: "OBA",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Obadias",
-        descricao: "Livro do Antigo Testamento, escrito por Obadias, que profetiza o juízo contra Edom, inimigo de Israel, e a restauração de Israel.",
-        autor: "Obadias",
-        ano: "aproximadamente 586 a.C.",
-        versiculo: 21,
-        capitulo: 1,
-        contexto_historico: "A mensagem de Obadias é uma profecia contra Edom pela sua hostilidade a Israel e uma promessa de restauração para o povo de Deus.",
-        contexto: `O livro de **Obadias** é o mais curto de todos os livros do Antigo Testamento, contendo apenas um capítulo com 21 versículos. Ele é um oráculo de juízo contra o reino de Edom, um povo descendente de Esaú, irmão de Jacó (Israel), e uma nação frequentemente em conflito com Israel. O livro de Obadias destaca principalmente a punição de Edom por sua hostilidade contra Israel, especialmente durante o momento de fragilidade e destruição do povo de Deus, e uma promessa de restauração para Israel.
+   },
+   {
+      id: "OBA",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Obadias",
+      descricao: "Livro do Antigo Testamento, escrito por Obadias, que profetiza o juízo contra Edom, inimigo de Israel, e a restauração de Israel.",
+      autor: "Obadias",
+      ano: "aproximadamente 586 a.C.",
+      versiculo: 21,
+      capitulo: 1,
+      contexto_historico: "A mensagem de Obadias é uma profecia contra Edom pela sua hostilidade a Israel e uma promessa de restauração para o povo de Deus.",
+      contexto: `O livro de **Obadias** é o mais curto de todos os livros do Antigo Testamento, contendo apenas um capítulo com 21 versículos. Ele é um oráculo de juízo contra o reino de Edom, um povo descendente de Esaú, irmão de Jacó (Israel), e uma nação frequentemente em conflito com Israel. O livro de Obadias destaca principalmente a punição de Edom por sua hostilidade contra Israel, especialmente durante o momento de fragilidade e destruição do povo de Deus, e uma promessa de restauração para Israel.
 
 Aqui está um resumo detalhado do livro, destacando as partes mais marcantes:
 
@@ -1985,18 +1985,18 @@ Aqui está um resumo detalhado do livro, destacando as partes mais marcantes:
 4. **A Promessa de Restauração de Israel:** Enquanto Edom será destruída, Israel será restaurada e viverá em segurança sob o domínio de Deus. O livro termina com uma visão de vitória e domínio divino, onde Deus reinará sobre todas as nações e todas as promessas de restauração para Israel se cumprirão.
 
 Em resumo, o livro de Obadias é uma poderosa declaração de juízo contra Edom por sua hostilidade e traição a Israel, mas também oferece uma mensagem de esperança e restauração para Israel. Através do juízo contra Edom, Obadias ensina que o orgulho e a violência contra o povo de Deus terão consequências, enquanto a fidelidade e a justiça de Deus trarão a salvação e a restauração ao Seu povo.`
-    },
-    {
-        id: "JON",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Jonas",
-        descricao: "Livro do Antigo Testamento, escrito por Jonas, que conta a história do profeta que foi enviado por Deus para pregar arrependimento em Nínive.",
-        autor: "Jonas",
-        ano: "aproximadamente 780 a.C.",
-        versiculo: 48,
-        capitulo: 4,
-        contexto_historico: "Jonas é enviado para a cidade de Nínive para pregar a conversão, mas enfrenta dificuldades ao obedecer a Deus."
-        , contexto: `O livro de **Jonas** é um dos livros proféticos menores da Bíblia, composto por quatro capítulos que narram a história de um profeta relutante chamado **Jonas** e sua missão dada por Deus para pregar a mensagem de arrependimento à cidade de **Nínive**, a capital do império assírio. A história de Jonas é marcada por um **conflito interior**, uma **viagem inesperada** e uma **reflexão profunda sobre a misericórdia de Deus**.
+   },
+   {
+      id: "JON",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Jonas",
+      descricao: "Livro do Antigo Testamento, escrito por Jonas, que conta a história do profeta que foi enviado por Deus para pregar arrependimento em Nínive.",
+      autor: "Jonas",
+      ano: "aproximadamente 780 a.C.",
+      versiculo: 48,
+      capitulo: 4,
+      contexto_historico: "Jonas é enviado para a cidade de Nínive para pregar a conversão, mas enfrenta dificuldades ao obedecer a Deus."
+      , contexto: `O livro de **Jonas** é um dos livros proféticos menores da Bíblia, composto por quatro capítulos que narram a história de um profeta relutante chamado **Jonas** e sua missão dada por Deus para pregar a mensagem de arrependimento à cidade de **Nínive**, a capital do império assírio. A história de Jonas é marcada por um **conflito interior**, uma **viagem inesperada** e uma **reflexão profunda sobre a misericórdia de Deus**.
 
 A seguir, apresento um **resumo detalhado do livro de Jonas**, destacando as partes mais marcantes.
 
@@ -2042,18 +2042,18 @@ A lição que Deus ensina a Jonas é que, se ele pode se preocupar com uma plant
 
 ### Conclusão
 O livro de **Jonas** é uma história de **arrependimento, misericórdia e graça**, que sublinha o caráter compassivo de Deus, disposto a perdoar aqueles que se voltam para Ele. Além disso, ele nos desafia a refletir sobre nossas próprias atitudes de julgamento e sobre como muitas vezes não compreendemos a amplitude do amor divino. A narrativa de Jonas também é uma reflexão sobre como a **misericórdia de Deus** supera as nossas expectativas e como **todos os povos** têm a oportunidade de experimentar Seu perdão, independentemente do quanto se distanciaram de Sua vontade.`
-    },
-    {
-        id: "MIC",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Miquéias",
-        descricao: "Livro do Antigo Testamento, escrito por Miquéias, que traz uma mensagem de julgamento sobre as injustiças de Israel e Judá, mas também de esperança.",
-        autor: "Miquéias",
-        ano: "aproximadamente 740 a.C. - 700 a.C.",
-        versiculo: 105,
-        capitulo: 7,
-        contexto_historico: "Denuncia a corrupção das lideranças e promete a vinda de um rei justo da linhagem de Davi."
-        , contexto: `O **Livro de Miqueias** é um dos doze livros menores do Antigo Testamento, pertencente ao grupo dos *profetas menores*. Miqueias, um profeta do século VIII a.C., nasceu em Moresete, uma pequena cidade da Judéia, e exerceu seu ministério em um período de grande turbulência para o Reino de Israel e o Reino de Judá. O livro contém mensagens de julgamento, mas também de esperança e restauração, destacando tanto a corrupção moral e religiosa da sociedade quanto a promessa de um futuro messiânico.
+   },
+   {
+      id: "MIC",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Miquéias",
+      descricao: "Livro do Antigo Testamento, escrito por Miquéias, que traz uma mensagem de julgamento sobre as injustiças de Israel e Judá, mas também de esperança.",
+      autor: "Miquéias",
+      ano: "aproximadamente 740 a.C. - 700 a.C.",
+      versiculo: 105,
+      capitulo: 7,
+      contexto_historico: "Denuncia a corrupção das lideranças e promete a vinda de um rei justo da linhagem de Davi."
+      , contexto: `O **Livro de Miqueias** é um dos doze livros menores do Antigo Testamento, pertencente ao grupo dos *profetas menores*. Miqueias, um profeta do século VIII a.C., nasceu em Moresete, uma pequena cidade da Judéia, e exerceu seu ministério em um período de grande turbulência para o Reino de Israel e o Reino de Judá. O livro contém mensagens de julgamento, mas também de esperança e restauração, destacando tanto a corrupção moral e religiosa da sociedade quanto a promessa de um futuro messiânico.
 
 ### Estrutura e Temática
 
@@ -2112,18 +2112,18 @@ Neste último capítulo, Miqueias expressa seu lamento pela corrupção do povo 
 
 ### Conclusão:
 O **Livro de Miqueias** transmite uma poderosa mensagem de justiça, arrependimento e esperança. Embora comece com duras palavras de julgamento contra a corrupção e a idolatria, ele também apresenta uma visão de restauração e paz, apontando para a vinda de um governante justo que trará redenção ao povo de Deus. A mensagem central do livro é que Deus exige mais do que rituais e sacrifícios: Ele quer um povo que pratique a justiça, ame a misericórdia e caminhe humildemente com Ele.`
-    },
-    {
-        id: "NAM",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Naum",
-        descricao: "Livro do Antigo Testamento, escrito por Naum, que profetiza a queda de Nínive, a capital do Império Assírio.",
-        autor: "Naum",
-        ano: "aproximadamente 650 a.C.",
-        versiculo: 47,
-        capitulo: 3,
-        contexto_historico: "Profetiza sobre o juízo de Deus sobre a cidade de Nínive devido à sua crueldade e impiedade."
-        , contexto: `O livro de **Naum** é um dos **doze profetas menores** do Antigo Testamento e contém uma profecia sobre o julgamento de **Nínive**, a capital do Império Assírio. Naum profetiza contra os assírios em um período em que o império estava em declínio, após a destruição de outras cidades de Israel e Judá. O livro é focado na iminente destruição de Nínive e serve como uma mensagem de consolo para o povo de Judá, que havia sofrido nas mãos do império assírio. Naum pronuncia a destruição de Nínive como um ato de justiça divina contra a opressão e a maldade dos assírios.
+   },
+   {
+      id: "NAM",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Naum",
+      descricao: "Livro do Antigo Testamento, escrito por Naum, que profetiza a queda de Nínive, a capital do Império Assírio.",
+      autor: "Naum",
+      ano: "aproximadamente 650 a.C.",
+      versiculo: 47,
+      capitulo: 3,
+      contexto_historico: "Profetiza sobre o juízo de Deus sobre a cidade de Nínive devido à sua crueldade e impiedade."
+      , contexto: `O livro de **Naum** é um dos **doze profetas menores** do Antigo Testamento e contém uma profecia sobre o julgamento de **Nínive**, a capital do Império Assírio. Naum profetiza contra os assírios em um período em que o império estava em declínio, após a destruição de outras cidades de Israel e Judá. O livro é focado na iminente destruição de Nínive e serve como uma mensagem de consolo para o povo de Judá, que havia sofrido nas mãos do império assírio. Naum pronuncia a destruição de Nínive como um ato de justiça divina contra a opressão e a maldade dos assírios.
 
 Aqui está um **resumo detalhado** do **livro de Naum**, destacando suas partes mais marcantes:
 
@@ -2166,18 +2166,18 @@ Aqui está um **resumo detalhado** do **livro de Naum**, destacando suas partes 
 4. **Esperança para os Oprimidos**: Para o povo de Judá, o julgamento de Nínive traz **consolo** e **esperança**. A destruição do inimigo opressor é uma promessa de alívio para os que sofreram sob seu domínio.
 
 **Naum** é um livro que, de forma intensa e poética, reafirma o **poder de Deus para trazer justiça**, a **futilidade da opressão** e a **certeza do juízo divino** sobre aqueles que praticam maldade e violência. Ao mesmo tempo, é uma mensagem de **esperança** para os oprimidos, pois Deus não deixa os injustos sem resposta.`
-    },
-    {
-        id: "HAB",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Habacuque",
-        descricao: "Livro do Antigo Testamento, escrito por Habacuque, que questiona Deus sobre o sofrimento e recebe respostas sobre o juízo divino.",
-        autor: "Habacuque",
-        ano: "aproximadamente 610 a.C.",
-        versiculo: 56,
-        capitulo: 3,
-        contexto_historico: "Habacuque questiona a aparente prosperidade dos ímpios e recebe a resposta de que o justo viverá pela fé."
-        , contexto: `O **Livro de Habacuque** é um dos doze profetas menores do Antigo Testamento da Bíblia. Habacuque foi um profeta que viveu durante um período de grande turbulência em Judá, provavelmente por volta do século VII a.C., pouco antes da invasão babilônica. O livro é único por sua abordagem direta, onde o profeta apresenta seus questionamentos a Deus e recebe respostas divinas, refletindo sobre temas como a justiça de Deus, o sofrimento humano e a fé em tempos de crise.
+   },
+   {
+      id: "HAB",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Habacuque",
+      descricao: "Livro do Antigo Testamento, escrito por Habacuque, que questiona Deus sobre o sofrimento e recebe respostas sobre o juízo divino.",
+      autor: "Habacuque",
+      ano: "aproximadamente 610 a.C.",
+      versiculo: 56,
+      capitulo: 3,
+      contexto_historico: "Habacuque questiona a aparente prosperidade dos ímpios e recebe a resposta de que o justo viverá pela fé."
+      , contexto: `O **Livro de Habacuque** é um dos doze profetas menores do Antigo Testamento da Bíblia. Habacuque foi um profeta que viveu durante um período de grande turbulência em Judá, provavelmente por volta do século VII a.C., pouco antes da invasão babilônica. O livro é único por sua abordagem direta, onde o profeta apresenta seus questionamentos a Deus e recebe respostas divinas, refletindo sobre temas como a justiça de Deus, o sofrimento humano e a fé em tempos de crise.
 
 O **livro de Habacuque** é composto por apenas **três capítulos**, e a estrutura do texto se divide principalmente em duas partes: a primeira, na qual Habacuque questiona a Deus sobre o mal e o sofrimento; e a segunda, onde ele recebe as respostas divinas, que o ajudam a entender o propósito de Deus e a renovar sua confiança n’Ele.
 
@@ -2246,18 +2246,18 @@ Este trecho é profundamente marcante porque, mesmo diante da destruição e da 
 ### Conclusão
 
 O **Livro de Habacuque** é um poderoso testemunho de um profeta que questiona a justiça de Deus diante do sofrimento e da violência, mas que aprende a confiar na sabedoria divina e na promessa de que a justiça será feita no tempo certo. A mensagem central é que **os justos devem viver pela fé**, mesmo em tempos de calamidade e incerteza, e que Deus, embora permita o sofrimento, não deixará o mal sem resposta. A confiança em Deus, especialmente em tempos difíceis, é a chave para a perseverança e a esperança.`
-    },
-    {
-        id: "ZEP",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Sofonias",
-        descricao: "Livro do Antigo Testamento, escrito por Sofonias, que traz uma mensagem de juízo sobre Judá e as nações, mas também de esperança para os justos.",
-        autor: "Sofonias",
-        ano: "aproximadamente 630 a.C.",
-        versiculo: 53,
-        capitulo: 3,
-        contexto_historico: "Fala sobre o juízo iminente sobre Judá e as nações e a promessa de restauração para o remanescente fiel."
-        , contexto: `O livro de **Sofonias** é um dos menores livros do Antigo Testamento, contendo apenas três capítulos. A obra é atribuída ao profeta Sofonias, que atuou durante o reinado do rei Josias, em Judá, por volta de 630 a.C., um período de grande corrupção moral e religiosa. O livro é uma profecia de juízo sobre Judá e as nações vizinhas, mas também contém promessas de restauração e esperança.
+   },
+   {
+      id: "ZEP",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Sofonias",
+      descricao: "Livro do Antigo Testamento, escrito por Sofonias, que traz uma mensagem de juízo sobre Judá e as nações, mas também de esperança para os justos.",
+      autor: "Sofonias",
+      ano: "aproximadamente 630 a.C.",
+      versiculo: 53,
+      capitulo: 3,
+      contexto_historico: "Fala sobre o juízo iminente sobre Judá e as nações e a promessa de restauração para o remanescente fiel."
+      , contexto: `O livro de **Sofonias** é um dos menores livros do Antigo Testamento, contendo apenas três capítulos. A obra é atribuída ao profeta Sofonias, que atuou durante o reinado do rei Josias, em Judá, por volta de 630 a.C., um período de grande corrupção moral e religiosa. O livro é uma profecia de juízo sobre Judá e as nações vizinhas, mas também contém promessas de restauração e esperança.
 
 A principal mensagem de Sofonias é a iminência do **"Dia do Senhor"**, um tempo de julgamento para as nações e um chamado ao arrependimento. Ao mesmo tempo, o livro termina com uma nota de esperança para os justos, com a promessa de restauração de Israel.
 
@@ -2313,18 +2313,18 @@ Aqui está um resumo detalhado do livro de Sofonias, destacando as partes mais m
 4. **A universalidade do juízo e da salvação:** Sofonias destaca que o juízo de Deus se estende a todas as nações, mas também que a salvação e restauração de Israel abrirão caminho para um futuro de paz e harmonia para todos os povos.
 
 Em resumo, o livro de Sofonias oferece uma visão profunda e complexa do juízo de Deus, mas também revela a misericórdia e a esperança da restauração para aqueles que se arrependem e buscam a justiça. A centralidade do "Dia do Senhor" e a promessa de um futuro de renovação espiritual fazem de Sofonias um livro que combina advertência e consolo, mostrando que, apesar do juízo iminente, Deus tem um plano de salvação para aqueles que são fiéis.`
-    },
-    {
-        id: "HAG",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Ageu",
-        descricao: "Livro do Antigo Testamento, escrito por Ageu, que incentiva a reconstrução do Templo após o retorno do exílio babilônico.",
-        autor: "Ageu",
-        ano: "aproximadamente 520 a.C.",
-        versiculo: 38,
-        capitulo: 2,
-        contexto_historico: "Ageu encoraja o povo de Israel a retomar a reconstrução do Templo, prometendo a presença de Deus entre eles."
-        , contexto: `O **Livro de Ageu** é um dos livros menores do Antigo Testamento, fazendo parte dos doze profetas chamados "Menores". Ele contém apenas dois capítulos, mas é de grande importância devido às suas mensagens de renovação e motivação para a reconstrução do Templo em Jerusalém, após o exílio babilônico. Ageu profetizou no ano de 520 a.C., durante o reinado de Dario, rei da Pérsia, quando o povo de Judá já havia retornado do exílio, mas estava desanimado e negligenciando a reconstrução do Templo.
+   },
+   {
+      id: "HAG",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Ageu",
+      descricao: "Livro do Antigo Testamento, escrito por Ageu, que incentiva a reconstrução do Templo após o retorno do exílio babilônico.",
+      autor: "Ageu",
+      ano: "aproximadamente 520 a.C.",
+      versiculo: 38,
+      capitulo: 2,
+      contexto_historico: "Ageu encoraja o povo de Israel a retomar a reconstrução do Templo, prometendo a presença de Deus entre eles."
+      , contexto: `O **Livro de Ageu** é um dos livros menores do Antigo Testamento, fazendo parte dos doze profetas chamados "Menores". Ele contém apenas dois capítulos, mas é de grande importância devido às suas mensagens de renovação e motivação para a reconstrução do Templo em Jerusalém, após o exílio babilônico. Ageu profetizou no ano de 520 a.C., durante o reinado de Dario, rei da Pérsia, quando o povo de Judá já havia retornado do exílio, mas estava desanimado e negligenciando a reconstrução do Templo.
 
 Aqui está um **resumo detalhado** do livro de Ageu, com destaque para as partes mais marcantes:
 
@@ -2368,18 +2368,18 @@ Neste último trecho, Ageu faz uma promessa a Zorobabel, que é descendente do r
 O **Livro de Ageu** é uma obra breve, mas extremamente rica em ensinamentos. A principal mensagem de Ageu é a importância de colocar a obra de Deus em primeiro lugar, confiando em Sua promessa de restauração e prosperidade. Ele chama o povo a abandonar a negligência espiritual, a se arrepender e a trabalhar diligentemente para reconstruir o Templo, como uma forma de adorar e servir a Deus. Ageu também oferece uma visão profética do futuro, apontando para uma glória maior que viria, não apenas no Templo físico, mas no cumprimento das promessas messiânicas de Deus, que seriam finalmente realizadas em Cristo.
 
 Além disso, o livro sublinha que, mesmo nas dificuldades, a presença de Deus e a obediência à Sua vontade são a chave para o verdadeiro sucesso e bênção.`
-    },
-    {
-        id: "ZEC",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Zacarias",
-        descricao: "Livro do Antigo Testamento, escrito por Zacarias, que contém visões apocalípticas e encorajamento para a reconstrução do Templo.",
-        autor: "Zacarias",
-        ano: "aproximadamente 520 a.C.",
-        versiculo: 211,
-        capitulo: 14,
-        contexto_historico: "Zacarias motiva os judeus a concluir a reconstrução do Templo e faz profecias sobre o Messias e o futuro de Jerusalém."
-        , contexto: `O **Livro de Zacarias** é um dos 12 livros proféticos menores do Antigo Testamento e contém uma série de visões e oráculos que foram dados ao profeta Zacarias, que profetizou entre 520 e 518 a.C., após o retorno dos judeus do exílio babilônico. O livro tem dois grandes temas: **restauração de Jerusalém e do templo** e **a promessa do Messias**. Ele se divide em duas seções principais: os primeiros oito capítulos, que tratam principalmente de visões e chamadas à esperança para o povo de Israel, e os últimos capítulos (9-14), que profetizam sobre o futuro glorioso do povo de Deus, o julgamento das nações e a vinda do Messias.
+   },
+   {
+      id: "ZEC",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Zacarias",
+      descricao: "Livro do Antigo Testamento, escrito por Zacarias, que contém visões apocalípticas e encorajamento para a reconstrução do Templo.",
+      autor: "Zacarias",
+      ano: "aproximadamente 520 a.C.",
+      versiculo: 211,
+      capitulo: 14,
+      contexto_historico: "Zacarias motiva os judeus a concluir a reconstrução do Templo e faz profecias sobre o Messias e o futuro de Jerusalém."
+      , contexto: `O **Livro de Zacarias** é um dos 12 livros proféticos menores do Antigo Testamento e contém uma série de visões e oráculos que foram dados ao profeta Zacarias, que profetizou entre 520 e 518 a.C., após o retorno dos judeus do exílio babilônico. O livro tem dois grandes temas: **restauração de Jerusalém e do templo** e **a promessa do Messias**. Ele se divide em duas seções principais: os primeiros oito capítulos, que tratam principalmente de visões e chamadas à esperança para o povo de Israel, e os últimos capítulos (9-14), que profetizam sobre o futuro glorioso do povo de Deus, o julgamento das nações e a vinda do Messias.
 
 ### Estrutura do Livro
 
@@ -2456,18 +2456,18 @@ Além disso, o livro sublinha que, mesmo nas dificuldades, a presença de Deus e
 3. **Juízo e restauração**: As promessas de juízo contra as nações inimigas de Israel são entrelaçadas com promessas de restauração e purificação para o povo de Deus.
 
 O **Livro de Zacarias** mistura mensagens de juízo e esperança, com um foco claro na promessa de um futuro messiânico que trará paz, restauração e a presença de Deus entre o Seu povo.`
-    },
-    {
-        id: "MAL",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Malaquias",
-        descricao: "Último livro do Antigo Testamento, escrito por Malaquias, que denuncia a corrupção e o abandono da verdadeira adoração a Deus.",
-        autor: "Malaquias",
-        ano: "aproximadamente 430 a.C.",
-        versiculo: 55,
-        capitulo: 4,
-        contexto_historico: "Malaquias confronta o povo e os sacerdotes por suas falhas espirituais e aponta a vinda de um mensageiro do Senhor."
-        , contexto: `O **Livro de Malaquias** é o último livro do Antigo Testamento e contém as últimas profecias de Deus ao povo de Israel antes de um longo período de silêncio de aproximadamente 400 anos, até a vinda de João Batista e de Jesus Cristo. A autoria do livro é atribuída a Malaquias, cujo nome significa “mensageiro” ou “mensagem de Deus”. A obra se passa durante o período pós-exílico, quando os judeus haviam retornado de Babilônia e estavam reconstruindo o Templo em Jerusalém. Malaquias foi enviado para denunciar a corrupção religiosa e social da época, ao mesmo tempo que trazia uma mensagem de esperança e restauração futura.
+   },
+   {
+      id: "MAL",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Malaquias",
+      descricao: "Último livro do Antigo Testamento, escrito por Malaquias, que denuncia a corrupção e o abandono da verdadeira adoração a Deus.",
+      autor: "Malaquias",
+      ano: "aproximadamente 430 a.C.",
+      versiculo: 55,
+      capitulo: 4,
+      contexto_historico: "Malaquias confronta o povo e os sacerdotes por suas falhas espirituais e aponta a vinda de um mensageiro do Senhor."
+      , contexto: `O **Livro de Malaquias** é o último livro do Antigo Testamento e contém as últimas profecias de Deus ao povo de Israel antes de um longo período de silêncio de aproximadamente 400 anos, até a vinda de João Batista e de Jesus Cristo. A autoria do livro é atribuída a Malaquias, cujo nome significa “mensageiro” ou “mensagem de Deus”. A obra se passa durante o período pós-exílico, quando os judeus haviam retornado de Babilônia e estavam reconstruindo o Templo em Jerusalém. Malaquias foi enviado para denunciar a corrupção religiosa e social da época, ao mesmo tempo que trazia uma mensagem de esperança e restauração futura.
 
 O livro é composto por uma série de **diálogos entre Deus e o povo**, com fortes recriminações e denúncias contra a infidelidade do povo, mas também com promessas de restauração. A seguir, apresento um resumo detalhado do **Livro de Malaquias**, destacando as partes mais marcantes.
 
@@ -2506,18 +2506,18 @@ A profecia de Elias também indica um **tempo de restauração**, onde o povo vo
 O **Livro de Malaquias** é uma denúncia da **infidelidade religiosa, social e moral** do povo de Israel, com uma forte ênfase na **corrupção do culto** e na **falta de fidelidade em vários aspectos da vida religiosa e social**. Ao mesmo tempo, Malaquias traz uma mensagem de **esperança e restauração**, apontando para a **vinda de um mensageiro** que prepararia o caminho para o Senhor, cumprindo as promessas de **purificação e renovação**. Esse livro também é importante porque apresenta profecias messiânicas que se cumpririam com a vinda de **João Batista** e **Jesus Cristo**, estabelecendo a transição para o Novo Testamento.
 
 As partes mais marcantes do livro são: a crítica aos sacerdotes corruptos, o apelo ao arrependimento, a promessa de julgamento para os ímpios e a promessa de um futuro messiânico com a vinda de Elias, que prepararia o caminho para o Messias.`
-    },
-    {
-        id: "MAT",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Mateus",
-        descricao: "Primeiro livro do Novo Testamento, escrito por Mateus, que descreve a vida, ministério, morte e ressurreição de Jesus Cristo.",
-        autor: "Mateus",
-        ano: "aproximadamente 60 d.C.",
-        versiculo: 1071,
-        capitulo: 28,
-        contexto_historico: "Mateus escreve para os judeus, enfatizando que Jesus é o Messias prometido no Antigo Testamento."
-        , contexto: `O **Evangelho de Mateus** é o primeiro livro do Novo Testamento e apresenta a vida, ensinamentos, morte e ressurreição de **Jesus Cristo**. Escrito por **Mateus**, um dos apóstolos de Jesus, este evangelho tem um enfoque especial em mostrar que **Jesus é o Messias prometido** nas escrituras hebraicas e que seu ministério cumpre as profecias do Antigo Testamento. Mateus também enfatiza a **realeza de Jesus**, apresentando-o como o **Rei dos judeus** e destacando o estabelecimento do **Reino dos Céus**.
+   },
+   {
+      id: "MAT",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Mateus",
+      descricao: "Primeiro livro do Novo Testamento, escrito por Mateus, que descreve a vida, ministério, morte e ressurreição de Jesus Cristo.",
+      autor: "Mateus",
+      ano: "aproximadamente 60 d.C.",
+      versiculo: 1071,
+      capitulo: 28,
+      contexto_historico: "Mateus escreve para os judeus, enfatizando que Jesus é o Messias prometido no Antigo Testamento."
+      , contexto: `O **Evangelho de Mateus** é o primeiro livro do Novo Testamento e apresenta a vida, ensinamentos, morte e ressurreição de **Jesus Cristo**. Escrito por **Mateus**, um dos apóstolos de Jesus, este evangelho tem um enfoque especial em mostrar que **Jesus é o Messias prometido** nas escrituras hebraicas e que seu ministério cumpre as profecias do Antigo Testamento. Mateus também enfatiza a **realeza de Jesus**, apresentando-o como o **Rei dos judeus** e destacando o estabelecimento do **Reino dos Céus**.
 
 ### 1. **Nascimento e Infância de Jesus (Capítulos 1–2)**
 
@@ -2604,18 +2604,18 @@ Jesus critica severamente os líderes religiosos de sua época, acusando-os de h
 - As **advertências contra a hipocrisia religiosa** são uma lição importante para os cristãos, enfatizando que a **verdadeira justiça** não é apenas exterior, mas envolve um **coração sincero** diante de Deus.
 
 ### 6. **Paixão, Morte e Ressurreição de Jesus (`
-    },
-    {
-        id: "MRK",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Marcos",
-        descricao: "Segundo livro do Novo Testamento, escrito por Marcos, que narra de forma concisa a vida e os feitos de Jesus.",
-        autor: "Marcos",
-        ano: "aproximadamente 60 d.C.",
-        versiculo: 678,
-        capitulo: 16,
-        contexto_historico: "Marcos escreve para os cristãos gentios, destacando a ação de Jesus e seu sacrifício redentor."
-        , contexto: `O **Evangelho de Marcos** é o segundo livro do Novo Testamento da Bíblia e é tradicionalmente atribuído a Marcos, um discípulo de Pedro. Ele é considerado o evangelho mais curto e objetivo, com uma narrativa que enfatiza as ações de Jesus, mais do que seus discursos. A seguir, apresento um resumo detalhado e destaco as partes mais marcantes:
+   },
+   {
+      id: "MRK",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Marcos",
+      descricao: "Segundo livro do Novo Testamento, escrito por Marcos, que narra de forma concisa a vida e os feitos de Jesus.",
+      autor: "Marcos",
+      ano: "aproximadamente 60 d.C.",
+      versiculo: 678,
+      capitulo: 16,
+      contexto_historico: "Marcos escreve para os cristãos gentios, destacando a ação de Jesus e seu sacrifício redentor."
+      , contexto: `O **Evangelho de Marcos** é o segundo livro do Novo Testamento da Bíblia e é tradicionalmente atribuído a Marcos, um discípulo de Pedro. Ele é considerado o evangelho mais curto e objetivo, com uma narrativa que enfatiza as ações de Jesus, mais do que seus discursos. A seguir, apresento um resumo detalhado e destaco as partes mais marcantes:
 
 ### **1. Introdução e Batismo de Jesus (Capítulo 1)**
 
@@ -2674,18 +2674,18 @@ O Evangelho de Marcos termina com a descoberta da tumba vazia por algumas mulher
 O Evangelho de Marcos apresenta Jesus como o Messias que sofre, serve e traz o Reino de Deus. Seu foco é a ação de Jesus, enfatizando seus milagres, ensinamentos e, especialmente, seu sofrimento e morte na cruz como meio de salvação para a humanidade. O tema do "mistério" da identidade de Jesus é recorrente, e a revelação de quem ele é se dá de forma progressiva ao longo do evangelho. A morte e ressurreição de Jesus, que são o clímax da obra, revelam seu papel central no plano divino de redenção.
 
 **Marcos** é um evangelho que apela à ação e à compreensão do significado profundo da missão de Cristo, sublinhando sua humanidade e divindade, e chamando os leitores a seguir a Jesus com fé e coragem.`
-    },
-    {
-        id: "LUK",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Lucas",
-        descricao: "Terceiro livro do Novo Testamento, escrito por Lucas, que oferece uma narrativa detalhada da vida de Jesus e a história inicial da Igreja.",
-        autor: "Lucas",
-        ano: "aproximadamente 60 d.C.",
-        versiculo: 1151,
-        capitulo: 24,
-        contexto_historico: "Lucas escreve para os gentios, buscando dar uma visão detalhada e organizada sobre os feitos de Jesus."
-        , contexto: `O livro de **Lucas** é um dos quatro evangelhos do Novo Testamento e é considerado uma das narrativas mais detalhadas e organizadas sobre a vida, ministério, morte e ressurreição de **Jesus Cristo**. Escrito por **Lucas**, um médico e companheiro de Paulo, o evangelho tem um enfoque particular sobre a **misericórdia, compaixão** e a **inclusão dos marginalizados**, como os pobres, os doentes, as mulheres e os gentios. Lucas também faz questão de destacar a **oração** e a **ação do Espírito Santo** na vida de Jesus e dos primeiros cristãos.
+   },
+   {
+      id: "LUK",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Lucas",
+      descricao: "Terceiro livro do Novo Testamento, escrito por Lucas, que oferece uma narrativa detalhada da vida de Jesus e a história inicial da Igreja.",
+      autor: "Lucas",
+      ano: "aproximadamente 60 d.C.",
+      versiculo: 1151,
+      capitulo: 24,
+      contexto_historico: "Lucas escreve para os gentios, buscando dar uma visão detalhada e organizada sobre os feitos de Jesus."
+      , contexto: `O livro de **Lucas** é um dos quatro evangelhos do Novo Testamento e é considerado uma das narrativas mais detalhadas e organizadas sobre a vida, ministério, morte e ressurreição de **Jesus Cristo**. Escrito por **Lucas**, um médico e companheiro de Paulo, o evangelho tem um enfoque particular sobre a **misericórdia, compaixão** e a **inclusão dos marginalizados**, como os pobres, os doentes, as mulheres e os gentios. Lucas também faz questão de destacar a **oração** e a **ação do Espírito Santo** na vida de Jesus e dos primeiros cristãos.
 
 A seguir, apresento um **resumo detalhado** do livro de Lucas, destacando as partes mais marcantes.
 
@@ -2741,18 +2741,18 @@ O evangelho de Lucas começa com uma introdução detalhada, onde o autor se apr
 - **A Prisão e Crucificação (Lucas 22:39-23:49)**: Jesus é preso, julgado, e condenado à morte na cruz. Durante o processo, Ele demonstra compaixão, perdoa Seus algozes, e mostra preocupação pelo bem-estar de Sua mãe, Maria.
 
 - **Ressurreição (Lucas 24)**: Após ser sepultado, Jesus ressuscita no terceiro dia. Ele aparece a várias pessoas, incluindo dois discípulos no caminho de Emaús, e finalmente aos onze apóstolos. Ele confirma a **missão de pregar o arrependimento e o perd`
-    },
-    {
-        id: "JHN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "João",
-        descricao: "Quarto livro do Novo Testamento, escrito por João, que se concentra na divindade de Jesus e na vida eterna.",
-        autor: "João",
-        ano: "aproximadamente 90 d.C.",
-        versiculo: 879,
-        capitulo: 21,
-        contexto_historico: "João escreve para os cristãos, enfatizando a identidade de Jesus como Filho de Deus e a sua missão de salvar o mundo."
-        , contexto: `O **Evangelho de João** é o quarto livro do Novo Testamento e apresenta uma visão única da vida, ministério, morte e ressurreição de Jesus Cristo. Escrito por João, o apóstolo, este evangelho se distingue dos três primeiros (Mateus, Marcos e Lucas) em termos de estilo, conteúdo e enfoque teológico. João tem um forte foco na divindade de Jesus e nos aspectos espirituais de sua missão, e o livro é repleto de ensinamentos profundos sobre a fé, o amor e a vida eterna.
+   },
+   {
+      id: "JHN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "João",
+      descricao: "Quarto livro do Novo Testamento, escrito por João, que se concentra na divindade de Jesus e na vida eterna.",
+      autor: "João",
+      ano: "aproximadamente 90 d.C.",
+      versiculo: 879,
+      capitulo: 21,
+      contexto_historico: "João escreve para os cristãos, enfatizando a identidade de Jesus como Filho de Deus e a sua missão de salvar o mundo."
+      , contexto: `O **Evangelho de João** é o quarto livro do Novo Testamento e apresenta uma visão única da vida, ministério, morte e ressurreição de Jesus Cristo. Escrito por João, o apóstolo, este evangelho se distingue dos três primeiros (Mateus, Marcos e Lucas) em termos de estilo, conteúdo e enfoque teológico. João tem um forte foco na divindade de Jesus e nos aspectos espirituais de sua missão, e o livro é repleto de ensinamentos profundos sobre a fé, o amor e a vida eterna.
 
 ### Estrutura do Livro de João
 
@@ -2866,18 +2866,18 @@ Este encontro destaca o tema da salvação oferecida a todos, independentemente 
 ### Conclusão:
 
 O **Evangelho de João** é centrado na **divindade de Jesus** e no Seu chamado para que as pessoas creiam n'Ele como o Filho de Deus e Salvador. As passagens mais marcantes incluem o prólogo que descreve a preexistência de Cristo, os milagres que demonstram Sua autoridade, o ensino sobre o amor e a fé, e a promessa de vida eterna. O evangelho termina com a ressurreição de Jesus, a vitória sobre a morte e a comissão para que os discípulos espalhem a boa nova do evangelho ao mundo.`
-    },
-    {
-        id: "ACT",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Atos dos Apóstolos",
-        descricao: "Livro do Novo Testamento que narra a história dos primeiros cristãos e a propagação do evangelho após a ascensão de Jesus.",
-        autor: "Lucas",
-        ano: "aproximadamente 63 d.C.",
-        versiculo: 1007,
-        capitulo: 28,
-        contexto_historico: "Atos descreve como o Espírito Santo capacita os apóstolos a expandirem a Igreja cristã pelo Império Romano."
-        , contexto: `O livro de **Atos dos Apóstolos** é o **quinto livro** do Novo Testamento e foi escrito por **Lucas**, também autor do Evangelho de Lucas. Atos narra a história do crescimento da **Igreja Cristã Primitiva**, desde a ascensão de Jesus Cristo até o final das viagens missionárias de **Paulo**, destacando a propagação do evangelho, os milagres e as dificuldades enfrentadas pelos primeiros cristãos. O livro serve tanto como uma continuação do Evangelho de Lucas quanto como um relato histórico da formação da igreja e da difusão do cristianismo pelo mundo romano.
+   },
+   {
+      id: "ACT",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Atos dos Apóstolos",
+      descricao: "Livro do Novo Testamento que narra a história dos primeiros cristãos e a propagação do evangelho após a ascensão de Jesus.",
+      autor: "Lucas",
+      ano: "aproximadamente 63 d.C.",
+      versiculo: 1007,
+      capitulo: 28,
+      contexto_historico: "Atos descreve como o Espírito Santo capacita os apóstolos a expandirem a Igreja cristã pelo Império Romano."
+      , contexto: `O livro de **Atos dos Apóstolos** é o **quinto livro** do Novo Testamento e foi escrito por **Lucas**, também autor do Evangelho de Lucas. Atos narra a história do crescimento da **Igreja Cristã Primitiva**, desde a ascensão de Jesus Cristo até o final das viagens missionárias de **Paulo**, destacando a propagação do evangelho, os milagres e as dificuldades enfrentadas pelos primeiros cristãos. O livro serve tanto como uma continuação do Evangelho de Lucas quanto como um relato histórico da formação da igreja e da difusão do cristianismo pelo mundo romano.
 
 A seguir, um **resumo detalhado** do livro de **Atos**, destacando suas partes mais marcantes:
 
@@ -2931,18 +2931,18 @@ A seguir, um **resumo detalhado** do livro de **Atos**, destacando suas partes m
 4. **Perseguição e resistência**: O livro de Atos mostra as perseguições enfrentadas pelos cristãos, especialmente os apóstolos, e como a igreja persevera diante da adversidade.
 
 O livro de **Atos** é fundamental para entender a **história da Igreja Cristã** primitiva, como a mensagem de Jesus se espalhou e como as primeiras comunidades cristãs lidaram com desafios internos e externos.`
-    },
-    {
-        id: "ROM",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Romanos",
-        descricao: "Epístola escrita por Paulo, explicando a doutrina da justificação pela fé e o papel da graça na salvação.",
-        autor: "Paulo",
-        ano: "aproximadamente 57 d.C.",
-        versiculo: 433,
-        capitulo: 16,
-        contexto_historico: "Romanos aborda temas centrais da fé cristã, como a justificação pela fé, a santificação e a vida em Cristo."
-        , contexto: `O **Livro de Romanos** é uma das cartas mais importantes e teologicamente profundas do apóstolo Paulo no Novo Testamento. Escrito provavelmente por volta de **57 d.C.**, enquanto Paulo estava em Corinto, a carta foi destinada à igreja de Roma, composta tanto por judeus quanto por gentios. O livro tem como objetivo **explicar a salvação de Deus** e a **justiça** que vem pela fé em Jesus Cristo. Ele aborda temas como a natureza do pecado, a justificação pela fé, a graça de Deus, a vida no Espírito e a nova aliança em Cristo.
+   },
+   {
+      id: "ROM",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Romanos",
+      descricao: "Epístola escrita por Paulo, explicando a doutrina da justificação pela fé e o papel da graça na salvação.",
+      autor: "Paulo",
+      ano: "aproximadamente 57 d.C.",
+      versiculo: 433,
+      capitulo: 16,
+      contexto_historico: "Romanos aborda temas centrais da fé cristã, como a justificação pela fé, a santificação e a vida em Cristo."
+      , contexto: `O **Livro de Romanos** é uma das cartas mais importantes e teologicamente profundas do apóstolo Paulo no Novo Testamento. Escrito provavelmente por volta de **57 d.C.**, enquanto Paulo estava em Corinto, a carta foi destinada à igreja de Roma, composta tanto por judeus quanto por gentios. O livro tem como objetivo **explicar a salvação de Deus** e a **justiça** que vem pela fé em Jesus Cristo. Ele aborda temas como a natureza do pecado, a justificação pela fé, a graça de Deus, a vida no Espírito e a nova aliança em Cristo.
 
 O **Livro de Romanos** é composto por **16 capítulos**, e seu conteúdo pode ser dividido em várias seções, cada uma tratando de aspectos fundamentais da salvação e da vida cristã. A seguir, destacam-se as partes mais marcantes e os principais ensinamentos de Romanos:
 
@@ -3017,18 +3017,18 @@ Paulo finaliza a carta com cumprimentos e saudações pessoais a vários membros
 ### Conclusão
 
 O **Livro de Romanos** apresenta a base teológica do cristianismo, destacando a **justificação pela fé** como o coração da salvação, a liberdade do pecado e a vida no Espírito. A carta aborda o plano soberano de Deus, a inclusão dos gentios no Reino de Deus, e a necessidade de viver de maneira prática e sacrificial para agradar a Deus. Ao final, Romanos exorta os crentes a viverem em unidade e amor, refletindo a obra de Cristo no mundo.`
-    },
-    {
-        id: "1CO",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Coríntios",
-        descricao: "Epístola de Paulo à Igreja em Corinto, tratando de questões práticas e doutrinárias dentro da comunidade cristã.",
-        autor: "Paulo",
-        ano: "aproximadamente 55 d.C.",
-        versiculo: 437,
-        capitulo: 16,
-        contexto_historico: "Paulo escreve para corrigir divisões na Igreja de Corinto e oferecer instrução sobre a vida cristã."
-        , contexto: `O **livro de 1 Coríntios** é uma carta escrita por **Paulo** à igreja em Corinto, uma cidade grega conhecida pela sua diversidade cultural, religiosa e moral, onde havia muitos desafios na vida cristã. A carta é uma resposta às questões e problemas enfrentados pelos cristãos na igreja de Corinto, abordando temas como divisões na igreja, moralidade sexual, questões sobre o casamento, a ressurreição e a prática dos dons espirituais. A carta de Paulo é uma das epístolas mais práticas e teológicas do Novo Testamento, oferecendo ensinamentos profundos sobre a vida cristã.
+   },
+   {
+      id: "1CO",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Coríntios",
+      descricao: "Epístola de Paulo à Igreja em Corinto, tratando de questões práticas e doutrinárias dentro da comunidade cristã.",
+      autor: "Paulo",
+      ano: "aproximadamente 55 d.C.",
+      versiculo: 437,
+      capitulo: 16,
+      contexto_historico: "Paulo escreve para corrigir divisões na Igreja de Corinto e oferecer instrução sobre a vida cristã."
+      , contexto: `O **livro de 1 Coríntios** é uma carta escrita por **Paulo** à igreja em Corinto, uma cidade grega conhecida pela sua diversidade cultural, religiosa e moral, onde havia muitos desafios na vida cristã. A carta é uma resposta às questões e problemas enfrentados pelos cristãos na igreja de Corinto, abordando temas como divisões na igreja, moralidade sexual, questões sobre o casamento, a ressurreição e a prática dos dons espirituais. A carta de Paulo é uma das epístolas mais práticas e teológicas do Novo Testamento, oferecendo ensinamentos profundos sobre a vida cristã.
 
 Aqui está um **resumo detalhado do livro de 1 Coríntios**, destacando as partes mais marcantes:
 
@@ -3073,18 +3073,18 @@ Aqui está um **resumo detalhado do livro de 1 Coríntios**, destacando as parte
 - **A importância da ressurreição (1 Coríntios 15:1-19):** Paulo defende a ressurreição de Cristo como um fundamento essencial da fé cristã. Sem a ressurreição, a fé seria vã, e os cristãos ainda estariam em seus pecados.
 - **A ressurreição dos mortos (1 Coríntios 15:20-28):** Ele afirma que, assim como Cristo ressuscitou, os crentes também ressuscitarão no fim dos tempos, com um corpo glorificado.
 - **A vitória sobre a morte (1 Coríntios 15:50-58):** Paulo conclui este capítulo com uma poderosa declaração sobre`
-    },
-    {
-        id: "2CO",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Coríntios",
-        descricao: "Epístola de Paulo à Igreja de Corinto, onde ele defende seu apostolado e fala sobre o ministério da reconciliação.",
-        autor: "Paulo",
-        ano: "aproximadamente 56 d.C.",
-        versiculo: 256,
-        capitulo: 13,
-        contexto_historico: "Paulo fala sobre seu ministério apostólico e a importância da generosidade e reconciliação na vida cristã."
-        , contexto: `O **Livro de 2 Coríntios** é uma carta escrita por Paulo à igreja de Corinto, em sua segunda visita ou correspondência, com o propósito de corrigir, encorajar e expressar seu amor e compromisso com os cristãos coríntios. Esta carta reflete a luta emocional e espiritual de Paulo, que enfrentava críticas e oposição, mas também a alegria de ver a obra de Deus transformando vidas.
+   },
+   {
+      id: "2CO",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Coríntios",
+      descricao: "Epístola de Paulo à Igreja de Corinto, onde ele defende seu apostolado e fala sobre o ministério da reconciliação.",
+      autor: "Paulo",
+      ano: "aproximadamente 56 d.C.",
+      versiculo: 256,
+      capitulo: 13,
+      contexto_historico: "Paulo fala sobre seu ministério apostólico e a importância da generosidade e reconciliação na vida cristã."
+      , contexto: `O **Livro de 2 Coríntios** é uma carta escrita por Paulo à igreja de Corinto, em sua segunda visita ou correspondência, com o propósito de corrigir, encorajar e expressar seu amor e compromisso com os cristãos coríntios. Esta carta reflete a luta emocional e espiritual de Paulo, que enfrentava críticas e oposição, mas também a alegria de ver a obra de Deus transformando vidas.
 
 Em **2 Coríntios**, Paulo trata de temas como reconciliação, ministério, sofrimento, a nova aliança em Cristo e a importância da generosidade. A carta é profundamente pessoal e emocional, e Paulo usa ela para explicar seu apostolado, sua relação com a igreja e sua confiança em Deus, apesar das dificuldades.
 
@@ -3142,18 +3142,18 @@ Nos últimos capítulos, Paulo defende seu apostolado contra aqueles que o criti
 
 ### **Conclusão**
 O **Livro de 2 Coríntios** é uma carta profundamente pessoal, onde Paulo expressa sua vulnerabilidade, sua paixão pelo ministério e seu desejo de ver a igreja crescer em Cristo. Ele combina ensino teológico com orientações práticas sobre generosidade, sofrimento, reconciliação e santidade. A mensagem central é a de que o cristão deve viver em obediência a Deus, oferecendo sua vida como um sacrifício vivo, e confiar na suficiência da graça de Deus para todas as situações da vida.`
-    },
-    {
-        id: "GAL",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Gálatas",
-        descricao: "Epístola de Paulo às igrejas da Galácia, abordando a liberdade em Cristo e a luta contra a imposição da lei judaica.",
-        autor: "Paulo",
-        ano: "aproximadamente 48 d.C.",
-        versiculo: 149,
-        capitulo: 6,
-        contexto_historico: "Paulo defende a justificação pela fé e refuta os ensinos judaizantes que tentavam impor a circuncisão aos gentios."
-        , contexto: `O **Livro de Gálatas** é uma das cartas do apóstolo Paulo, dirigida às igrejas da Galácia, uma região na Ásia Menor (atualmente parte da Turquia). Paulo escreve essa carta para corrigir erros teológicos que haviam surgido nas igrejas daquela região, especificamente a questão da **justificação pela fé** e a **necessidade da lei** para a salvação. O livro é uma defesa vigorosa da **liberdade cristã** e uma refutação da ideia de que a salvação poderia ser alcançada através da observância da Lei de Moisés, como pregavam alguns falsos mestres.
+   },
+   {
+      id: "GAL",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Gálatas",
+      descricao: "Epístola de Paulo às igrejas da Galácia, abordando a liberdade em Cristo e a luta contra a imposição da lei judaica.",
+      autor: "Paulo",
+      ano: "aproximadamente 48 d.C.",
+      versiculo: 149,
+      capitulo: 6,
+      contexto_historico: "Paulo defende a justificação pela fé e refuta os ensinos judaizantes que tentavam impor a circuncisão aos gentios."
+      , contexto: `O **Livro de Gálatas** é uma das cartas do apóstolo Paulo, dirigida às igrejas da Galácia, uma região na Ásia Menor (atualmente parte da Turquia). Paulo escreve essa carta para corrigir erros teológicos que haviam surgido nas igrejas daquela região, especificamente a questão da **justificação pela fé** e a **necessidade da lei** para a salvação. O livro é uma defesa vigorosa da **liberdade cristã** e uma refutação da ideia de que a salvação poderia ser alcançada através da observância da Lei de Moisés, como pregavam alguns falsos mestres.
 
 ### Estrutura do Livro de Gálatas
 
@@ -3230,18 +3230,18 @@ Este versículo reflete o foco de Paulo: a cruz de Cristo é o centro da nossa s
 
 ### Conclusão
 O **Livro de Gálatas** é uma carta vibrante que defende a liberdade cristã em Cristo, a justificação pela fé, e exorta os crentes a viverem de acordo com o Espírito, não mais sob a Lei. A carta de Paulo continua a ser um tratado essencial sobre a graça de Deus, a salvação em Cristo, e a vida transformada pelo Espírito Santo.`
-    },
-    {
-        id: "EPH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Efésios",
-        descricao: "Epístola de Paulo aos cristãos em Éfeso, falando sobre a unidade da Igreja e a plenitude da vida em Cristo.",
-        autor: "Paulo",
-        ano: "aproximadamente 60 d.C.",
-        versiculo: 155,
-        capitulo: 6,
-        contexto_historico: "Paulo destaca a igreja como o corpo de Cristo e ensina sobre a natureza da vida cristã em comunidade."
-        , contexto: `O **Livro de Efésios** é uma carta escrita pelo apóstolo **Paulo** à igreja em **Éfeso**, uma cidade próspera da Ásia Menor. Embora Paulo tenha passado três anos em Éfeso (Atos 20:31), a carta de Efésios não trata de questões específicas da igreja local, como é o caso de outras cartas (por exemplo, Coríntios ou Gálatas), mas apresenta uma visão mais abrangente da **igreja universal** e do plano de **Deus para a salvação**. Efésios tem sido descrito como uma carta que explica profundamente a **identidade do cristão** em Cristo, o **propósito da igreja** e a **vivência prática da fé**.
+   },
+   {
+      id: "EPH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Efésios",
+      descricao: "Epístola de Paulo aos cristãos em Éfeso, falando sobre a unidade da Igreja e a plenitude da vida em Cristo.",
+      autor: "Paulo",
+      ano: "aproximadamente 60 d.C.",
+      versiculo: 155,
+      capitulo: 6,
+      contexto_historico: "Paulo destaca a igreja como o corpo de Cristo e ensina sobre a natureza da vida cristã em comunidade."
+      , contexto: `O **Livro de Efésios** é uma carta escrita pelo apóstolo **Paulo** à igreja em **Éfeso**, uma cidade próspera da Ásia Menor. Embora Paulo tenha passado três anos em Éfeso (Atos 20:31), a carta de Efésios não trata de questões específicas da igreja local, como é o caso de outras cartas (por exemplo, Coríntios ou Gálatas), mas apresenta uma visão mais abrangente da **igreja universal** e do plano de **Deus para a salvação**. Efésios tem sido descrito como uma carta que explica profundamente a **identidade do cristão** em Cristo, o **propósito da igreja** e a **vivência prática da fé**.
 
 A seguir, apresento um **resumo detalhado** do **Livro de Efésios**, destacando as partes mais marcantes.
 
@@ -3293,18 +3293,18 @@ O livro de Efésios termina com uma das passagens mais conhecidas, a **exortaç�
 
 ### Conclusão
 O **Livro de Efésios** é uma carta profundamente teológica e prática. Ele descreve a **identidade do cristão em Cristo**, destacando a **unificação dos gentios e judeus** no corpo de Cristo e a **importância da igreja** como instrumento de Deus para a obra de redenção. Ao mesmo tempo, Paulo oferece uma **orientação prática** para a vida cristã, enfatizando a **unidade, a santidade e a vivência fiel** do evangelho, tanto em termos pessoais quanto nas relações familiares e sociais. A carta encerra com uma ênfase na **luta espiritual**, destacando a importância de se vestir com a **armadura de Deus** para resistir às forças do mal.`
-    },
-    {
-        id: "PHP",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Filipenses",
-        descricao: "Epístola de Paulo à Igreja de Filipos, onde ele expressa gratidão e alegria pela colaboração no evangelho.",
-        autor: "Paulo",
-        ano: "aproximadamente 61 d.C.",
-        versiculo: 104,
-        capitulo: 4,
-        contexto_historico: "Paulo escreve de forma encorajadora, falando sobre a alegria no sofrimento e a importância da humildade."
-        , contexto: `O **Livro de Filipenses** é uma carta escrita pelo apóstolo **Paulo** enquanto estava preso em Roma, por volta do ano **62 d.C.**, à igreja de Filipos, uma cidade localizada na Macedônia, que Paulo havia fundado em sua segunda viagem missionária. A carta é cheia de **encorajamento, alegria e exortações** e revela o grande carinho e gratidão de Paulo pelos filipenses, que haviam enviado uma oferta para ajudá-lo em sua prisão. Filipenses é um dos chamados **"livros de prisão"** de Paulo e contém ensinamentos profundos sobre a **alegria no sofrimento**, a **humildade**, e a **unidade em Cristo**.
+   },
+   {
+      id: "PHP",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Filipenses",
+      descricao: "Epístola de Paulo à Igreja de Filipos, onde ele expressa gratidão e alegria pela colaboração no evangelho.",
+      autor: "Paulo",
+      ano: "aproximadamente 61 d.C.",
+      versiculo: 104,
+      capitulo: 4,
+      contexto_historico: "Paulo escreve de forma encorajadora, falando sobre a alegria no sofrimento e a importância da humildade."
+      , contexto: `O **Livro de Filipenses** é uma carta escrita pelo apóstolo **Paulo** enquanto estava preso em Roma, por volta do ano **62 d.C.**, à igreja de Filipos, uma cidade localizada na Macedônia, que Paulo havia fundado em sua segunda viagem missionária. A carta é cheia de **encorajamento, alegria e exortações** e revela o grande carinho e gratidão de Paulo pelos filipenses, que haviam enviado uma oferta para ajudá-lo em sua prisão. Filipenses é um dos chamados **"livros de prisão"** de Paulo e contém ensinamentos profundos sobre a **alegria no sofrimento**, a **humildade**, e a **unidade em Cristo**.
 
 Aqui está um resumo detalhado, destacando as partes mais marcantes da carta:
 
@@ -3375,18 +3375,18 @@ Paulo termina a carta com uma **benção final**, afirmando que ele pode fazer t
 
 **Conclusão**:
 O livro de Filipenses é uma **carta de alegria, gratidão e encorajamento**, onde Paulo destaca a importância da **humildade, da unidade, do serviço cristão e da confiança em Deus**, mesmo no sofrimento. Ele aponta para **Cristo** como o exemplo supremo de humildade e sacrifício, e chama os cristãos a viverem em **unidade e alegria**, lembrando-se sempre de que o verdadeiro propósito da vida é **conhecer a Cristo** e viver para Ele.`
-    },
-    {
-        id: "COL",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Colossenses",
-        descricao: "Epístola de Paulo aos cristãos em Colossos, alertando contra falsas doutrinas e enfatizando a supremacia de Cristo.",
-        autor: "Paulo",
-        ano: "aproximadamente 60 d.C.",
-        versiculo: 95,
-        capitulo: 4,
-        contexto_historico: "Paulo combate heresias que estavam infiltrando a Igreja e apresenta Cristo como o centro de toda a criação."
-        , contexto: `O livro de **Colossenses** é uma das epístolas do Novo Testamento, escrita por Paulo a uma comunidade cristã da cidade de Colossos, uma cidade na Ásia Menor (atualmente na Turquia). A carta foi escrita para combater falsas doutrinas que estavam influenciando a igreja local, e também para exortar os cristãos a viverem de acordo com os princípios do evangelho. O tema central da carta é a **supremacia de Cristo** e a **plenitude da salvação** oferecida por Ele.
+   },
+   {
+      id: "COL",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Colossenses",
+      descricao: "Epístola de Paulo aos cristãos em Colossos, alertando contra falsas doutrinas e enfatizando a supremacia de Cristo.",
+      autor: "Paulo",
+      ano: "aproximadamente 60 d.C.",
+      versiculo: 95,
+      capitulo: 4,
+      contexto_historico: "Paulo combate heresias que estavam infiltrando a Igreja e apresenta Cristo como o centro de toda a criação."
+      , contexto: `O livro de **Colossenses** é uma das epístolas do Novo Testamento, escrita por Paulo a uma comunidade cristã da cidade de Colossos, uma cidade na Ásia Menor (atualmente na Turquia). A carta foi escrita para combater falsas doutrinas que estavam influenciando a igreja local, e também para exortar os cristãos a viverem de acordo com os princípios do evangelho. O tema central da carta é a **supremacia de Cristo** e a **plenitude da salvação** oferecida por Ele.
 
 Aqui está um resumo detalhado, destacando as partes mais marcantes:
 
@@ -3428,18 +3428,18 @@ Na última parte da carta, Paulo dá instruções práticas sobre como os crist�
 A carta de Colossenses é um convite para os cristãos se aprofundarem em sua compreensão da supremacia de Cristo e viverem à luz dessa verdade. A exortação de Paulo é clara: viver em Cristo, focando nas coisas do alto e afastando-se das influências que tentam distorcer a mensagem do evangelho. A carta, portanto, é uma declaração poderosa da centralidade de Cristo em todas as áreas da vida cristã.
 
 Se tiver mais alguma dúvida sobre o livro ou quiser explorar algum ponto específico, me avise!`
-    },
-    {
-        id: "1TH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Tessalonicenses",
-        descricao: "Primeira carta de Paulo aos tessalonicenses, incentivando-os a permanecer firmes na fé e explicando sobre a segunda vinda de Cristo.",
-        autor: "Paulo",
-        ano: "aproximadamente 51 d.C.",
-        versiculo: 89,
-        capitulo: 5,
-        contexto_historico: "Paulo encoraja a Igreja em Tessalônica a viver de forma digna e a esperar com esperança o retorno de Cristo."
-        , contexto: `A **Primeira Carta aos Tessalonicenses** é uma das epístolas paulinas mais antigas e está repleta de ensinamentos sobre a vivência cristã, a esperança na volta de Cristo e a exortação à santidade. A carta é endereçada à igreja de Tessalônica, uma cidade da Macedônia, e foi escrita por Paulo com o objetivo de encorajar e fortalecer os cristãos que estavam enfrentando perseguições. A seguir, um resumo detalhado destacando as partes mais marcantes.
+   },
+   {
+      id: "1TH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Tessalonicenses",
+      descricao: "Primeira carta de Paulo aos tessalonicenses, incentivando-os a permanecer firmes na fé e explicando sobre a segunda vinda de Cristo.",
+      autor: "Paulo",
+      ano: "aproximadamente 51 d.C.",
+      versiculo: 89,
+      capitulo: 5,
+      contexto_historico: "Paulo encoraja a Igreja em Tessalônica a viver de forma digna e a esperar com esperança o retorno de Cristo."
+      , contexto: `A **Primeira Carta aos Tessalonicenses** é uma das epístolas paulinas mais antigas e está repleta de ensinamentos sobre a vivência cristã, a esperança na volta de Cristo e a exortação à santidade. A carta é endereçada à igreja de Tessalônica, uma cidade da Macedônia, e foi escrita por Paulo com o objetivo de encorajar e fortalecer os cristãos que estavam enfrentando perseguições. A seguir, um resumo detalhado destacando as partes mais marcantes.
 
 ### 1. **Introdução e Ação de Graças (Capítulo 1)**
 
@@ -3480,18 +3480,18 @@ Paulo conclui a carta com uma série de exortações práticas. Ele fala sobre a
 ### Conclusão
 
 **Primeira Tessalonicenses** é uma carta pastoral cheia de encorajamento, exortação à santidade e à perseverança na fé. Paulo oferece conforto à igreja, lembrando-os da esperança gloriosa da segunda vinda de Cristo, e os exorta a viver de maneira digna da vocação cristã. A carta é um modelo de como os cristãos devem enfrentar as dificuldades com fé e esperança, e como devem se comportar em santidade, aguardando com expectativa a volta de Cristo.`
-    },
-    {
-        id: "2TH",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Tessalonicenses",
-        descricao: "Segunda carta de Paulo aos tessalonicenses, corrigindo mal-entendidos sobre a segunda vinda de Cristo.",
-        autor: "Paulo",
-        ano: "aproximadamente 51-52 d.C.",
-        versiculo: 47,
-        capitulo: 3,
-        contexto_historico: "Paulo esclarece que a segunda vinda de Cristo ainda não ocorreu e adverte contra a ociosidade."
-        , contexto: `O **Livro de 2 Tessalonicenses** é uma carta escrita por **Paulo** à igreja de Tessalônica, que foi fundada por ele em sua segunda viagem missionária (aproximadamente no ano 50-51 d.C.). A carta tem o propósito de esclarecer alguns mal-entendidos sobre o retorno de Cristo e a situação dos cristãos que estavam sofrendo perseguições. Paulo escreve para confortar, corrigir e exortar a igreja a permanecer firme na fé.
+   },
+   {
+      id: "2TH",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Tessalonicenses",
+      descricao: "Segunda carta de Paulo aos tessalonicenses, corrigindo mal-entendidos sobre a segunda vinda de Cristo.",
+      autor: "Paulo",
+      ano: "aproximadamente 51-52 d.C.",
+      versiculo: 47,
+      capitulo: 3,
+      contexto_historico: "Paulo esclarece que a segunda vinda de Cristo ainda não ocorreu e adverte contra a ociosidade."
+      , contexto: `O **Livro de 2 Tessalonicenses** é uma carta escrita por **Paulo** à igreja de Tessalônica, que foi fundada por ele em sua segunda viagem missionária (aproximadamente no ano 50-51 d.C.). A carta tem o propósito de esclarecer alguns mal-entendidos sobre o retorno de Cristo e a situação dos cristãos que estavam sofrendo perseguições. Paulo escreve para confortar, corrigir e exortar a igreja a permanecer firme na fé.
 
 ### **Introdução (Capítulo 1)**
 A carta começa com uma saudação a partir de Paulo, Silvano (ou Silas) e Timóteo, os três autores mencionados. Paulo expressa sua alegria pela fé crescente dos tessalonicenses, que, apesar das perseguições, continuam firmes na esperança do retorno de Cristo. Ele os parabeniza por sua perseverança e fidelidade, algo que é visível para todas as igrejas da Macedônia.
@@ -3529,18 +3529,18 @@ Paulo também termina o capítulo com uma bênção final, orando pela paz e gra
 - **O Trabalho e a Ordem:** Paulo também enfatiza a importância de viver de maneira ordenada e responsável, não se aproveitando da expectativa do fim dos tempos para a ociosidade.
 
 Em resumo, **2 Tessalonicenses** trata da importância da perseverança na fé diante da perseguição e das dificuldades, esclarece mal-entendidos sobre o retorno de Cristo e oferece orientações práticas para a vida cristã. As partes mais marcantes da carta incluem a descrição do "homem da iniquidade", a exortação à ordem e ao trabalho, e a reafirmação do consolo e da esperança em Cristo.`
-    },
-    {
-        id: "1TI",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Timóteo",
-        descricao: "Epístola de Paulo a Timóteo, instruindo-o sobre a liderança na igreja e como lidar com questões doutrinárias e práticas.",
-        autor: "Paulo",
-        ano: "aproximadamente 63-65 d.C.",
-        versiculo: 113,
-        capitulo: 6,
-        contexto_historico: "Paulo ensina sobre a boa conduta e as responsabilidades de um líder cristão, incluindo as qualificações para bispos e diáconos."
-        , contexto: `O livro de **1 Timóteo** é uma carta escrita por **Paulo** a **Timóteo**, seu discípulo e filho na fé, que estava em Éfeso, encarregado de supervisionar as igrejas naquela cidade. O livro faz parte das chamadas **Epístolas Pastorais** (junto com 2 Timóteo e Tito), que contêm orientações sobre a liderança da igreja, a conduta cristã e os deveres do ministério.
+   },
+   {
+      id: "1TI",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Timóteo",
+      descricao: "Epístola de Paulo a Timóteo, instruindo-o sobre a liderança na igreja e como lidar com questões doutrinárias e práticas.",
+      autor: "Paulo",
+      ano: "aproximadamente 63-65 d.C.",
+      versiculo: 113,
+      capitulo: 6,
+      contexto_historico: "Paulo ensina sobre a boa conduta e as responsabilidades de um líder cristão, incluindo as qualificações para bispos e diáconos."
+      , contexto: `O livro de **1 Timóteo** é uma carta escrita por **Paulo** a **Timóteo**, seu discípulo e filho na fé, que estava em Éfeso, encarregado de supervisionar as igrejas naquela cidade. O livro faz parte das chamadas **Epístolas Pastorais** (junto com 2 Timóteo e Tito), que contêm orientações sobre a liderança da igreja, a conduta cristã e os deveres do ministério.
 
 A seguir, apresento um **resumo detalhado** do livro de 1 Timóteo, destacando as partes mais marcantes.
 
@@ -3604,18 +3604,18 @@ Paulo oferece orientações sobre como lidar com diferentes grupos dentro da igr
 
 ### **Conclusão**
 O livro de **1 Timóteo** oferece uma **orientação prática** para a **organização e liderança da igreja**, enfatizando a importância de **bons líderes**, o combate aos **falsos ensinamentos**, o cuidado com os membros da igreja, a importância da **piedade** e da **fidelidade ao evangelho**. O livro também destaca o **exemplo pessoal** de Timóteo e o **compromisso com a verdade** como aspectos fundamentais do ministério cristão.`
-    },
-    {
-        id: "2TI",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Timóteo",
-        descricao: "Segunda carta de Paulo a Timóteo, um encorajamento final antes de sua morte, focando na fidelidade à verdade do evangelho.",
-        autor: "Paulo",
-        ano: "aproximadamente 67 d.C.",
-        versiculo: 83,
-        capitulo: 4,
-        contexto_historico: "Paulo dá instruções a Timóteo para perseverar na fé e anunciar o evangelho com coragem, mesmo diante de perseguições."
-        , contexto: `O **Livro de 2 Timóteo** é a segunda carta de Paulo a **Timóteo**, um de seus discípulos mais queridos, que estava pastoreando a igreja em Éfeso. Esta carta é considerada a última epístola escrita por Paulo antes de sua morte, e ela contém instruções, exortações e palavras de encorajamento para Timóteo, especialmente sobre como perseverar na fé e no ministério, mesmo diante das dificuldades e perseguições.
+   },
+   {
+      id: "2TI",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Timóteo",
+      descricao: "Segunda carta de Paulo a Timóteo, um encorajamento final antes de sua morte, focando na fidelidade à verdade do evangelho.",
+      autor: "Paulo",
+      ano: "aproximadamente 67 d.C.",
+      versiculo: 83,
+      capitulo: 4,
+      contexto_historico: "Paulo dá instruções a Timóteo para perseverar na fé e anunciar o evangelho com coragem, mesmo diante de perseguições."
+      , contexto: `O **Livro de 2 Timóteo** é a segunda carta de Paulo a **Timóteo**, um de seus discípulos mais queridos, que estava pastoreando a igreja em Éfeso. Esta carta é considerada a última epístola escrita por Paulo antes de sua morte, e ela contém instruções, exortações e palavras de encorajamento para Timóteo, especialmente sobre como perseverar na fé e no ministério, mesmo diante das dificuldades e perseguições.
 
 ### Estrutura e Temática
 
@@ -3693,18 +3693,18 @@ Paulo faz alguns pedidos pessoais a Timóteo, como trazer-lhe **os livros** e **
 ### Conclusão
 
 O **Livro de 2 Timóteo** é uma carta profunda, repleta de ensinamentos sobre **perseverança na fé**, **fidelidade ao evangelho**, e **o chamado ao ministério**, mesmo diante de sofrimentos e adversidades. Paulo, com seu coração pastoral, deixa a Timóteo um legado de coragem, fé e compromisso com a verdade, ensinando-nos a **não desistir** e a **permanecer fiéis** até o fim.`
-    },
-    {
-        id: "TIT",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Tito",
-        descricao: "Epístola de Paulo a Tito, oferecendo conselhos sobre como liderar a Igreja em Creta e lidar com falsas doutrinas.",
-        autor: "Paulo",
-        ano: "aproximadamente 63-65 d.C.",
-        versiculo: 46,
-        capitulo: 3,
-        contexto_historico: "Paulo instrui Tito a corrigir os erros doutrinários e ensinar a vida cristã prática nas comunidades de Creta."
-        , contexto: `O livro de **Tito** é uma das cartas pastorais do Novo Testamento, escrita por **Paulo** a seu colaborador Tito, que estava liderando a igreja em **Creta**, uma ilha no Mar Egeu. A carta tem como objetivo orientar Tito sobre como organizar e conduzir a igreja cristã em Creta, que enfrentava vários desafios, incluindo líderes corruptos, falsas doutrinas e comportamentos imorais. O livro de Tito é relativamente curto, com apenas três capítulos, mas contém instruções importantes sobre a **conduta cristã**, a **organização da igreja**, o **ensinamento bíblico** e a **necessidade de boas obras** como evidência de uma fé genuína.
+   },
+   {
+      id: "TIT",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Tito",
+      descricao: "Epístola de Paulo a Tito, oferecendo conselhos sobre como liderar a Igreja em Creta e lidar com falsas doutrinas.",
+      autor: "Paulo",
+      ano: "aproximadamente 63-65 d.C.",
+      versiculo: 46,
+      capitulo: 3,
+      contexto_historico: "Paulo instrui Tito a corrigir os erros doutrinários e ensinar a vida cristã prática nas comunidades de Creta."
+      , contexto: `O livro de **Tito** é uma das cartas pastorais do Novo Testamento, escrita por **Paulo** a seu colaborador Tito, que estava liderando a igreja em **Creta**, uma ilha no Mar Egeu. A carta tem como objetivo orientar Tito sobre como organizar e conduzir a igreja cristã em Creta, que enfrentava vários desafios, incluindo líderes corruptos, falsas doutrinas e comportamentos imorais. O livro de Tito é relativamente curto, com apenas três capítulos, mas contém instruções importantes sobre a **conduta cristã**, a **organização da igreja**, o **ensinamento bíblico** e a **necessidade de boas obras** como evidência de uma fé genuína.
 
 ### **Resumo Detalhado do Livro de Tito:**
 
@@ -3760,18 +3760,18 @@ O **Livro de 2 Timóteo** é uma carta profunda, repleta de ensinamentos sobre *
 4. **A pureza da doutrina**: Tito é instruído a corrigir falsos ensinos e a manter a igreja firme na verdade, evitando divisões e heresias.
 
 O livro de **Tito** é uma carta pastoral que, apesar de breve, contém princípios fundamentais sobre a **organização da igreja** e o **comportamento cristão**, com um forte apelo para a **pureza da doutrina** e a **vivência prática da fé** em todas as esferas da vida.`
-    },
-    {
-        id: "PHM",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Filemom",
-        descricao: "Epístola de Paulo a Filemom, intercedendo em favor de Onésimo, um escravo fugitivo, para que seja acolhido como irmão na fé.",
-        autor: "Paulo",
-        ano: "aproximadamente 60-61 d.C.",
-        versiculo: 25,
-        capitulo: 1,
-        contexto_historico: "Paulo apela para a reconciliação e o perdão, abordando a relação entre escravo e senhor sob a ótica cristã."
-        , contexto: `O **Livro de Filemon** é uma das cartas mais pessoais e breves do apóstolo Paulo, composta por apenas **um capítulo** no Novo Testamento. Escrito por volta de **60-62 d.C.**, enquanto Paulo estava preso, a carta foi endereçada a **Filemon**, um cristão e líder da igreja em Colossos, na Ásia Menor. A carta trata de um tema muito específico e, ao mesmo tempo, extremamente profundo: a **reconciliação** e o perdão cristão. O contexto principal da carta é a situação de **Onésimo**, um escravo de Filemon que havia fugido de seu senhor e se encontrado com Paulo, que o evangelizou e o converteu ao cristianismo.
+   },
+   {
+      id: "PHM",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Filemom",
+      descricao: "Epístola de Paulo a Filemom, intercedendo em favor de Onésimo, um escravo fugitivo, para que seja acolhido como irmão na fé.",
+      autor: "Paulo",
+      ano: "aproximadamente 60-61 d.C.",
+      versiculo: 25,
+      capitulo: 1,
+      contexto_historico: "Paulo apela para a reconciliação e o perdão, abordando a relação entre escravo e senhor sob a ótica cristã."
+      , contexto: `O **Livro de Filemon** é uma das cartas mais pessoais e breves do apóstolo Paulo, composta por apenas **um capítulo** no Novo Testamento. Escrito por volta de **60-62 d.C.**, enquanto Paulo estava preso, a carta foi endereçada a **Filemon**, um cristão e líder da igreja em Colossos, na Ásia Menor. A carta trata de um tema muito específico e, ao mesmo tempo, extremamente profundo: a **reconciliação** e o perdão cristão. O contexto principal da carta é a situação de **Onésimo**, um escravo de Filemon que havia fugido de seu senhor e se encontrado com Paulo, que o evangelizou e o converteu ao cristianismo.
 
 A carta de Filemon é uma **apelação de Paulo em favor de Onésimo**, pedindo que Filemon o aceite de volta não apenas como escravo, mas como **irmão em Cristo**. O livro, portanto, aborda temas como **perdão, reconciliação, graça e igualdade em Cristo**. Abaixo, segue um resumo detalhado do livro, com destaque para as partes mais marcantes.
 
@@ -3850,18 +3850,18 @@ Ele conclui a carta com uma **benção final**, expressando seu desejo de que a 
 ### Conclusão
 
 O **Livro de Filemon** é uma poderosa **exortação à reconciliação** e ao **perdão cristão**, com uma ênfase na **igualdade em Cristo** e na **transformação pessoal**. A carta não apenas trata da questão da escravidão e da restauração de um relacionamento pessoal, mas também apresenta uma lição profunda sobre como os cristãos devem lidar com os conflitos, oferecendo perdão, graça e generosidade, refletindo o caráter de Cristo.`
-    },
-    {
-        id: "HEB",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Hebreus",
-        descricao: "Epístola do Novo Testamento que enfatiza a supremacia de Cristo como o cumprimento de todas as promessas do Antigo Testamento.",
-        autor: "desconhecido (possivelmente Paulo)",
-        ano: "aproximadamente 67-70 d.C.",
-        versiculo: 303,
-        capitulo: 13,
-        contexto_historico: "O livro de Hebreus argumenta que Jesus é o sumo sacerdote perfeito e superior a Moisés e aos sacerdotes do Antigo Testamento."
-        , contexto: `O livro de **Hebreus** é uma carta do Novo Testamento que se distingue pela profundidade teológica e pelo seu foco em mostrar que Jesus Cristo é o cumprimento das promessas e tipos do Antigo Testamento. A autoria do livro não é clara, mas muitos acreditam que tenha sido escrito por Paulo ou por alguém de sua escola de pensamento. Ele é direcionado a cristãos judeus que estavam enfrentando dificuldades, incluindo perseguições e tentação de voltar ao judaísmo, e busca fortalecer sua fé em Cristo, apresentando-o como superior a todas as figuras e práticas do Antigo Testamento.
+   },
+   {
+      id: "HEB",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Hebreus",
+      descricao: "Epístola do Novo Testamento que enfatiza a supremacia de Cristo como o cumprimento de todas as promessas do Antigo Testamento.",
+      autor: "desconhecido (possivelmente Paulo)",
+      ano: "aproximadamente 67-70 d.C.",
+      versiculo: 303,
+      capitulo: 13,
+      contexto_historico: "O livro de Hebreus argumenta que Jesus é o sumo sacerdote perfeito e superior a Moisés e aos sacerdotes do Antigo Testamento."
+      , contexto: `O livro de **Hebreus** é uma carta do Novo Testamento que se distingue pela profundidade teológica e pelo seu foco em mostrar que Jesus Cristo é o cumprimento das promessas e tipos do Antigo Testamento. A autoria do livro não é clara, mas muitos acreditam que tenha sido escrito por Paulo ou por alguém de sua escola de pensamento. Ele é direcionado a cristãos judeus que estavam enfrentando dificuldades, incluindo perseguições e tentação de voltar ao judaísmo, e busca fortalecer sua fé em Cristo, apresentando-o como superior a todas as figuras e práticas do Antigo Testamento.
 
 A principal mensagem de **Hebreus** é a superioridade de **Cristo** sobre todas as coisas, especialmente em relação à lei mosaica, aos sacerdotes, aos anjos e até ao próprio sacrifício realizado no templo. A carta também encoraja os cristãos a permanecerem firmes na fé, mesmo diante das dificuldades.
 
@@ -3933,18 +3933,18 @@ Aqui está um **resumo detalhado do livro de Hebreus**, destacando as partes mai
 
 **Conclusão:**  
 O livro de **Hebreus** apresenta **Cristo** como a resposta definitiva para todas as questões e necessidades da humanidade, mostrando Sua superioridade sobre as figuras e práticas do Antigo Testamento. Ele é o Sumo Sacerdote perfeito, o mediador do Novo Pacto, e o Sacrifício definitivo. Ao mesmo tempo, o livro exorta os cristãos a viverem com fé, perseverança e santidade, mantendo sua confiança em Cristo até o fim.`
-    },
-    {
-        id: "JAS",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Tiago",
-        descricao: "Epístola de Tiago, enfatizando a prática da fé verdadeira através das obras e a sabedoria para viver em Cristo.",
-        autor: "Tiago",
-        ano: "aproximadamente 48-49 d.C.",
-        versiculo: 108,
-        capitulo: 5,
-        contexto_historico: "Tiago ensina que a fé sem obras é morta e que os cristãos devem viver com sabedoria, humildade e em oração."
-        , contexto: `O **Livro de Tiago** é uma carta do Novo Testamento escrita por Tiago, o irmão de Jesus, que foi líder da Igreja de Jerusalém. Este livro é considerado um dos livros mais práticos e diretos da Bíblia, com foco na sabedoria cristã aplicada à vida diária. Tiago exorta os cristãos a viverem de maneira consistente com a fé que professam, enfatizando a importância de boas obras, disciplina na fala, paciência e confiança em Deus.
+   },
+   {
+      id: "JAS",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Tiago",
+      descricao: "Epístola de Tiago, enfatizando a prática da fé verdadeira através das obras e a sabedoria para viver em Cristo.",
+      autor: "Tiago",
+      ano: "aproximadamente 48-49 d.C.",
+      versiculo: 108,
+      capitulo: 5,
+      contexto_historico: "Tiago ensina que a fé sem obras é morta e que os cristãos devem viver com sabedoria, humildade e em oração."
+      , contexto: `O **Livro de Tiago** é uma carta do Novo Testamento escrita por Tiago, o irmão de Jesus, que foi líder da Igreja de Jerusalém. Este livro é considerado um dos livros mais práticos e diretos da Bíblia, com foco na sabedoria cristã aplicada à vida diária. Tiago exorta os cristãos a viverem de maneira consistente com a fé que professam, enfatizando a importância de boas obras, disciplina na fala, paciência e confiança em Deus.
 
 ### **Contexto e Autor**
 Tiago, o autor, é tradicionalmente identificado como Tiago, o irmão de Jesus. Ele se tornou uma figura de destaque na igreja primitiva, especialmente em Jerusalém. Sua carta tem um tom direto e prático, abordando questões de fé, ética e comportamento cristão. Não se destina a uma comunidade específica, mas é dirigida a todos os cristãos, especialmente aqueles que estavam dispersos após as perseguições.
@@ -4008,18 +4008,18 @@ Tiago encerra sua carta com uma exortação à paciência, oração e atenção 
 
 ### **Conclusão**
 O **Livro de Tiago** é uma carta prática que enfatiza a vivência da fé no dia a dia, especialmente através das boas obras, do controle da língua, da humildade e da paciência. Tiago nos lembra que a fé verdadeira não é apenas uma crença intelectual, mas se expressa em ações concretas. Ele também exorta os cristãos a resistirem ao mal, a buscarem sabedoria divina e a se comprometerem com a justiça social, especialmente em relação aos pobres. Em um mundo marcado por dificuldades e tentações, Tiago nos desafia a viver uma fé autêntica que produza frutos espirituais visíveis e duradouros.`
-    },
-    {
-        id: "1PE",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 Pedro",
-        descricao: "Primeira carta de Pedro, oferecendo encorajamento aos cristãos perseguidos, destacando a santidade e a esperança em Cristo.",
-        autor: "Pedro",
-        ano: "aproximadamente 60-64 d.C.",
-        versiculo: 105,
-        capitulo: 5,
-        contexto_historico: "Pedro exorta os cristãos a permanecerem firmes na fé e a viverem de acordo com a graça de Deus, apesar das dificuldades."
-        , contexto: `O **Livro de 1 Pedro** é uma carta escrita pelo apóstolo Pedro, endereçada a cristãos dispersos por várias regiões do Império Romano, incluindo as províncias da Ásia Menor (atualmente a Turquia). O livro tem um tom pastoral, exortando os cristãos a manterem sua fé e esperança em meio ao sofrimento e perseguições. 1 Pedro oferece ensinamentos sobre como viver como cristãos em um mundo hostil, com foco em santidade, resistência ao sofrimento e a importância de uma boa conduta cristã.
+   },
+   {
+      id: "1PE",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 Pedro",
+      descricao: "Primeira carta de Pedro, oferecendo encorajamento aos cristãos perseguidos, destacando a santidade e a esperança em Cristo.",
+      autor: "Pedro",
+      ano: "aproximadamente 60-64 d.C.",
+      versiculo: 105,
+      capitulo: 5,
+      contexto_historico: "Pedro exorta os cristãos a permanecerem firmes na fé e a viverem de acordo com a graça de Deus, apesar das dificuldades."
+      , contexto: `O **Livro de 1 Pedro** é uma carta escrita pelo apóstolo Pedro, endereçada a cristãos dispersos por várias regiões do Império Romano, incluindo as províncias da Ásia Menor (atualmente a Turquia). O livro tem um tom pastoral, exortando os cristãos a manterem sua fé e esperança em meio ao sofrimento e perseguições. 1 Pedro oferece ensinamentos sobre como viver como cristãos em um mundo hostil, com foco em santidade, resistência ao sofrimento e a importância de uma boa conduta cristã.
 
 ### Estrutura do Livro
 
@@ -4084,18 +4084,18 @@ Este versículo sublinha a importância da humildade e confiança no tempo de De
 
 ### Conclusão
 O **Livro de 1 Pedro** é uma carta pastoral que oferece orientação prática e teológica sobre como viver fielmente em Cristo, especialmente diante do sofrimento e da perseguição. Pedro enfatiza a santidade, a esperança viva, o exemplo de Cristo no sofrimento, e a importância da humildade e vigilância na vida cristã. As exortações de Pedro são relevantes para os cristãos de todas as épocas, desafiando-os a manter a fé e a viver de maneira que honre a Deus, mesmo em tempos de adversidade.`
-    },
-    {
-        id: "2PE",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 Pedro",
-        descricao: "Segunda carta de Pedro, alertando sobre os falsos mestres e incentivando os cristãos a crescerem na graça e no conhecimento de Cristo.",
-        autor: "Pedro",
-        ano: "aproximadamente 65-68 d.C.",
-        versiculo: 61,
-        capitulo: 3,
-        contexto_historico: "Pedro alerta para a vinda de falsos ensinamentos e fala sobre o dia do Senhor e a necessidade de viver de maneira santa."
-        , contexto: `O **Livro de 2 Pedro** é uma carta do apóstolo **Pedro** escrita para cristãos que já haviam experimentado o evangelho e estavam em processo de amadurecimento na fé. O livro tem como objetivo principal **advertir contra falsos mestres** e **ensinamentos heréticos** que estavam se infiltrando nas igrejas, ao mesmo tempo em que encoraja os cristãos a **crescerem na graça e no conhecimento de Cristo**. O livro também aborda a **promessa da segunda vinda de Cristo** e o julgamento final, incentivando os cristãos a permanecerem firmes na fé, mesmo diante das dificuldades.
+   },
+   {
+      id: "2PE",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 Pedro",
+      descricao: "Segunda carta de Pedro, alertando sobre os falsos mestres e incentivando os cristãos a crescerem na graça e no conhecimento de Cristo.",
+      autor: "Pedro",
+      ano: "aproximadamente 65-68 d.C.",
+      versiculo: 61,
+      capitulo: 3,
+      contexto_historico: "Pedro alerta para a vinda de falsos ensinamentos e fala sobre o dia do Senhor e a necessidade de viver de maneira santa."
+      , contexto: `O **Livro de 2 Pedro** é uma carta do apóstolo **Pedro** escrita para cristãos que já haviam experimentado o evangelho e estavam em processo de amadurecimento na fé. O livro tem como objetivo principal **advertir contra falsos mestres** e **ensinamentos heréticos** que estavam se infiltrando nas igrejas, ao mesmo tempo em que encoraja os cristãos a **crescerem na graça e no conhecimento de Cristo**. O livro também aborda a **promessa da segunda vinda de Cristo** e o julgamento final, incentivando os cristãos a permanecerem firmes na fé, mesmo diante das dificuldades.
 
 ### 1. **Introdução e Saudação (2 Pedro 1:1-2)**  
 O livro começa com a saudação típica de Pedro, identificando-se como apóstolo de Jesus Cristo e destinatários da carta como cristãos que já receberam uma **fé preciosa** (2 Pedro 1:1). Pedro ora para que a graça e a paz sejam multiplicadas aos leitores **pelo conhecimento de Deus** e de **Jesus Cristo**, enfatizando a importância desse conhecimento para o crescimento na fé cristã.
@@ -4129,18 +4129,18 @@ Por fim, Pedro faz uma exortação aos cristãos para que **cresçam na graça e
 
 ### Conclusão
 O **Livro de 2 Pedro** é uma carta de **advertência e exortação**, com uma forte ênfase na necessidade de **perseverança na fé**, **crescimento espiritual** e vigilância contra os **falsos mestres** e suas doutrinas destrutivas. Pedro lembra os cristãos de sua **identidade em Cristo** e os exorta a viver uma vida santa enquanto aguardam a **segunda vinda de Cristo** e a restauração de todas as coisas. Ele também reforça a **autoridade das Escrituras** e a importância de manter-se firme nos ensinamentos verdadeiros, apesar dos desafios e da corrupção que podem surgir dentro da igreja.`
-    },
-    {
-        id: "1JN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "1 João",
-        descricao: "Primeira carta de João, que aborda o amor de Deus, a importância de viver em comunhão com Ele e a certeza da salvação.",
-        autor: "João",
-        ano: "aproximadamente 85-90 d.C.",
-        versiculo: 105,
-        capitulo: 5,
-        contexto_historico: "João enfatiza a importância do amor cristão e do discernimento contra os falsos ensinos sobre a identidade de Jesus."
-        , contexto: `O **Livro de 1 João** é uma das cartas universais do Novo Testamento, escrita pelo apóstolo **João**. Embora o autor não se identifique explicitamente na carta, a tradição cristã e os textos bíblicos indicam que foi João, o apóstolo amado de Jesus, quem escreveu. A carta foi provavelmente destinada a **cristãos de origem gentílica** espalhados por várias comunidades, com o propósito de corrigir falsos ensinamentos e fortalecer a fé verdadeira em Cristo.
+   },
+   {
+      id: "1JN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "1 João",
+      descricao: "Primeira carta de João, que aborda o amor de Deus, a importância de viver em comunhão com Ele e a certeza da salvação.",
+      autor: "João",
+      ano: "aproximadamente 85-90 d.C.",
+      versiculo: 105,
+      capitulo: 5,
+      contexto_historico: "João enfatiza a importância do amor cristão e do discernimento contra os falsos ensinos sobre a identidade de Jesus."
+      , contexto: `O **Livro de 1 João** é uma das cartas universais do Novo Testamento, escrita pelo apóstolo **João**. Embora o autor não se identifique explicitamente na carta, a tradição cristã e os textos bíblicos indicam que foi João, o apóstolo amado de Jesus, quem escreveu. A carta foi provavelmente destinada a **cristãos de origem gentílica** espalhados por várias comunidades, com o propósito de corrigir falsos ensinamentos e fortalecer a fé verdadeira em Cristo.
 
 1 João é uma carta profundamente teológica, mas também prática e pastoral. Seu tema central é a **comunhão com Deus** e a **vida cristã autêntica**, com ênfase no **amor de Deus**, no **amor ao próximo** e na **verdade do Evangelho**. A carta aborda as realidades da **luz e das trevas**, da **verdade e do erro**, e da **vida eterna** em Cristo.
 
@@ -4227,18 +4227,18 @@ Paulo conclui a carta afirmando que ele escreveu para que os cristãos **saibam 
 
 **Conclusão**:
 O livro de **1 João** é uma carta profundamente centrada no **amor de Deus**, na **verdade do Evangelho** e na **vida cristã autêntica**. João destaca que a verdadeira comunhão com Deus se expressa em **obedecer a Seus mandamentos**, **amar aos outros** e viver **em pureza e santidade**. A carta também confronta os cristãos sobre a **falsidade do pecado**, a **necessidade de arrependimento** e`
-    },
-    {
-        id: "2JN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "2 João",
-        descricao: "Segunda carta de João, advertindo contra os falsos mestres e exortando a manter a verdade do evangelho.",
-        autor: "João",
-        ano: "aproximadamente 85-90 d.C.",
-        versiculo: 13,
-        capitulo: 1,
-        contexto_historico: "João exorta os cristãos a permanecerem na verdade e a não receberem aqueles que negam a verdade sobre Cristo."
-        , contexto: `A **2ª Epístola de João** é uma carta breve, mas rica em ensinamentos e exortações práticas para a vida cristã. Ela é endereçada a uma "senhora eleita" e seus filhos, que provavelmente se referem a uma igreja e seus membros. O propósito principal de João ao escrever esta carta é alertar os cristãos contra os falsos mestres que estavam tentando corromper a fé cristã, e reforçar a importância de viver na verdade e no amor.
+   },
+   {
+      id: "2JN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "2 João",
+      descricao: "Segunda carta de João, advertindo contra os falsos mestres e exortando a manter a verdade do evangelho.",
+      autor: "João",
+      ano: "aproximadamente 85-90 d.C.",
+      versiculo: 13,
+      capitulo: 1,
+      contexto_historico: "João exorta os cristãos a permanecerem na verdade e a não receberem aqueles que negam a verdade sobre Cristo."
+      , contexto: `A **2ª Epístola de João** é uma carta breve, mas rica em ensinamentos e exortações práticas para a vida cristã. Ela é endereçada a uma "senhora eleita" e seus filhos, que provavelmente se referem a uma igreja e seus membros. O propósito principal de João ao escrever esta carta é alertar os cristãos contra os falsos mestres que estavam tentando corromper a fé cristã, e reforçar a importância de viver na verdade e no amor.
 
 ### **Estrutura e Temas Principais de 2 João**
 
@@ -4293,18 +4293,18 @@ Essa conclusão reflete o desejo de João de ter uma relação mais direta e pes
 A **2ª Epístola de João** é uma carta concisa, mas profunda, que nos ensina sobre a importância de viver na verdade e no amor. João destaca o amor como central para a vida cristã, mas também alerta de forma vigorosa sobre os perigos dos falsos mestres, que negam a verdadeira doutrina sobre Cristo. Ele também exorta os cristãos a protegerem a pureza do evangelho, mantendo-se fiéis aos ensinamentos de Cristo e resistindo a qualquer influência que distorça a verdade.
 
 Se você tiver alguma dúvida adicional ou quiser explorar algum ponto mais detalhadamente, me avise!`
-    },
-    {
-        id: "3JN",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "3 João",
-        descricao: "Terceira carta de João, incentivando a hospitalidade e o apoio aos missionários.",
-        autor: "João",
-        ano: "aproximadamente 85-90 d.C.",
-        versiculo: 15,
-        capitulo: 1,
-        contexto_historico: "João encoraja a generosidade e a hospitalidade, contrastando os exemplos de Diótrefes e Demétrio."
-        , contexto: `O **livro de 3 João** é uma das cartas do Novo Testamento atribuídas ao apóstolo **João**, conhecida por ser a carta mais curta da Bíblia, com apenas 14 versículos. Ela é uma carta pessoal endereçada a **Gáios**, um membro da igreja, e tem como foco questões de hospitalidade, fidelidade e as atitudes de dois indivíduos dentro da comunidade cristã. O livro reflete a preocupação pastoral de João com a saúde espiritual da igreja e a manutenção de sua pureza em relação a doutrinas e comportamentos.
+   },
+   {
+      id: "3JN",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "3 João",
+      descricao: "Terceira carta de João, incentivando a hospitalidade e o apoio aos missionários.",
+      autor: "João",
+      ano: "aproximadamente 85-90 d.C.",
+      versiculo: 15,
+      capitulo: 1,
+      contexto_historico: "João encoraja a generosidade e a hospitalidade, contrastando os exemplos de Diótrefes e Demétrio."
+      , contexto: `O **livro de 3 João** é uma das cartas do Novo Testamento atribuídas ao apóstolo **João**, conhecida por ser a carta mais curta da Bíblia, com apenas 14 versículos. Ela é uma carta pessoal endereçada a **Gáios**, um membro da igreja, e tem como foco questões de hospitalidade, fidelidade e as atitudes de dois indivíduos dentro da comunidade cristã. O livro reflete a preocupação pastoral de João com a saúde espiritual da igreja e a manutenção de sua pureza em relação a doutrinas e comportamentos.
 
 ### **Introdução e Saudação (Versículos 1-4)**
 
@@ -4353,18 +4353,18 @@ A carta termina com palavras de despedida, onde João expressa seu desejo de pod
 ### **Conclusão**
 
 O livro de 3 João é uma carta breve, mas muito rica em ensinamentos práticos sobre como viver a fé cristã no cotidiano. A carta enfatiza a importância da hospitalidade, da fidelidade à verdade e do apoio aos missionários. Ao mesmo tempo, João adverte contra atitudes autoritárias e egoístas, como as de Diotrefes, que buscam corromper a comunidade cristã. Gáios, com sua hospitalidade e generosidade, serve como exemplo positivo, e Demétrio é citado como alguém que caminha fielmente na verdade. A carta conclui com uma exortação à paz e à unidade dentro da igreja.`
-    },
-    {
-        id: "JUD",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Judas",
-        descricao: "Epístola de Judas, alertando contra os falsos mestres e exortando os cristãos a lutar pela fé.",
-        autor: "Judas",
-        ano: "aproximadamente 65-80 d.C.",
-        versiculo: 25,
-        capitulo: 1,
-        contexto_historico: "Judas adverte contra os falsos ensinamentos e exorta os cristãos a se manterem firmes na verdadeira fé."
-        , contexto: `A **Carta de Judas** é uma das epístolas mais curtas do Novo Testamento, composta por apenas um capítulo. Embora seja breve, contém advertências fortes e exortações urgentes para que os cristãos permaneçam firmes na fé diante das falsas doutrinas e da imoralidade que se espalhavam na igreja primitiva. A carta é atribuída a Judas, irmão de Tiago e, portanto, um dos parentes de Jesus, mas a sua identidade como autor não é amplamente discutida no texto.
+   },
+   {
+      id: "JUD",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Judas",
+      descricao: "Epístola de Judas, alertando contra os falsos mestres e exortando os cristãos a lutar pela fé.",
+      autor: "Judas",
+      ano: "aproximadamente 65-80 d.C.",
+      versiculo: 25,
+      capitulo: 1,
+      contexto_historico: "Judas adverte contra os falsos ensinamentos e exorta os cristãos a se manterem firmes na verdadeira fé."
+      , contexto: `A **Carta de Judas** é uma das epístolas mais curtas do Novo Testamento, composta por apenas um capítulo. Embora seja breve, contém advertências fortes e exortações urgentes para que os cristãos permaneçam firmes na fé diante das falsas doutrinas e da imoralidade que se espalhavam na igreja primitiva. A carta é atribuída a Judas, irmão de Tiago e, portanto, um dos parentes de Jesus, mas a sua identidade como autor não é amplamente discutida no texto.
 
 Aqui está um **resumo detalhado** da carta, com destaque para suas partes mais marcantes:
 
@@ -4409,18 +4409,18 @@ A carta termina com uma doxologia, ou seja, uma palavra de louvor e adoração a
 ### Conclusão
 
 A carta de Judas é um aviso forte sobre os perigos das falsas doutrinas e das pessoas que distorcem a verdade para justificar suas próprias paixões e interesses. É um chamado à vigilância, à perseverança na fé e à luta pela integridade do evangelho. Judas usa exemplos históricos e bíblicos para alertar sobre o juízo que aguarda os ímpios, ao mesmo tempo em que exorta os cristãos a se manterem firmes, amando uns aos outros, orando e confiando em Deus. A carta encerra com uma gloriosa doxologia que nos lembra da supremacia de Deus e de Sua capacidade de nos preservar até o fim.`
-    },
-    {
-        id: "REV",
-        imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
-        titulo: "Apocalipse",
-        descricao: "Último livro do Novo Testamento, escrito por João, que revela visões apocalípticas sobre o fim dos tempos, o juízo final e a vitória de Cristo.",
-        autor: "João",
-        ano: "aproximadamente 95-96 d.C.",
-        versiculo: 404,
-        capitulo: 22,
-        contexto_historico: "Apocalipse descreve visões simbólicas sobre o julgamento final, a destruição de Babilônia e o estabelecimento do novo céu e da nova terra."
-        , contexto: `O **Livro do Apocalipse**, também conhecido como **Revelação**, é o último livro do Novo Testamento da Bíblia e é atribuído ao apóstolo João. Ele descreve visões proféticas que João teve enquanto estava exilado na ilha de Patmos, por volta do ano 95 d.C. O livro contém uma série de símbolos e imagens que descrevem o fim dos tempos, o julgamento de Deus e a vitória final sobre o mal.
+   },
+   {
+      id: "REV",
+      imagem: "https://biblicalchronology.com/wp-content/uploads/2024/02/exploring_the_name_harlow-jpg.webp",
+      titulo: "Apocalipse",
+      descricao: "Último livro do Novo Testamento, escrito por João, que revela visões apocalípticas sobre o fim dos tempos, o juízo final e a vitória de Cristo.",
+      autor: "João",
+      ano: "aproximadamente 95-96 d.C.",
+      versiculo: 404,
+      capitulo: 22,
+      contexto_historico: "Apocalipse descreve visões simbólicas sobre o julgamento final, a destruição de Babilônia e o estabelecimento do novo céu e da nova terra."
+      , contexto: `O **Livro do Apocalipse**, também conhecido como **Revelação**, é o último livro do Novo Testamento da Bíblia e é atribuído ao apóstolo João. Ele descreve visões proféticas que João teve enquanto estava exilado na ilha de Patmos, por volta do ano 95 d.C. O livro contém uma série de símbolos e imagens que descrevem o fim dos tempos, o julgamento de Deus e a vitória final sobre o mal.
 
 ### Estrutura e Resumo Geral
 O Apocalipse é dividido em **22 capítulos** e pode ser entendido em diferentes camadas: literária, histórica, teológica e escatológica. Ele apresenta mensagens tanto para as igrejas da Ásia Menor (nas primeiras cartas) quanto uma série de visões simbólicas sobre eventos cósmicos e espirituais que culminam no retorno de Cristo e no estabelecimento do Reino de Deus.
@@ -4493,7 +4493,7 @@ O Apocalipse culmina com a criação de um **novo céu e uma nova Terra**, e a *
 
 ### Considerações Finais
 O Livro de Apocalipse é uma obra carregada de imagens poderosas e simbólicas. Sua mensagem central é a **vitória final de Deus sobre o mal**, a **restauração do Reino de Deus** e a **esperança de uma nova criação**. Embora o livro use uma linguagem apocalíptica, cheia de símbolos e imagens, sua mensagem é de consolo para os fiéis, lembrando-os de que, apesar das dificuldades e da perseguição, **Deus tem o controle** e, no fim, haverá vitória.`
-    }
+   }
 ];
 
 export default livros;

@@ -1,6 +1,5 @@
 <script>
   import Logo from "../shared/Logo.svelte";
-  import Texto from "../shared/Texto.svelte";
 </script>
 
 <footer class=" flex justify-end px-5 items-center border-t border-zinc-800">
