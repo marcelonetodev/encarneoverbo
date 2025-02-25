@@ -144,7 +144,9 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
         <div class="gap-5 flex flex-col">
           <Titulo principal={lv.titulo} secundario="Capítulos" />
           <div class="justify-center flex p-5" id="cap">
-            <div class="grid grid-cols-10 gap-4">
+            <div
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
+            >
               {#each { length: lv.capitulo }, cap}
                 <Botao texto={cap + 1} funcao={() => api(lv.titulo, cap + 1)} />
               {/each}

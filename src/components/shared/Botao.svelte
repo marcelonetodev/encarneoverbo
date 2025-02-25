@@ -13,6 +13,7 @@
 
 <script lang="ts">
   export let funcao: any = null;
+  export let capitulo: any = null;
   export let funcaoSalvar: any = null;
   export let funcaoApagar: any = null;
   export let texto: any = null;
@@ -22,6 +23,15 @@
   <button
     onclick={funcao}
     class="cursor-pointer border text-align text-center justify-center border-zinc-800 rounded-md p-2 text-zinc-400 hover:bg-zinc-600 text-sm sm:text-base px-4 sm:px-6"
+  >
+    {texto}
+  </button>
+{/if}
+
+{#if capitulo}
+  <button
+    onclick={capitulo}
+    class="cursor-pointer border text-align text-center justify-center border-zinc-800 rounded-md p-2 text-zinc-400 hover:bg-zinc-600 text-sm sm:text-base px-4 sm:px-6 sm:py-2"
   >
     {texto}
   </button>

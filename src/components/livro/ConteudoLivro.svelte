@@ -222,7 +222,7 @@
           <Titulo principal="Capítulos" />
           <div class="relative flex justify-center p-5">
             <div
-              class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+              class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
             >
               {#each { length: livro.capitulo }, cap}
                 <Botao texto={cap + 1} funcao={() => api(cap + 1)} />
