@@ -7,7 +7,7 @@
 <li class="w-full">
   <a
     {href}
-    class="underline-offset-8 flex gap-2 h:justify-center items-center cursor-pointer px-8 py-2 hover:underline hover:text-white text-zinc-300 hover:bg-zinc-1000 w-full"
+    class="underline-offset-8 flex gap-2 h:justify-center items-center cursor-pointer px-4 py-2 hover:underline hover:text-white text-zinc-300 hover:bg-zinc-1000 w-full"
   >
     <span>{texto}</span>
     {#if icone}
