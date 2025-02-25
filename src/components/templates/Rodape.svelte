@@ -14,7 +14,7 @@
     </p>
 
     <h3 class="text-zinc-700">
-      Todos os direitos reservados &copy Marcelo Neto - {new Date().getFullYear()}
+      Todos os direitos reservados &copy Marcelo N. | {new Date().getFullYear()}
     </h3>
   </div>
 </footer>
