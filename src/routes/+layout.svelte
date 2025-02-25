@@ -10,7 +10,6 @@
     name="description"
     content="Encarne o Verbo é sobre Cristo! É sobre buscar ao unico tesouro precioso que não poderíamos merecer, mas nos foi dado de bom grado pelo Pai."
   />
-  <meta name="viewport" content="user-scalable=no" />
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Encarne o Verbo" />
   <meta property="og:description" content="Encarne o verbo é sobre Cristo!" />
