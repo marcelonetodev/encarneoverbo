@@ -13,7 +13,7 @@
 
   async function api(lv: any, cap: any) {
     const response = await fetch(
-      `https://bible-api.com/${lv}+${cap}?translation=almeida`
+      `https://bible-api.com/${lv}+${cap}?translation=almeida`,
     );
     book = await response.json();
     text = book.text;
@@ -48,7 +48,7 @@
   />
   <Titulo
     principal=" Livros da Bíblia"
-    secundario="Todos os livros da bíblia ao seu alcance."
+    secundario="Escolha o livro da bíblia abaixo."
   />
 
   {#if book !== null}
@@ -85,6 +85,7 @@
       class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-md bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
       on:change={handleBookSelection}
     >
+      <option class="bg-black" selected>Clique para escolher o livro, de Gênesis a Apocalipse</option>
       {#each livros as lv}
         <option class="bg-black" value={lv.titulo}>{lv.titulo}</option>
       {/each}
@@ -95,7 +96,7 @@
     {#each livros as lv}
       {#if lv.titulo === selectedBook}
         <div class="gap-5 flex flex-col">
-          <Titulo principal={lv.titulo} secundario="Capítulos" />
+          <Titulo principal={lv.titulo} secundario="Escolha qual o capítulo" />
           <div class="justify-center flex p-5" id="cap">
             <div
               class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
