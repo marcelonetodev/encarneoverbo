@@ -38,7 +38,7 @@
 <div class="flex flex-col gap-10">
   <Titulo
     before="Encarne o"
-    key="verbo"
+    key="Verbo"
     after="No coração da palavra, onde a essência da alma se encontra com a arte do verbo, há um convite único, irresistível."
   />
   <Texto
