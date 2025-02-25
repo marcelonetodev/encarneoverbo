@@ -20,7 +20,6 @@
     verses = book.verses;
     reference = book.reference;
     count++;
-    window.scrollTo(0, 0);
   }
 
   function handleBookSelection(event: Event) {
@@ -39,7 +38,7 @@
 <div class="flex flex-col gap-10">
   <Titulo
     principal="Encarne o verbo!"
-    secundario="No coração da palavra, onde a essência da alma se encontra com a arte do verbo, há um convite único, irresistível: encarne a palavra"
+    secundario="No coração da palavra, onde a essência da alma se encontra com a arte do verbo, há um convite único, irresistível: encarne a palavra!"
   />
   <Texto
     img="https://img.freepik.com/fotos-premium/cristo-com-os-discipulos-ia-generativa_225446-5263.jpg"
