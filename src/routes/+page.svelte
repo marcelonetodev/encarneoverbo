@@ -64,6 +64,7 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
 
   export let book: any = null;
   export let text: any = null;
+  export let verses: any = null;
   export let reference: any = null;
   export let count: any = 1;
   let selectedBook: string | null = null;
@@ -74,6 +75,7 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
     );
     book = await response.json();
     text = book.text;
+    verses = book.verses;
     reference = book.reference;
     count++;
     window.scrollTo(0, 0);
@@ -82,6 +84,13 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
   function handleBookSelection(event: Event) {
     const selectElement = event.target as HTMLSelectElement;
     selectedBook = selectElement.value;
+  }
+
+  function copiarTexto() {
+    const textoParaCopiar = text || "Texto não disponível.";
+    navigator.clipboard.writeText(textoParaCopiar).then(() => {
+      alert("Texto copiado para a área de transferência!");
+    });
   }
 </script>
 
@@ -95,14 +104,26 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
     secundario="Fique livre para escrever suas ideias."
   />
   <Markdown />
+  <span class="border-b border border-zinc-800"></span>
   <Titulo
-    principal="Bíblia"
+    principal=" Livros da Bíblia"
     secundario="Todos os livros da bíblia ao seu alcance."
   />
 
   {#if book !== null}
     <Titulo principal={reference} />
-    <Texto texto={text} />
+    <div class="relative border border-zinc-800 rounded-md gap-5 p-3">
+      <button
+        class="bg-zinc-800/20 text-white/20 px-2 py-1 text-sm hover:bg-zinc-800 focus:outline-none absolute top-0 right-0 cursor-pointer"
+        on:click={copiarTexto}
+        title="Copiar Texto"
+      >
+        ⎘ Copiar
+      </button>
+      {#each verses as verse, index}
+        <Texto versiculo={verse.text} index={verse.verse} />
+      {/each}
+    </div>
   {/if}
 
   <!-- Menu suspenso para selecionar o livro -->
@@ -121,7 +142,7 @@ Aqui você tem acesso a todos os livros da Bíblia de maneira prática e rápida
     {#each livros as lv}
       {#if lv.titulo === selectedBook}
         <div class="gap-5 flex flex-col">
-          <Titulo principal={lv.titulo} />
+          <Titulo principal={lv.titulo} secundario="Capítulos" />
           <div class="justify-center flex p-5" id="cap">
             <div class="grid grid-cols-10 gap-4">
               {#each { length: lv.capitulo }, cap}

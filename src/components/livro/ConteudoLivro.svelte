@@ -158,7 +158,6 @@
   export let book: any = null;
   export let text: any = null;
   export let verses: any = null;
-  export let chapter: any = null;
   export let reference: any = null;
   export let count: any = 1;
 
@@ -174,11 +173,10 @@
     window.scrollTo(0, 0);
   }
 
-  // Função para copiar o texto do capítulo para a área de transferência
   function copiarTexto() {
-    const textoParaCopiar = text || "Texto não disponível."; // Usar o texto carregado ou um fallback
+    const textoParaCopiar = text || "Texto não disponível.";
     navigator.clipboard.writeText(textoParaCopiar).then(() => {
-      alert("Texto copiado para a área de transferência!"); // Exibe uma mensagem de sucesso
+      alert("Texto copiado para a área de transferência!");
     });
   }
 </script>
@@ -206,26 +204,30 @@
       <div class="gap-5 flex flex-col">
         {#if book !== null}
           <Titulo principal={reference} />
-          <div class="relative">
-            <Texto texto={text} />
+          <div class="relative border border-zinc-800 rounded-md gap-5">
             <button
-              class="bg-zinc-800/20 text-white px-2 py-1 rounded-md text-sm hover:bg-zinc-800 focus:outline-none absolute top-0 right-0"
+              class="bg-zinc-800/20 text-white/20 px-2 py-1 text-sm hover:bg-zinc-800 focus:outline-none absolute top-0 right-0 cursor-pointer"
               on:click={copiarTexto}
               title="Copiar Texto"
             >
               ⎘ Copiar
             </button>
+            {#each verses as verse, index}
+              <Texto versiculo={verse.text} index={verse.verse} />
+            {/each}
           </div>
         {/if}
-        <span class="border-b border border-zinc-800"></span>
-        <Titulo principal="Capítulos" />
-        <div class="relative flex justify-center p-5">
-          <div
-            class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
-          >
-            {#each { length: livro.capitulo }, cap}
-              <Botao texto={cap + 1} funcao={() => api(cap + 1)} />
-            {/each}
+        <div class="flex flex-col p-5">
+          <span class="border-b border border-zinc-800"></span>
+          <Titulo principal="Capítulos" />
+          <div class="relative flex justify-center p-5">
+            <div
+              class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+            >
+              {#each { length: livro.capitulo }, cap}
+                <Botao texto={cap + 1} funcao={() => api(cap + 1)} />
+              {/each}
+            </div>
           </div>
         </div>
       </div>
