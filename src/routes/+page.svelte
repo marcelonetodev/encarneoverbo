@@ -37,7 +37,7 @@
 
 <div class="flex flex-col gap-10">
   <Titulo
-    principal="Encarne o verbo!"
+    principal="Encarne o verbo"
     secundario="No coração da palavra, onde a essência da alma se encontra com a arte do verbo, há um convite único, irresistível: encarne a palavra!"
   />
   <Texto
