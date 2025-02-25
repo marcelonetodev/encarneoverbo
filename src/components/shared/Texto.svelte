@@ -3,6 +3,7 @@
 
   export let textoMarkdown: any = null;
   export let texto: any = null;
+  export let textoSB: any = null;
   export let img: any = null;
   export let descricaoImg: any = null;
   export let versiculo: any = null;
@@ -26,9 +27,16 @@
     </p>
   </div>
 {/if}
+{#if textoSB}
+  <div class="flex flex-col sm:flex-row gap-5 p-5">
+    <p class="text-justify text-zinc-400 text-sm sm:text-base">
+      {textoSB}
+    </p>
+  </div>
+{/if}
 
 {#if versiculo && index}
-  <div class="flex flex-col sm:flex-row gap-5 p-3">
+  <div class="flex flex-row gap-5 p-3">
     <span class="pl-3 pr-0 py-1 text-zinc-600 text-xs sm:text-sm">
       {index}
     </span>
