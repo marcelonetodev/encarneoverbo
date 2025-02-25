@@ -54,9 +54,9 @@
       <div class="gap-5 flex flex-col">
         {#if book !== null}
           <Titulo principal={reference} />
-          <div class="relative border border-zinc-800 rounded-md gap-5">
+          <div class="relative border border-zinc-800 rounded-md gap-5 p-3">
             <button
-              class="bg-zinc-800/20 text-white/20 px-2 py-1 text-sm hover:bg-zinc-800 focus:outline-none absolute top-0 right-0 cursor-pointer"
+              class="bg-transparent text-white/20 px-2 py-1 text-sm rounded-tr-sm rounded-bl-md hover:bg-zinc-800 focus:outline-none absolute top-0 right-0 cursor-pointer"
               on:click={copiarTexto}
               title="Copiar Texto"
             >
