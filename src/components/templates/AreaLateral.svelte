@@ -122,6 +122,7 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
+      <option value="/">Livros</option>
       <option value="/livros/GEN">Gênesis</option>
       <option value="/livros/EXO">Êxodo</option>
       <option value="/livros/LEV">Levítico</option>
@@ -135,7 +136,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/JOS">Josué</option>
+    <option value="/">Livros</option>
+    <option value="/livros/JOS">Josué</option>
       <option value="/livros/JDG">Juízes</option>
       <option value="/livros/RUT">Rute</option>
       <option value="/livros/1SA">I Samuel</option>
@@ -155,7 +157,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/JOB">Jó</option>
+    <option value="/">Livros</option>
+    <option value="/livros/JOB">Jó</option>
       <option value="/livros/PSA">Salmos</option>
       <option value="/livros/PRO">Provérbios</option>
       <option value="/livros/ECC">Eclesiastes</option>
@@ -168,7 +171,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/ISA">Isaías</option>
+    <option value="/">Livros</option>
+    <option value="/livros/ISA">Isaías</option>
       <option value="/livros/JER">Jeremias</option>
       <option value="/livros/LAM">Lamentações</option>
       <option value="/livros/EZK">Ezequiel</option>
@@ -193,7 +197,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/MAT">Mateus</option>
+    <option value="/">Livros</option>
+    <option value="/livros/MAT">Mateus</option>
       <option value="/livros/MRK">Marcos</option>
       <option value="/livros/LUK">Lucas</option>
       <option value="/livros/JHN">João</option>
@@ -205,7 +210,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/ACT">Atos dos Apóstolos</option>
+    <option value="/">Livros</option>
+    <option value="/livros/ACT">Atos dos Apóstolos</option>
     </select>
   </Menu>
 
@@ -214,7 +220,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/ROM">Romanos</option>
+    <option value="/">Livros</option>
+    <option value="/livros/ROM">Romanos</option>
       <option value="/livros/1CO">I Coríntios</option>
       <option value="/livros/2CO">II Coríntios</option>
       <option value="/livros/GAL">Gálatas</option>
@@ -236,7 +243,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/JAS">Tiago</option>
+    <option value="/">Livros</option>
+    <option value="/livros/JAS">Tiago</option>
       <option value="/livros/1PE">I Pedro</option>
       <option value="/livros/2PE">II Pedro</option>
       <option value="/livros/1JN">I João</option>
@@ -251,7 +259,8 @@
       class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
       on:change={handleSelectChange}
     >
-      <option value="/livros/REV">Apocalipse</option>
+    <option value="/">Livros</option>
+    <option value="/livros/REV">Apocalipse</option>
     </select>
   </Menu>
 </aside>
