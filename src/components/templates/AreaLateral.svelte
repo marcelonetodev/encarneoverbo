@@ -7,8 +7,9 @@
   class="flex flex-col self-start gap-10 min-w-72 border border-zinc-800 p-5 rounded-md"
 >
   <Menu titulo="Navegação">
-    <MenuItem texto="Início" href="/" />
+    <MenuItem texto="Bíblia" href="/" />
     <MenuItem texto="Contexto Histórico" href="/livros" />
+    <MenuItem texto="Anotações" href="/anotacoes" />
   </Menu>
   <Menu titulo="Pentateuco">
     <MenuItem texto="Gênesis" href="/livros/GEN" />
