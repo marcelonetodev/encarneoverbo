@@ -38,12 +38,12 @@
     textoSB="No princípio, antes do tempo, Ele já era. O Verbo, eterno e imutável, habitava o infinito, onde palavras não eram apenas sons, mas a essência de tudo que existe. Era a voz que ecoava no silêncio do universo, o sopro que sustentava a criação, o pensamento que movia as estrelas."
     descricaoImg="Encarne o Verbo!"
   />
-  <Titulo
+  <!-- <Titulo
     principal=" Livros da Bíblia"
     secundario="Escolha o livro da bíblia abaixo."
-  />
+  /> -->
 
-  {#if book !== null}
+  <!-- {#if book !== null}
     <Titulo principal={reference} />
     <div class="border border-zinc-800 rounded-md gap-5 p-3">
       {#each verses as verse, index}
@@ -54,9 +54,9 @@
         </div>
       {/each}
     </div>
-  {/if}
+  {/if} -->
 
-  <div class="flex justify-center">
+  <!-- <div class="flex justify-c0enter">
     <select
       class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-md bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
       on:change={handleBookSelection}
@@ -88,5 +88,5 @@
         </div>
       {/if}
     {/each}
-  {/if}
+  {/if} -->
 </div>

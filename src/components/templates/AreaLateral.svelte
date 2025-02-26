@@ -112,8 +112,9 @@
   class="flex flex-col self-start gap-10 min-w-72 border border-zinc-800 p-5 rounded-md"
 >
   <Menu titulo="Navegação">
-    <MenuItem texto="Bíblia" href="/" />
+    <MenuItem texto="Início" href="/" />
     <MenuItem texto="Estudo" href="/livros" />
+    <MenuItem texto="Bíblia" href="/biblia" />
     <MenuItem texto="Notas" href="/anotacoes" />
   </Menu>
 

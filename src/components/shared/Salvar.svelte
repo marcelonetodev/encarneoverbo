@@ -14,7 +14,7 @@
     function setar(text: any, verse: any, reference: any, id: any) {
         active = true;
         let novaMensagem =
-            `[${reference}:${verse} - ${text}](livros/${id})` || "Texto não disponível.";
+            `[No texto de **${reference}:${verse}** diz: "${text}"](livros/${id})` || "Texto não disponível.";
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();
             if (!verificar(aux)) {
