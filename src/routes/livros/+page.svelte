@@ -31,7 +31,7 @@
           console.log(selectedBook)
           console.log(livro.id)
           if(selectedBook == livro.id){
-              window.location.href = `/biblia/${livro.id}`
+              window.location.href = `/livros/${livro.id}`
           }
       }
   }
