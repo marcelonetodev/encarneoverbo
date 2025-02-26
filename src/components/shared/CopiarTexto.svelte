@@ -7,7 +7,7 @@
     function copiarTexto(text: any, verse: any, reference: any, id: any) {
         active = true;
         const textoParaCopiar =
-            `${reference}:${verse} - ${text} Acesso o livro em: encarneoverbo.com.br/livros/${id}` || "Texto não disponível.";
+            `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse o livro em: encarneoverbo.com.br/livros/${id}` || "Texto não disponível.";
         navigator.clipboard.writeText(textoParaCopiar).then(() => {
             alert("Texto copiado para a área de transferência!");
         });
