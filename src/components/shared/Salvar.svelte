@@ -2,6 +2,7 @@
     export let text: any;
     export let verse: any;
     export let reference: any;
+    export let id: any;
 
     let mensagemA: string[] = [];
     export let maxAnotacoes: number = 20;
@@ -10,10 +11,10 @@
         return localStorage.getItem(aux) ? true : false;
     }
     let active = false;
-    function setar(text: any, verse: any, reference: any) {
+    function setar(text: any, verse: any, reference: any, id: any) {
         active = true;
         let novaMensagem =
-            `${reference}:${verse} - ${text}` || "Texto não disponível.";
+            `[${reference}:${verse} - ${text}](livros/${id})` || "Texto não disponível.";
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();
             if (!verificar(aux)) {
@@ -29,7 +30,7 @@
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
     class=" text-white/60 px-2 py-1 text-sm rounded-bl-md hover:bg-green-800/20 focus:outline-none absolute top-8 right-0 cursor-pointer"
-    on:click={() => setar(text, verse, reference)}
+    on:click={() => setar(text, verse, reference, id)}
     title="Salvar versículo"
 >
     {#if !active}

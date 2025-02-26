@@ -48,8 +48,8 @@
     <div class="border border-zinc-800 rounded-md gap-5 p-3">
       {#each verses as verse, index}
         <div class="relative">
-          <Salvar text={verse.text} verse={verse.verse} {reference} />
-          <CopiarTexto text={verse.text} verse={verse.verse} {reference} />
+          <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
+          <CopiarTexto text={verse.text} verse={verse.verse} {reference}  id={verse.book_id} />
           <Texto versiculo={verse.text} index={verse.verse} />
         </div>
       {/each}
