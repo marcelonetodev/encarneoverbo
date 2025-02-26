@@ -1,8 +1,8 @@
 <script lang="ts">
-  import api from '../api/api'
+  import api from "../api/api";
   import Botao from "../components/shared/Botao.svelte";
   import CopiarTexto from "../components/shared/CopiarTexto.svelte";
-    import Salvar from '../components/shared/Salvar.svelte';
+  import Salvar from "../components/shared/Salvar.svelte";
   import Texto from "../components/shared/Texto.svelte";
   import Titulo from "../components/shared/Titulo.svelte";
   import livros from "../constants/livros";
@@ -13,20 +13,18 @@
   export let reference: any = null;
   let selectedBook: string | null = null;
 
-  async function chamarApi(livro:any, capitulo:any){
-    book = api(livro, capitulo)
-    Promise.resolve(book).then(
-  (value) => {
-    text = value.text;
-    verses = value.verses;
-    reference = value.reference;
-  },)    
-}
+  async function chamarApi(livro: any, capitulo: any) {
+    book = api(livro, capitulo);
+    Promise.resolve(book).then((value) => {
+      text = value.text;
+      verses = value.verses;
+      reference = value.reference;
+    });
+  }
   function handleBookSelection(event: Event) {
     const selectElement = event.target as HTMLSelectElement;
     selectedBook = selectElement.value;
   }
-
 </script>
 
 <div class="flex flex-col gap-10">
@@ -49,11 +47,11 @@
     <Titulo principal={reference} />
     <div class="border border-zinc-800 rounded-md gap-5 p-3">
       {#each verses as verse, index}
-      <div class="relative">
-        <Salvar text={verse.text} verse={verse.verse} reference={reference} />
-        <CopiarTexto text={verse.text} verse={verse.verse} reference={reference} />
-        <Texto versiculo={verse.text} index={verse.verse} />
-      </div>
+        <div class="relative">
+          <Salvar text={verse.text} verse={verse.verse} {reference} />
+          <CopiarTexto text={verse.text} verse={verse.verse} {reference} />
+          <Texto versiculo={verse.text} index={verse.verse} />
+        </div>
       {/each}
     </div>
   {/if}
@@ -80,7 +78,10 @@
               class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
             >
               {#each { length: lv.capitulo }, cap}
-                <Botao texto={cap + 1} funcao={() => chamarApi(lv.id, cap + 1)} />
+                <Botao
+                  texto={cap + 1}
+                  funcao={() => chamarApi(lv.id, cap + 1)}
+                />
               {/each}
             </div>
           </div>

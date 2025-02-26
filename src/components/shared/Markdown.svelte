@@ -49,7 +49,7 @@
       class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-sm sm:text-base text-justify text-zinc-400"
     >
       <p class="font-semibold text-xl sm:text-3xl">
-        Anotação {index + 1}:
+        Gravação {index + 1}:
       </p>
       <p>{@html marked(msg)}</p>
       <Botao texto="Apagar" funcaoApagar={() => apagar(index)} />

@@ -15,7 +15,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class="bg-transparent text-white/20 px-2 py-1 text-sm rounded-tl-sm hover:bg-blue-800/20 focus:outline-none absolute top-0 right-0 cursor-pointer"
+    class="bg-transparent text-white/60 px-2 py-1 text-sm rounded-tl-sm hover:bg-blue-800/20 focus:outline-none absolute top-0 right-0 cursor-pointer"
     on:click={() => copiarTexto(text, verse, reference)}
     title="Copiar versículo"
 >
