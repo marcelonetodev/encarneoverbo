@@ -24,7 +24,7 @@
   import Titulo from "../../components/shared/Titulo.svelte";
   let selectedBook: string | null = null;
 
-  function handleBookSelection(event: Event) {
+  async function handleBookSelection(event: Event) {
       const selectElement = event.target as HTMLSelectElement;
       selectedBook = selectElement.value;
       for(let livro of livros){

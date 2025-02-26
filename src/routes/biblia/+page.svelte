@@ -37,14 +37,14 @@
   let selectedBook: string | null = null;
 
   async function chamarApi(livro: any, capitulo: any) {
-    book = api(livro, capitulo);
+    book = await api(livro, capitulo);
     Promise.resolve(book).then((value) => {
       text = value.text;
       verses = value.verses;
       reference = value.reference;
     });
   }
-  function handleBookSelection(event: Event) {
+  async function handleBookSelection(event: Event) {
     const selectElement = event.target as HTMLSelectElement;
     selectedBook = selectElement.value;
   }
