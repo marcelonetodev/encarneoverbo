@@ -113,8 +113,8 @@
 >
   <Menu titulo="Navegação">
     <MenuItem texto="Início" href="/" />
-    <MenuItem texto="Estudo" href="/livros" />
     <MenuItem texto="Bíblia" href="/biblia" />
+    <MenuItem texto="Estudo" href="/livros" />
     <MenuItem texto="Notas" href="/anotacoes" />
   </Menu>
 
