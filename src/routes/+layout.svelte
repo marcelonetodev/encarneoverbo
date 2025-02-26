@@ -15,9 +15,9 @@
   <meta property="og:description" content="Encarne o verbo é sobre Cristo!" />
   <meta
     property="og:image"
-    content="https://bug-free-computing-machine-9q5px4wx97r2xrvj-5173.app.github.dev/logo.png"
+    content="./logo.png"
   />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </svelte:head>
 
 <Pagina>
