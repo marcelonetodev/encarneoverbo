@@ -19,6 +19,7 @@
             if (!verificar(aux)) {
                 localStorage.setItem(aux, novaMensagem);
                 mensagemA = [...mensagemA, novaMensagem];
+                alert("Texto salvo em anotações!");
                 break;
             }
         }
@@ -27,7 +28,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class=" text-white/20 px-2 py-1 text-sm rounded-bl-md hover:bg-green-800/20 focus:outline-none absolute top-8 right-0 cursor-pointer"
+    class=" text-white/60 px-2 py-1 text-sm rounded-bl-md hover:bg-green-800/20 focus:outline-none absolute top-8 right-0 cursor-pointer"
     on:click={() => setar(text, verse, reference)}
     title="Salvar versículo"
 >

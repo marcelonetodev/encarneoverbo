@@ -2,8 +2,9 @@
   import Botao from "../shared/Botao.svelte";
   import Titulo from "../shared/Titulo.svelte";
   import Texto from "../shared/Texto.svelte";
-    import CopiarTexto from "../shared/CopiarTexto.svelte";
-    import api from "../../api/api";
+  import CopiarTexto from "../shared/CopiarTexto.svelte";
+  import api from "../../api/api";
+  import Salvar from "../shared/Salvar.svelte";
   export let livro: any = null;
 
   /** @type {number} */
@@ -12,14 +13,13 @@
   export let verses: any = null;
   export let reference: any = null;
 
-  async function chamarApi(livro:any, capitulo:any){
-    book = api(livro, capitulo)
-    Promise.resolve(book).then(
-  (value) => {
-    text = value.text;
-    verses = value.verses;
-    reference = value.reference;
-  },)    
+  async function chamarApi(livro: any, capitulo: any) {
+    book = api(livro, capitulo);
+    Promise.resolve(book).then((value) => {
+      text = value.text;
+      verses = value.verses;
+      reference = value.reference;
+    });
   }
 </script>
 
@@ -46,14 +46,19 @@
       <div class="gap-5 flex flex-col">
         {#if book !== null}
           <Titulo principal={reference} />
-          <div class="relative border border-zinc-800 rounded-md gap-5 p-3">
+          <div class="relative border border-zinc-800 rounded-md gap-5 p-5">
             {#each verses as verse, index}
-            <div class="relative">
-              <CopiarTexto text={verse.text} verse={verse.verse} reference={reference} />
-              <Texto versiculo={verse.text} index={verse.verse} />
-            </div>
+              <div class="relative">
+                <Salvar text={verse.text} verse={verse.verse} {reference} />
+                <CopiarTexto
+                  text={verse.text}
+                  verse={verse.verse}
+                  {reference}
+                />
+                <Texto versiculo={verse.text} index={verse.verse} />
+              </div>
             {/each}
-                </div>
+          </div>
         {/if}
         <div class="flex flex-col p-5">
           <span class="border-b border border-zinc-800"></span>
@@ -63,7 +68,10 @@
               class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
             >
               {#each { length: livro.capitulo }, cap}
-              <Botao texto={cap + 1} funcao={() => chamarApi(livro.id, cap + 1)} />                
+                <Botao
+                  texto={cap + 1}
+                  funcao={() => chamarApi(livro.id, cap + 1)}
+                />
               {/each}
             </div>
           </div>
