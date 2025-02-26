@@ -1,18 +1,20 @@
-let book
-let text
-let verses
-let reference
-let count = 1
+import { error } from "@sveltejs/kit";
 
-export async function api(livro: any, capitulo: any) {
+export let data: any
+let link = "https://bible-api.com/";
+let traducao = "almeida";
+async function api(livro: any, capitulo: any) {
+  try {
     const response = await fetch(
-        `https://bible-api.com/${livro}+${capitulo}?translation=almeida`
+      `${link}${livro}+${capitulo}?translation=almeida`,
+      // `${link}/data/${traducao}/${livro}/${capitulo}`
     );
-    book = await response.json();
-    text = book.text;
-    verses = book.verses;
-    reference = book.reference;
-    count++
-    return book;
+    data = await response.json();
+    return data;
+
+  } catch {
+    error(404, "Livro não encontrado.")
+  }
 }
 
+export default api
