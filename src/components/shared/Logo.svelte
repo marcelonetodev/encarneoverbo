@@ -2,6 +2,6 @@
   <img class="w-12 h-12 sm:w-16 sm:h-16" src="/logo.png" alt="Logo" />
   <div class="flex flex-col leading-3">
     <span class="font-thin text-zinc-400 text-xs sm:text-sm">encarne o</span>
-    <span class="font-black text-lg sm:text-xl tracking-widest">VERBO</span>
+    <span class="font-black text-lg sm:text-xl tracking-widest text-white/60">VERBO</span>
   </div>
 </a>

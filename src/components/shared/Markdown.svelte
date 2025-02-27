@@ -47,12 +47,12 @@
   {#each mensagemA as msg, index}
   <!-- class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-sm sm:text-base text-justify text-zinc-400" -->
     <div
-      class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-justify"
+      class="flex flex-col border border-zinc-800 justify-around p-5 rounded-sm gap-5 text-justify"
     >
-      <p class="font-semibold text-xl sm:text-3xl">
+      <p class="font-light text-xlsm:text-3xl">
         Gravação {index + 1}:
       </p>
-      <p>{@html marked(msg)}</p>
+      <p class="bg-zinc-950 p-2">{@html marked(msg)}</p>
       <Botao texto="Apagar" funcaoApagar={() => apagar(index)} />
     </div>
   {/each}

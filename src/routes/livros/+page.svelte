@@ -37,16 +37,16 @@
   }
 </script>
 
-<div class="flex flex-col gap-10 px-5">
+<div class="flex flex-col gap-10 lg:px-5">
   <Titulo
-    principal="Estudo da bíblia"
-    secundario="Conheça o contexto histórico ao passo que você estuda sobre a bíblia!"
+    before="Estudo do" key="Verbo"
+    after="Conheça-o mais e mais!"
   />
   <select
       on:change={handleBookSelection}
       id="livro-select"
       name="livros"
-      class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-md bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
+      class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-sm bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
   >
       <option class="bg-black" selected>Escolha o livro</option>
       {#each livros as b}
