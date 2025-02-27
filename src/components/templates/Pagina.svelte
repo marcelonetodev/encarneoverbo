@@ -22,7 +22,7 @@
   </div>
 
   <div
-    class="lg:hidden border-t-2 border-zinc-800 px-1 gap-1 rounded-t-lg list-none text-white p-1 bg-black grid grid-cols-4 fixed z-1 bottom-0 w-full"
+    class="lg:hidden border-t-2 border-zinc-950 px-1 gap-1 rounded-t-lg list-none text-white p-1 bg-black grid grid-cols-4 fixed z-1 bottom-0 w-full"
   >
     <!-- <Menu titulo="Navegação"> -->
       <!-- texto="Início" -->
