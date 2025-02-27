@@ -37,7 +37,7 @@
 {/if}
 
 {#if versiculo}
-  <div class="flex flex-row gap-5 p-2 py-5 bg-zinc-950 rounded-sm">
+  <div class="flex flex-row gap-5 py-5 px-8 bg-zinc-950 rounded-sm">
     {#if index}
       <span class="pl-0 pr-0 py-1 text-zinc-600 text-xs sm:text-sm">
         {index}
