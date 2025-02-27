@@ -25,11 +25,11 @@
 
 {#if livro}
   <div class="flex flex-col gap-5 max-w-7xl mx-auto p-4">
-    <img
+    <!-- <img
       src={livro.imagem}
       alt={livro.titulo}
-      class="w-full h-72 object-cover sm:h-96 rounded-md"
-    />
+      class="w-full h-72 object-cover sm:h-96 rounded-sm"
+    /> -->
     <article>
       <Titulo
         principal="Livro de {livro.titulo}"
@@ -46,7 +46,7 @@
       <div class="gap-5 flex flex-col">
         {#if book !== null}
           <Titulo principal={reference} />
-          <div class="relative md:border lg:border-zinc-800 lg:rounded-md gap-5 lg:p-5">
+          <div class="relative md:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5">
             {#each verses as verse, index}
               <div class="relative my-3">
                 <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
