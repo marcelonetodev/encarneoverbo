@@ -109,7 +109,7 @@
 </script>
 
 <aside
-  class="flex flex-col self-start gap-10 min-w-72 border border-zinc-800 p-5 rounded-md"
+  class="flex flex-col self-start gap-10 min-w-72 border border-zinc-950 p-5 rounded-sm"
 >
   <Menu titulo="Navegação">
     <MenuItem texto="Início" href="/" />
@@ -120,7 +120,7 @@
 
   <Menu titulo="Pentateuco">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white/80 border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
       <option value="/">Livros</option>
@@ -134,7 +134,7 @@
 
   <Menu titulo="Históricos">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -155,7 +155,7 @@
 
   <Menu titulo="Poéticos">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -169,7 +169,7 @@
 
   <Menu titulo="Proféticos">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -195,7 +195,7 @@
 
   <Menu titulo="Evangelhos">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -208,7 +208,7 @@
 
   <Menu titulo="Atos dos Apóstolos">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -218,7 +218,7 @@
 
   <Menu titulo="Epístolas de Paulo">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -241,7 +241,7 @@
 
   <Menu titulo="Epístolas Gerais">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -257,7 +257,7 @@
 
   <Menu titulo="Apocalipse">
     <select
-      class="w-full bg-black text-white border border-zinc-800 p-2 rounded-md"
+      class="w-full bg-black text-white border border-zinc-950 p-2 rounded-md"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>

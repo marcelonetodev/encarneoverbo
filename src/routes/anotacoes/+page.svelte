@@ -7,7 +7,7 @@
   <Titulo
     before="Notas sobre o"
     key="Verbo"
-    after="Registra o que você já aprendeu sobre Ele."
+    after="A Bíblia é a única fonte autêntica de conhecimento sobre Cristo. Sem ela, não podemos conhecê-Lo verdadeiramente, nem compreender o Seu propósito para nossas vidas. — John Stott"
   />
   <Markdown />
 </div>

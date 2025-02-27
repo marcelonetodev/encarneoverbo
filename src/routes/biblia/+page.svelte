@@ -51,10 +51,10 @@
 </script>
 
 <div class="flex flex-col gap-10 lg:px-5">
-    <Titulo before="Bíblia do" key="Verbo" after="A revelação de quem Ele é" />
+    <Titulo before="Bíblia do" key="Verbo" after="A Bíblia não é apenas um livro de instruções; é o livro que nos revela Cristo. Quando lemos a Bíblia, vemos a face de Jesus em cada página. — Billy Graham" />
   {#if book !== null}
     <Titulo principal={reference} />
-    <div class="lg:border lg:border-zinc-800 lg:rounded-md gap-5 lg:p-3">
+    <div class="lg:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-3">
       {#each verses as verse, index}
         <div class="relative my-3">
           <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>

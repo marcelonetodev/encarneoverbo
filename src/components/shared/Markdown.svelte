@@ -52,7 +52,7 @@
       <p class="font-light text-xlsm:text-3xl">
         Gravação {index + 1}:
       </p>
-      <p class="bg-zinc-950 p-2">{@html marked(msg)}</p>
+      <p class="bg-zinc-950 rounded-sm p-2">{@html marked(msg)}</p>
       <Botao texto="Apagar" funcaoApagar={() => apagar(index)} />
     </div>
   {/each}

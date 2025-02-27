@@ -41,16 +41,18 @@
       {index}
     </span>
     <span class="border-b border border-zinc-800"></span>
-    <p class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1 font-light">
+    <p
+      class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1 font-light"
+    >
       {versiculo}
     </p>
   </div>
-  {/if}
+{/if}
 
 {#if textoMarkdown}
   <div
-    class="flex flex-col sm:flex-row gap-5 text-sm sm:text-base text-zinc-400 lg:p-5 lg:border lg:border-zinc-900 lg:rounded-md"
+    class="p-5 text-justify bg-zinc-950 font-light gap-5 text-sm sm:text-base text-zinc-400 rounded-sm"
   >
-    <p class="p-5 text-justify bg-zinc-950 rounded-sm font-light">{@html marked.parse(textoMarkdown)}</p>
+    {@html marked.parse(textoMarkdown)}
   </div>
 {/if}
