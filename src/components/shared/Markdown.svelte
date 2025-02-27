@@ -3,7 +3,7 @@
   import Botao from "./Botao.svelte";
 
   let mensagemA: string[] = [];
-  export let maxAnotacoes: number = 20;
+  export let maxAnotacoes: number = 30;
   let markdown: string = "";
 
   import { onMount } from "svelte";
@@ -12,18 +12,30 @@
     return localStorage.getItem(aux) ? true : false;
   }
 
-  onMount(() => {
+  function organizar(){
     let index = 0;
     for (let i = 0; i < maxAnotacoes; i++) {
       let aux = i.toString();
       if (verificar(aux)) {
-        mensagemA[index] = localStorage.getItem(aux) || "";
-        index++;
+        if(index < localStorage.length){
+          mensagemA[index] = localStorage.getItem(aux) || "";
+          if(i > index){
+            localStorage.setItem(index.toString(), mensagemA[index])
+            localStorage.removeItem(aux)
+          }
+          index++;
+        }else{
+          break
+        }
       }
     }
+  }
+  onMount(() => {
+    organizar()
   });
 
   function setar() {
+    organizar()
     let novaMensagem = markdown;
     for (let i = 0; i < maxAnotacoes; i++) {
       let aux = i.toString();
@@ -37,9 +49,18 @@
   }
 
   function apagar(index: number) {
+    organizar()
     let aux = index.toString();
+    while(!verificar(aux)){
+      index ++
+      aux = index.toString()
+      if(index > 30){
+        break;
+      }
+    }
     localStorage.removeItem(aux);
     mensagemA = mensagemA.filter((_, i) => i !== index);
+    organizar()
   }
 </script>
 
