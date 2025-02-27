@@ -41,8 +41,11 @@
 <div class="flex flex-col gap-10 lg:px-5">
   <Titulo
     before="Estudo do" key="Verbo"
-    after="A Bíblia é a mente de Cristo revelada. Ela nos ensina não apenas sobre Ele, mas nos leva a Ele, para que possamos conhecê-Lo e viver como Ele vive. — Charles Spurgeon"
-  />
+    after="Onde o estudo encontra a luz, a alma se transforma."
+    />
+    <!-- after="Estude com sabedoria, anote com propósito, viva a palavra." -->
+    
+    <!-- after="A Bíblia é a mente de Cristo revelada. Ela nos ensina não apenas sobre Ele, mas nos leva a Ele, para que possamos conhecê-Lo e viver como Ele vive. — Charles Spurgeon" -->
   <Citacao />
 
   <select
