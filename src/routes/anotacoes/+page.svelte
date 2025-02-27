@@ -7,7 +7,8 @@
   <Titulo
     before="Notas sobre o"
     key="Verbo"
-    after="A Bíblia é a única fonte autêntica de conhecimento sobre Cristo. Sem ela, não podemos conhecê-Lo verdadeiramente, nem compreender o Seu propósito para nossas vidas. — John Stott"
-  />
+    after="Estude com sabedoria, anote com propósito, viva a palavra."
+    />
+    <!-- after="A Bíblia é a única fonte autêntica de conhecimento sobre Cristo. Sem ela, não podemos conhecê-Lo verdadeiramente, nem compreender o Seu propósito para nossas vidas. — John Stott" -->
   <Markdown />
 </div>
