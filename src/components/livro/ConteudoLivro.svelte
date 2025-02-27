@@ -28,7 +28,7 @@
     <img
       src={livro.imagem}
       alt={livro.titulo}
-      class="w-full h-72 sm:h-96 object-cover rounded-md"
+      class="w-full h-72 object-cover sm:h-96 rounded-md"
     />
     <article>
       <Titulo

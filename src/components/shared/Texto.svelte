@@ -49,7 +49,7 @@
 
 {#if textoMarkdown}
   <div
-    class="flex flex-co sm:flex-row gap-5 text-sm sm:text-base text-zinc-400 lg:p-5 lg:border lg:border-zinc-900 lg:rounded-md"
+    class="flex flex-col sm:flex-row gap-5 text-sm sm:text-base text-zinc-400 lg:p-5 lg:border lg:border-zinc-900 lg:rounded-md"
   >
     <p class="p-5 text-justify bg-zinc-950 ">{@html marked.parse(textoMarkdown)}</p>
   </div>

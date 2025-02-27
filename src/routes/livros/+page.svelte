@@ -51,6 +51,6 @@
       <option class="bg-black" selected>Escolha o livro</option>
       {#each livros as b}
           <option class="bg-black" value={b.id}>{b.titulo}</option>
-      {/each}
+          {/each}
   </select>
 </div>
