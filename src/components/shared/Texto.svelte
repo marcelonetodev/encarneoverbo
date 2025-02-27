@@ -3,6 +3,7 @@
 
   export let textoMarkdown: any = null;
   export let texto: any = null;
+  export let autor: any = null;
   export let textoSB: any = null;
   export let img: any = null;
   export let descricaoImg: any = null;
@@ -35,17 +36,27 @@
   </div>
 {/if}
 
-{#if versiculo && index}
+{#if versiculo}
   <div class="flex flex-row gap-5 p-2 py-5 bg-zinc-950 rounded-sm">
-    <span class="pl-0 pr-0 py-1 text-zinc-600 text-xs sm:text-sm">
-      {index}
-    </span>
+    {#if index}
+      <span class="pl-0 pr-0 py-1 text-zinc-600 text-xs sm:text-sm">
+        {index}
+      </span>
+    {/if}
     <span class="border-b border border-zinc-800"></span>
-    <p
-      class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1 font-light"
-    >
-      {versiculo}
-    </p>
+    <div class="flex flex-col w-full">
+
+      <p
+        class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1 font-light"
+      >
+        {versiculo}
+      </p>
+      {#if autor}
+        <p class="flex-1 pr-2 text-end py-1 text-zinc-600 text-xs sm:text-sm">
+          {autor}
+        </p>
+      {/if}
+    </div>
   </div>
 {/if}
 

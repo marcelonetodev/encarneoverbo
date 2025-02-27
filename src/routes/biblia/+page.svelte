@@ -22,6 +22,7 @@
 <script lang="ts">
     import api from "../../api/api";
     import Botao from "../../components/shared/Botao.svelte";
+    import Citacao from "../../components/shared/Citacao.svelte";
     import CopiarTexto from "../../components/shared/CopiarTexto.svelte";
     import Salvar from "../../components/shared/Salvar.svelte";
     import Texto from "../../components/shared/Texto.svelte";
@@ -52,7 +53,7 @@
 
 <div class="flex flex-col gap-10 lg:px-5">
     <Titulo before="Bíblia do" key="Verbo" after="A Bíblia não é apenas um livro de instruções; é o livro que nos revela Cristo. Quando lemos a Bíblia, vemos a face de Jesus em cada página. — Billy Graham" />
-  {#if book !== null}
+    {#if book !== null}
     <Titulo principal={reference} />
     <div class="lg:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-3">
       {#each verses as verse, index}
@@ -63,6 +64,8 @@
         </div>
       {/each}
     </div>
+    {:else}
+      <Citacao />
   {/if} 
 
  <div class="flex justify-center">

@@ -22,6 +22,7 @@
 <script lang="ts">
   import livros from "../../constants/livros.js";
   import Titulo from "../../components/shared/Titulo.svelte";
+    import Citacao from "../../components/shared/Citacao.svelte";
   let selectedBook: string | null = null;
 
   async function handleBookSelection(event: Event) {
@@ -42,6 +43,8 @@
     before="Estudo do" key="Verbo"
     after="A Bíblia é a mente de Cristo revelada. Ela nos ensina não apenas sobre Ele, mas nos leva a Ele, para que possamos conhecê-Lo e viver como Ele vive. — Charles Spurgeon"
   />
+  <Citacao />
+
   <select
       on:change={handleBookSelection}
       id="livro-select"
