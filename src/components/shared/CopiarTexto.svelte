@@ -1,13 +1,30 @@
 <script lang="ts">
     export let text: any = "";
+    export let autor: any = "";
+    export let citacao: any = "";
     export let verse: any = "";
     export let reference: any = "";
     export let id: any = "";
     let active = false;
-    function copiarTexto(text: any, verse: any, reference: any, id: any) {
+    function copiarTexto(
+        text: any,
+        verse: any,
+        reference: any,
+        id: any,
+        autor: any,
+        citacao: any,
+    ) {
         active = true;
-        const textoParaCopiar =
-            `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse o livro em: encarneoverbo.com.br/livros/${id}` || "Texto não disponível.";
+        let textoParaCopiar = "";
+        if (text && verse && reference && id) {
+            textoParaCopiar =
+                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/livros/${id}` ||
+                "Texto não disponível.";
+        } else if (citacao && autor) {
+            textoParaCopiar =
+                `"${citacao}" - ${autor}  | Para ver mais citações como essa, acesse: encarneoverbo.com.br/biblia` ||
+                "Texto não disponível.";
+        }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {
             alert("Texto copiado para a área de transferência!");
         });
@@ -16,8 +33,8 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class="bg-transparent text-white/60 px-2 py-1 text-sm rounded-tl-sm hover:bg-blue-800/20 focus:outline-none absolute top-0 right-0 cursor-pointer"
-    on:click={() => copiarTexto(text, verse, reference, id)}
+    class="bg-transparent text-black hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
+    on:click={() => copiarTexto(text, verse, reference, id, autor, citacao)}
     title="Copiar versículo"
 >
     {#if !active}

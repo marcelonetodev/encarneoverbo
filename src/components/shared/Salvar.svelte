@@ -1,4 +1,6 @@
 <script lang="ts">
+    export let citacao: any;
+    export let autor: any;
     export let text: any;
     export let verse: any;
     export let reference: any;
@@ -11,10 +13,25 @@
         return localStorage.getItem(aux) ? true : false;
     }
     let active = false;
-    function setar(text: any, verse: any, reference: any, id: any) {
+    function setar(
+        text: any,
+        verse: any,
+        reference: any,
+        id: any,
+        citacao: any,
+        autor: any,
+    ) {
         active = true;
-        let novaMensagem =
-            `[No texto de **${reference}:${verse}** diz: "${text}"](livros/${id})` || "Texto não disponível.";
+        let novaMensagem = "";
+        if (text && verse && reference && id) {
+            novaMensagem =
+                `[No texto de **${reference}:${verse}** diz: "${text}"](livros/${id})` ||
+                "Versículo não disponível.";
+        } else if (citacao && autor) {
+            novaMensagem =
+                `"${citacao}" - ${autor}` ||
+                "Citação não disponível.";
+        }
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();
             if (!verificar(aux)) {
@@ -29,9 +46,9 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class=" text-white/60 px-2 py-1 text-sm rounded-bl-md hover:bg-green-800/20 focus:outline-none absolute top-8 right-0 cursor-pointer"
-    on:click={() => setar(text, verse, reference, id)}
-    title="Salvar versículo"
+    class=" text-black px-2 py-1 text-sm rounded-bl-md hover:text-zinc-500 focus:outline-none absolute top-8 right-0 cursor-pointer"
+    on:click={() => setar(text, verse, reference, id, citacao, autor)}
+    title="Salvar"
 >
     {#if !active}
         <svg
