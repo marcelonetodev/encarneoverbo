@@ -1,5 +1,5 @@
 <script>
-// @ts-nocheck
+
 
   import AreaLateral from "./AreaLateral.svelte";
   import Cabecalho from "./Cabecalho.svelte";
@@ -7,9 +7,8 @@
   import Menu from "./Menu.svelte";
   import MenuItem from "./MenuItem.svelte";
   import Rodape from "./Rodape.svelte";
-  import { page } from '$app/stores'; // Para acessar a URL da página atual
   
-  let currentPath = $page.url.pathname; // Obtendo o caminho da URL atual</script>
+</script>
 
 <div
   class="
@@ -18,7 +17,10 @@
     relative
   "
 >
-  <Cabecalho />
+<div class="lg:block hidden">
+  <Cabecalho/>
+  </div>
+
 
   <div
     class="lg:hidden border-t-2 border-zinc-800 px-1 gap-1 rounded-t-lg list-none text-white p-1 bg-black grid grid-cols-4 fixed z-1 bottom-0 w-full"

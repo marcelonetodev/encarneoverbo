@@ -2,7 +2,7 @@
   import Logo from "../shared/Logo.svelte";
 </script>
 
-<footer class=" flex justify-end px-5 items-center border-t border-zinc-800">
+<footer class=" flex justify-end px-5 items-center lg:border-t lg:border-zinc-800">
   <div class="flex flex-col items-center justify-between flex-1 p-5">
     <Logo />
     <p class="p-5 text-zinc-700 text-center">

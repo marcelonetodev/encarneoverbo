@@ -50,13 +50,13 @@
   }
 </script>
 
-<div class="flex flex-col gap-10 px-5">
-    <Titulo principal="Bíblia" secundario="Escolha qual livro você quer ler" />
+<div class="flex flex-col gap-10 lg:px-5">
+    <Titulo before="Bíblia do" key="Verbo" after="A revelação de quem Ele é" />
   {#if book !== null}
     <Titulo principal={reference} />
     <div class="lg:border lg:border-zinc-800 lg:rounded-md gap-5 lg:p-3">
       {#each verses as verse, index}
-        <div class="relative">
+        <div class="relative my-3">
           <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
           <CopiarTexto text={verse.text} verse={verse.verse} {reference}  id={verse.book_id} />
           <Texto versiculo={verse.text} index={verse.verse} />
@@ -65,9 +65,9 @@
     </div>
   {/if} 
 
- <div class="flex justify-c0enter">
+ <div class="flex justify-center">
     <select
-      class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800 rounded-md bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
+      class=" placeholder:text-zinc-800 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800/80 rounded-sm bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
       on:change={handleBookSelection}
     >
       <option class="bg-black" selected>Escolha o livro</option>

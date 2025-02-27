@@ -5,8 +5,9 @@
 
 <div class="flex flex-col gap-10">
   <Titulo
-    principal="Anotações"
-    secundario="Fique livre para escrever suas ideias."
+    before="Notas sobre o"
+    key="Verbo"
+    after="Registra o que você já aprendeu sobre Ele."
   />
   <Markdown />
 </div>

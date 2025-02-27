@@ -3,7 +3,7 @@
 </script>
 
 <header
-  class="flex items-center justify-between w-full h-24 px-4 border-b border-zinc-800"
+  class="fixed top-0 bg-black flex items-center justify-between w-full h-24 px-4 border-b border-zinc-800"
 >
   <div class="flex items-center justify-center">
     <Logo />

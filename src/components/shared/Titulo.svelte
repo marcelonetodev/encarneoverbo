@@ -22,9 +22,9 @@
   {/if}
 
   {#if principal}
-    <h1 class="text-3xl sm:text-4xl md:text-5xl font-black">{principal}</h1>
+    <h1 class="text-3xl text-white/70 sm:text-4xl md:text-5xl font-black">{principal}</h1>
   {/if}
   {#if secundario}
-    <p class="p-2 text-sm sm:text-base text-zinc-400">{secundario}</p>
+    <p class="p-2 text-sm sm:text-base text-zinc-400/80">{secundario}</p>
   {/if}
 </div>
