@@ -14,7 +14,7 @@
   export let reference: any = null;
 
   async function chamarApi(livro: any, capitulo: any) {
-    book = api(livro, capitulo);
+    book = await api(livro, capitulo);
     Promise.resolve(book).then((value) => {
       text = value.text;
       verses = value.verses;
@@ -46,7 +46,7 @@
       <div class="gap-5 flex flex-col">
         {#if book !== null}
           <Titulo principal={reference} />
-          <div class="relative border border-zinc-800 rounded-md gap-5 p-5">
+          <div class="relative md:border lg:border-zinc-800 lg:rounded-md gap-5 lg:p-5">
             {#each verses as verse, index}
               <div class="relative">
                 <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>

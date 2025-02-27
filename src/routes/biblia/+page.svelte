@@ -54,7 +54,7 @@
     <Titulo principal="Bíblia" secundario="Escolha qual livro você quer ler" />
   {#if book !== null}
     <Titulo principal={reference} />
-    <div class="border border-zinc-800 rounded-md gap-5 p-3">
+    <div class="lg:border lg:border-zinc-800 lg:rounded-md gap-5 lg:p-3">
       {#each verses as verse, index}
         <div class="relative">
           <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
