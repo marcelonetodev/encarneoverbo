@@ -28,8 +28,8 @@
   </div>
 {/if}
 {#if textoSB}
-  <div class="flex flex-col sm:flex-row gap-5 p-3">
-    <p class="text-justify text-zinc-400 text-sm sm:text-base">
+  <div class="flex flex-col sm:flex-row gap-5 lg:p-3">
+    <p class="p-5 text-justify bg-zinc-950 text-zinc-400 font-light text-sm sm:text-base">
       {textoSB}
     </p>
   </div>
@@ -41,7 +41,7 @@
       {index}
     </span>
     <span class="border-b border border-zinc-800"></span>
-    <p class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1">
+    <p class="py-1 pl-0 pr-8 text-justify text-zinc-400 text-sm sm:text-base flex-1 font-light">
       {versiculo}
     </p>
   </div>
@@ -49,7 +49,7 @@
 
 {#if textoMarkdown}
   <div
-    class="flex flex-co sm:flex-row gap-5 text-sm sm:text-base text-zinc-400 p-5 border border-zinc-900 rounded-md"
+    class="flex flex-co sm:flex-row gap-5 text-sm sm:text-base text-zinc-400 lg:p-5 lg:border lg:border-zinc-900 lg:rounded-md"
   >
     <p class="p-5 text-justify bg-zinc-950 ">{@html marked.parse(textoMarkdown)}</p>
   </div>
