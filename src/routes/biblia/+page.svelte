@@ -58,8 +58,8 @@
     <div class="lg:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-3">
       {#each verses as verse, index}
         <div class="relative my-3">
-          <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
-          <CopiarTexto text={verse.text} verse={verse.verse} {reference}  id={verse.book_id} />
+          <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id} autor={null} citacao={null}/>
+          <CopiarTexto text={verse.text} verse={verse.verse} {reference}  id={verse.book_id} citacao={null} autor={null}/>
           <Texto versiculo={verse.text} index={verse.verse} />
         </div>
       {/each}
