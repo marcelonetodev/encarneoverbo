@@ -1,6 +1,9 @@
 <script lang="ts">
   import "../app.css";
   import Pagina from "../components/templates/Pagina.svelte";
+  import { injectSpeedInsights } from "@vercel/speed-insights/sveltekit";
+
+  injectSpeedInsights();
   let { children } = $props();
 </script>
 
@@ -13,11 +16,11 @@
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Encarne o Verbo" />
   <meta property="og:description" content="Encarne o verbo é sobre Cristo!" />
+  <meta property="og:image" content="./logo.png" />
   <meta
-    property="og:image"
-    content="./logo.png"
+    name="viewport"
+    content="width=device-width, initial-scale=1, user-scalable=no"
   />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </svelte:head>
 
 <Pagina>
