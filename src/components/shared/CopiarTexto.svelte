@@ -24,6 +24,10 @@
             textoParaCopiar =
                 `"${citacao}" - ${autor}  | Para ver mais citações como essa, acesse: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
+        } else if(text && reference && !id && !verse){
+            textoParaCopiar =
+                `${reference} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
+                "Texto não disponível.";
         }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {
             alert("Texto copiado para a área de transferência!");

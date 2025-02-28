@@ -5,6 +5,8 @@
   let mensagemA: string[] = [];
   export let maxAnotacoes: number = 30;
   let markdown: string = "";
+  let adicionar: string = "";
+  let check: number;
 
   import { onMount } from "svelte";
 
@@ -46,6 +48,29 @@
       }
     }
     markdown = "";
+  }
+
+  function mesclar(index: number){
+    let aux = index.toString()
+    if(!adicionar){
+      console.log(adicionar)
+      adicionar = localStorage.getItem(aux)!
+      check = index
+    }else if(adicionar && check !== index){
+      adicionar = `${adicionar} <br><br> ${localStorage.getItem(aux)}`
+      localStorage.removeItem(aux)
+      mensagemA = mensagemA.filter((_, i) => i !== index);
+      localStorage.removeItem(check.toString())
+      mensagemA = mensagemA.filter((_, i) => i !== index);
+      organizar()
+      markdown = adicionar
+      adicionar = ""
+      check = index
+      setar()
+    }else{
+      adicionar = ""
+      alert("Os valores são iguais")
+    }
   }
 
   function editar(index: number){
@@ -113,6 +138,17 @@
           />
         </svg>
       </button>
+      <!-- svelte-ignore a11y_consider_explicit_label -->
+      <button
+      class="bg-transparent text-green-700 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-16 cursor-pointer"
+      title="Mesclar gravação"
+      onclick={() => mesclar(index)}    
+    >
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+    </svg>
+          
+    </button>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button 
       class="bg-transparent text-zinc-700 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-8 cursor-pointer"

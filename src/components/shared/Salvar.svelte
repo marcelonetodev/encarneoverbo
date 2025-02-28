@@ -31,6 +31,10 @@
             novaMensagem =
                 `"${citacao}" - ${autor}` ||
                 "Citação não disponível.";
+        }else if(text && !verse && reference && !id){
+            novaMensagem =
+                `[No texto de **${reference}** diz: "${text}"](biblia)` ||
+                "Versículo não disponível.";
         }
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();
