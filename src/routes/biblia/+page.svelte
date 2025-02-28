@@ -30,6 +30,7 @@
   import livros from "../../constants/livros";
 
   export let book: any = null;
+  export let bookRandom: any = null;
   export let text: any = null;
   export let verses: any = null;
   export let reference: any = null;
@@ -47,8 +48,8 @@
     });
   }
   async function chamarRandomApi() {
-    text = await randomApi();
-    Promise.resolve(text).then((value) => {
+    bookRandom = await randomApi();
+    Promise.resolve(bookRandom).then((value) => {
       verses = value.text;
       reference = `${value.book} ${value.chapter}:${value.verse} ARA`;
     });
@@ -94,7 +95,7 @@
         </div>
       {/each}
     </div>
-  {:else}
+  {:else if bookRandom && !book}
     <div class="relative my-3">
       <Salvar
         text={verses}
@@ -121,7 +122,7 @@
       class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
       on:change={handleBookSelection}
     >
-      <option class="bg-zinc-950" selected>Escolha o livro</option>
+      <option class="bg-zinc-950" selected>Livros da bíblia</option>
       {#each livros as lv}
         <option class="bg-zinc-950" value={lv.titulo}>{lv.titulo}</option>
       {/each}
