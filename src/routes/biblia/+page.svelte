@@ -57,7 +57,7 @@
     />
     <!-- after="A Bíblia não é apenas um livro de instruções; é o livro que nos revela Cristo. Quando lemos a Bíblia, vemos a face de Jesus em cada página. — Billy Graham" -->
   {#if book !== null}
-    <Titulo principal={reference} />
+    <Titulo principal={reference} secundario="Almeida revista e atualizada (ARA)"/>
     <div class="lg:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-3">
       {#each verses as verse, index}
         <div class="relative my-3">
@@ -87,12 +87,12 @@
 
   <div class="flex justify-center">
     <select
-      class=" placeholder:text-zinc-800 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800/80 rounded-sm bg-transparent text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+      class=" placeholder:text-zinc-900 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-900 rounded-sm text-zinc-400 bg-zinc-900 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
       on:change={handleBookSelection}
     >
-      <option class="bg-black" selected>Escolha o livro</option>
+      <option class="bg-zinc-950" selected>Escolha o livro</option>
       {#each livros as lv}
-        <option class="bg-black" value={lv.titulo}>{lv.titulo}</option>
+        <option class="bg-zinc-950" value={lv.titulo}>{lv.titulo}</option>
       {/each}
     </select>
   </div>
