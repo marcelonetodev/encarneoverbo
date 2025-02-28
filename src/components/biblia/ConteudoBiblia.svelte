@@ -1,9 +1,9 @@
-<script lang="ts">
+<!-- <script lang="ts">
     import Botao from "../shared/Botao.svelte";
     import Titulo from "../shared/Titulo.svelte";
     import Texto from "../shared/Texto.svelte";
     import CopiarTexto from "../shared/CopiarTexto.svelte";
-    import api from "../../api/api";
+    import {api} from "../../api/api";
     import Salvar from "../shared/Salvar.svelte";
     export let biblia: any = null;
   
@@ -35,7 +35,7 @@
             <div class="relative lg:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5">
               {#each verses as verse, index}
                 <div class="relative my-3">
-                  <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id}/>
+                  <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id} />
                   <CopiarTexto
                     text={verse.text}
                     verse={verse.verse}
@@ -65,4 +65,4 @@
       </article>
     </div>
   {/if}
-  
+   -->
