@@ -3,7 +3,7 @@
   import Titulo from "../shared/Titulo.svelte";
   import Texto from "../shared/Texto.svelte";
   import CopiarTexto from "../shared/CopiarTexto.svelte";
-  import api from "../../api/api";
+  import {api} from "../../api/api";
   import Salvar from "../shared/Salvar.svelte";
   export let livro: any = null;
 

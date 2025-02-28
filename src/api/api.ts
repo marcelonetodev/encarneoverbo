@@ -3,11 +3,10 @@ import { error } from "@sveltejs/kit";
 export let data: any
 let link = "https://bible-api.com/";
 let traducao = "almeida";
-async function api(livro: any, capitulo: any) {
+export async function api(livro: any, capitulo: any) {
   try {
     const response = await fetch(
-      `${link}${livro}+${capitulo}?translation=almeida`,
-      // `${link}/data/${traducao}/${livro}/${capitulo}`
+      `${link}${livro}+${capitulo}?translation=${traducao}`,
     );
     data = await response.json();
     return data;
@@ -17,4 +16,15 @@ async function api(livro: any, capitulo: any) {
   }
 }
 
-export default api
+export async function randomApi(){
+  try{
+    const response = await fetch(
+      `${link}/data/${traducao}/random`
+    );
+    data = await response.json();
+    return data.random_verse
+  }catch{
+    error(404, "Versículo não encontrado.")
+  }
+}
+
