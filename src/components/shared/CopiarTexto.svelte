@@ -18,7 +18,7 @@
         let textoParaCopiar = "";
         if (text && verse && reference && id) {
             textoParaCopiar =
-                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/livros/${id}` ||
+                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
         } else if (citacao && autor) {
             textoParaCopiar =
@@ -27,13 +27,14 @@
         }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {
             alert("Texto copiado para a área de transferência!");
+            active = false;
         });
     }
 </script>
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class="bg-transparent text-zinc-700 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
+    class="bg-transparent text-zinc-500 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
     on:click={() => copiarTexto(text, verse, reference, id, autor, citacao)}
     title="Copiar versículo"
 >

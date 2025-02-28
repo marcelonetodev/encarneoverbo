@@ -115,7 +115,7 @@
       </button>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button 
-      class="bg-transparent text-zinc-700 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-8 cursor-pointer"
+      class="bg-transparent text-zinc-700 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-8 cursor-pointer"
         title="Editar gravação"
         onclick={() => editar(index)}
       

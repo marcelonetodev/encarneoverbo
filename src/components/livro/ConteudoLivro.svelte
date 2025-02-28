@@ -45,7 +45,7 @@
       </div>
       <div class="gap-5 flex flex-col">
         {#if book !== null}
-          <Titulo principal={reference} />
+          <Titulo principal={reference} secundario="Almeida revista e atualizada (ARA)"/>
           <div class="relative md:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5">
             {#each verses as verse, index}
               <div class="relative my-3">
