@@ -23,6 +23,7 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
+		"@vercel/speed-insights": "^1.2.0",
 		"marked": "^15.0.7"
 	}
 }
