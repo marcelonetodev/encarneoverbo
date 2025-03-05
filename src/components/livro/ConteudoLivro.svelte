@@ -31,15 +31,17 @@
   export let reference: any = null;
 
   async function chamarJson(tipo: any, livro: any, capitulo: any) {
+    if (!tipo) {
+      selectedTraduction = "NVT";
+      tipo = "NVT";
+    }
     book = await json(tipo, livro, capitulo);
     Promise.resolve(book).then((value) => {
       text = value.text;
       verses = value.verses;
       reference = value.reference;
     });
-    tipo
-      ? (printTraduction = `Tradução: ${tipo}`)
-      : (printTraduction = `Tradução: NVT`);
+    printTraduction = `Tradução: ${tipo}`;
   }
 
   async function handleTraductionSelection(event: Event) {
