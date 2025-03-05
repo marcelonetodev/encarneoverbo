@@ -21,44 +21,42 @@ export let verses: any = null;
 export let reference: any = null;
 
 async function json(tipo: any, livro: any, capitulo: any) {
-    try{
+  try {
 
-      tipo == "ACF"
-        ? (book = acf)
-        : tipo == "ARA"
-          ? (book = ara)
-          : tipo == "ARC"
-            ? (book = arc)
-            : tipo == "AS21"
-              ? (book = as21)
-              : tipo == "JFAA"
-                ? (book = jfaa)
-                : tipo == "KJA"
-                  ? (book = kja)
-                  : tipo == "KJF"
-                    ? (book = kjf)
-                    : tipo == "NAA"
-                      ? (book = naa)
-                      : tipo == "NBV"
-                        ? (book = nbv)
-                        : tipo == "NTLH"
-                          ? (book = ntlh)
-                          : tipo == "NVI"
-                            ? (book = nvi)
-                            : tipo == "NVT"
-                              ? (book = nvt)
-                              : tipo == "TB"
-                                ? (book = tb)
-                                : tipo == null
-                                  ? (book = nvt)
-                                  : null;
-      text = book[livro].chapters[capitulo];
-      verses = book[livro].chapters[capitulo];
-      reference = `${book[livro].name} ${capitulo + 1}`;
-      return { text, verses, reference }
-    }catch{
-      error(401, 'Livro não encontrado')
-    }
+    tipo == "ACF"
+      ? (book = acf)
+      : tipo == "ARA"
+        ? (book = ara)
+        : tipo == "ARC"
+          ? (book = arc)
+          : tipo == "AS21"
+            ? (book = as21)
+            : tipo == "JFAA"
+              ? (book = jfaa)
+              : tipo == "KJA"
+                ? (book = kja)
+                : tipo == "KJF"
+                  ? (book = kjf)
+                  : tipo == "NAA"
+                    ? (book = naa)
+                    : tipo == "NBV"
+                      ? (book = nbv)
+                      : tipo == "NTLH"
+                        ? (book = ntlh)
+                        : tipo == "NVI"
+                          ? (book = nvi)
+                          : tipo == "NVT"
+                            ? (book = nvt)
+                            : tipo == "TB"
+                              ? (book = tb)
+                              : null;
+    text = book[livro].chapters[capitulo];
+    verses = book[livro].chapters[capitulo];
+    reference = `${book[livro].name} ${capitulo + 1}`;
+    return { text, verses, reference }
+  } catch {
+    error(401, 'Livro não encontrado')
   }
+}
 
-  export default json
+export default json
