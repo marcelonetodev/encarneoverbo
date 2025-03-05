@@ -27,10 +27,12 @@
   /** @type {number} */
   export let book: any = null;
   export let text: any = null;
+  export let capit: any = null;
   export let verses: any = null;
   export let reference: any = null;
 
   async function chamarJson(tipo: any, livro: any, capitulo: any) {
+    capit = capitulo
     if (!tipo) {
       selectedTraduction = "NVT";
       tipo = "NVT";
@@ -98,7 +100,22 @@
               </div>
             {/each}
           </div>
-        {/if}
+          <div class="flex justify-around">
+
+            {#if capit != null && capit + 1 < livro.capitulo }
+              <Botao
+                texto="Próximo Capítulo"
+                funcao={() => chamarJson(selectedTraduction, livro.n, capit + 1)}
+              />
+            {/if}
+            {#if capit != null && capit >= 1}
+              <Botao
+                texto="Capítulo Anterior"
+                funcao={() => chamarJson(selectedTraduction, livro.n, capit - 1)}
+              />
+            {/if}
+          </div>
+            {/if}
         <div class="flex flex-col p-5">
           <span class="border-b border border-zinc-800"></span>
           <Titulo principal="Capítulos" />

@@ -26,6 +26,7 @@
   import json from "../../json/json";
 
   export let book: any = null;
+  export let capit: any = null;
   export let bookRandom: any = null;
   export let text: any = null;
   export let verses: any = null;
@@ -38,9 +39,10 @@
   });
 
   async function chamarJson(tipo: any, livro: any, capitulo: any) {
-    if(!tipo){
-      selectedTraduction = 'NVT'
-      tipo = 'NVT'
+    capit = capitulo;
+    if (!tipo) {
+      selectedTraduction = "NVT";
+      tipo = "NVT";
     }
     book = await json(tipo, livro, capitulo);
     Promise.resolve(book).then((value) => {
@@ -48,7 +50,7 @@
       verses = value.verses;
       reference = value.reference;
     });
-      printTraduction = `Tradução: ${tipo}`;
+    printTraduction = `Tradução: ${tipo}`;
   }
   // async function chamarApi(livro: any, capitulo: any) {
   //   book = await api(livro, capitulo);
@@ -153,6 +155,21 @@
   {#if selectedBook !== null}
     {#each livros as lv}
       {#if lv.titulo === selectedBook}
+      <div class="flex justify-around">
+
+        {#if capit != null && capit + 1 < lv.capitulo }
+          <Botao
+            texto="Próximo Capítulo"
+            funcao={() => chamarJson(selectedTraduction, lv.n, capit + 1)}
+          />
+        {/if}
+        {#if capit != null && capit >= 1}
+          <Botao
+            texto="Capítulo Anterior"
+            funcao={() => chamarJson(selectedTraduction, lv.n, capit - 1)}
+          />
+        {/if}
+      </div>
         <div class="gap-5 flex flex-col">
           <Titulo principal={lv.titulo} secundario="Escolha o capítulo" />
           <div class="justify-center flex p-5" id="cap">
