@@ -102,23 +102,22 @@
           </div>
           <div class="flex justify-around">
 
-            {#if capit != null && capit + 1 < livro.capitulo }
-              <Botao
-                texto="Próximo Capítulo"
-                funcao={() => chamarJson(selectedTraduction, livro.n, capit + 1)}
-              />
-            {/if}
             {#if capit != null && capit >= 1}
               <Botao
                 texto="Capítulo Anterior"
                 funcao={() => chamarJson(selectedTraduction, livro.n, capit - 1)}
               />
             {/if}
+            {#if capit != null && capit + 1 < livro.capitulo }
+              <Botao
+                texto="Próximo Capítulo"
+                funcao={() => chamarJson(selectedTraduction, livro.n, capit + 1)}
+              />
+            {/if}
           </div>
             {/if}
         <div class="flex flex-col p-5">
-          <span class="border-b border border-zinc-800"></span>
-          <Titulo principal="Capítulos" />
+          <!-- <span class="border-b border border-zinc-800"></span> -->
           <div class="flex justify-center">
             <select
               class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 flex-1 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
@@ -130,6 +129,7 @@
               {/each}
             </select>
           </div>
+          <Titulo principal="Capítulos" />
           <div class="relative flex justify-center p-5">
             <div
               class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
