@@ -16,9 +16,9 @@
     ) {
         active = true;
         let textoParaCopiar = "";
-        if (text && verse && reference && id) {
+        if (text && verse && reference && !id) {
             textoParaCopiar =
-                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
+                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference}:${verse} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
         } else if (citacao && autor) {
             textoParaCopiar =
