@@ -156,17 +156,17 @@
     {#each livros as lv}
       {#if lv.titulo === selectedBook}
       <div class="flex justify-around">
+        {#if capit != null && capit >= 1}
+          <Botao
+            texto="Capítulo Anterior"
+            funcao={() => chamarJson(selectedTraduction, lv.n, capit - 1)}
+          />
+        {/if}
 
         {#if capit != null && capit + 1 < lv.capitulo }
           <Botao
             texto="Próximo Capítulo"
             funcao={() => chamarJson(selectedTraduction, lv.n, capit + 1)}
-          />
-        {/if}
-        {#if capit != null && capit >= 1}
-          <Botao
-            texto="Capítulo Anterior"
-            funcao={() => chamarJson(selectedTraduction, lv.n, capit - 1)}
           />
         {/if}
       </div>
