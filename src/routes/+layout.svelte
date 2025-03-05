@@ -15,7 +15,7 @@
   />
   <meta name="robots" content="index, follow" />
   <meta property="og:title" content="Encarne o Verbo" />
-  <meta property="og:description" content="Encarne o verbo é sobre Cristo!" />
+  <meta property="og:description" content="No princípio era o Verbo, e o Verbo estava com Deus, e o Verbo era Deus." />
   <meta property="og:image" content="./logo.png" />
   <meta
     name="viewport"

@@ -23,9 +23,9 @@
     ) {
         active = true;
         let novaMensagem = "";
-        if (text && verse && reference && id) {
+        if (text && verse && reference && !id) {
             novaMensagem =
-                `[No texto de **${reference}:${verse}** diz: "${text}"](livros/${id})` ||
+                `[No texto de **${reference}:${verse}** diz: "${text}"](biblia)` ||
                 "Versículo não disponível.";
         } else if (citacao && autor) {
             novaMensagem =
@@ -51,7 +51,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class=" text-zinc-500 px-2 py-1 text-sm rounded-bl-md hover:text-zinc-500 focus:outline-none absolute top-0 right-8 cursor-pointer"
+    class=" text-zinc-500 px-2 py-1 text-sm rounded-bl-md hover:text-zinc-500 focus:outline-none absolute top-8 right-0 cursor-pointer"
     on:click={() => setar(text, verse, reference, id, citacao, autor)}
     title="Salvar"
 >

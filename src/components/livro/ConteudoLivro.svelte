@@ -3,9 +3,26 @@
   import Titulo from "../shared/Titulo.svelte";
   import Texto from "../shared/Texto.svelte";
   import CopiarTexto from "../shared/CopiarTexto.svelte";
-  import {api} from "../../api/api";
   import Salvar from "../shared/Salvar.svelte";
+  import json from "../../json/json";
   export let livro: any = null;
+  let printTraduction: any = null;
+  const traducoes = [
+    "ACF",
+    "ARA",
+    "ARC",
+    "AS21",
+    "JFAA",
+    "KJA",
+    "KJF",
+    "NAA",
+    "NBV",
+    "NTLH",
+    "NVI",
+    "NVT",
+    "TB",
+  ];
+  let selectedTraduction: string | null = null;
 
   /** @type {number} */
   export let book: any = null;
@@ -13,13 +30,21 @@
   export let verses: any = null;
   export let reference: any = null;
 
-  async function chamarApi(livro: any, capitulo: any) {
-    book = await api(livro, capitulo);
+  async function chamarJson(tipo: any, livro: any, capitulo: any) {
+    book = await json(tipo, livro, capitulo);
     Promise.resolve(book).then((value) => {
       text = value.text;
       verses = value.verses;
       reference = value.reference;
     });
+    tipo
+      ? (printTraduction = `Tradução: ${tipo}`)
+      : (printTraduction = `Tradução: NVT`);
+  }
+
+  async function handleTraductionSelection(event: Event) {
+    const selectElement = event.target as HTMLSelectElement;
+    selectedTraduction = selectElement.value;
   }
 </script>
 
@@ -45,20 +70,29 @@
       </div>
       <div class="gap-5 flex flex-col">
         {#if book !== null}
-          <Titulo principal={reference} secundario="Almeida revista e atualizada (ARA)"/>
-          <div class="relative md:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5">
+          <Titulo principal={reference} secundario={printTraduction} />
+          <div
+            class="relative md:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5"
+          >
             {#each verses as verse, index}
               <div class="relative my-3">
-                <Salvar text={verse.text} verse={verse.verse} {reference} id={verse.book_id} autor={null} citacao={null}/>
-                <CopiarTexto
-                  text={verse.text}
-                  verse={verse.verse}
+                <Salvar
+                  text={verse}
+                  verse={index + 1}
                   {reference}
-                  id={verse.book_id}
+                  id={null}
+                  autor={null}
+                  citacao={null}
+                />
+                <CopiarTexto
+                  text={verse}
+                  verse={index + 1}
+                  {reference}
+                  id={null}
                   citacao={null}
                   autor={null}
                 />
-                <Texto versiculo={verse.text} index={verse.verse} />
+                <Texto versiculo={verse} index={index + 1} />
               </div>
             {/each}
           </div>
@@ -66,6 +100,17 @@
         <div class="flex flex-col p-5">
           <span class="border-b border border-zinc-800"></span>
           <Titulo principal="Capítulos" />
+          <div class="flex justify-center">
+            <select
+              class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 flex-1 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+              on:change={handleTraductionSelection}
+            >
+              <option class="bg-zinc-950" selected>Escolha a tradução</option>
+              {#each traducoes as traducao}
+                <option class="bg-zinc-950" value={traducao}>{traducao}</option>
+              {/each}
+            </select>
+          </div>
           <div class="relative flex justify-center p-5">
             <div
               class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 gap-4"
@@ -73,7 +118,7 @@
               {#each { length: livro.capitulo }, cap}
                 <Botao
                   texto={cap + 1}
-                  funcao={() => chamarApi(livro.id, cap + 1)}
+                  funcao={() => chamarJson(selectedTraduction, livro.n, cap)}
                 />
               {/each}
             </div>
