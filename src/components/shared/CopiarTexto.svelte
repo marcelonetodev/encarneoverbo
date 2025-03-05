@@ -4,27 +4,27 @@
     export let citacao: any = "";
     export let verse: any = "";
     export let reference: any = "";
-    export let id: any = "";
+    export let traducao: any = "";
     let active = false;
     function copiarTexto(
         text: any,
         verse: any,
         reference: any,
-        id: any,
+        traducao: any,
         autor: any,
         citacao: any,
     ) {
         active = true;
         let textoParaCopiar = "";
-        if (text && verse && reference && !id) {
+        if (text && verse && reference && traducao) {
             textoParaCopiar =
-                `${reference}:${verse} diz: "${text}"  | Para saber mais, acesse ${reference}:${verse} em: encarneoverbo.com.br/biblia` ||
+                `${reference}:${verse} ${traducao} diz: "${text}"  | Para saber mais, acesse ${reference}:${verse} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
         } else if (citacao && autor) {
             textoParaCopiar =
                 `"${citacao}" - ${autor}  | Para ver mais citações como essa, acesse: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
-        } else if(text && reference && !id && !verse){
+        } else if(text && reference && !traducao && !verse){
             textoParaCopiar =
                 `${reference} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
@@ -39,7 +39,7 @@
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
     class="bg-transparent text-zinc-500 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
-    on:click={() => copiarTexto(text, verse, reference, id, autor, citacao)}
+    on:click={() => copiarTexto(text, verse, reference, traducao, autor, citacao)}
     title="Copiar versículo"
 >
     {#if !active}

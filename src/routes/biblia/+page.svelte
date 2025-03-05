@@ -38,15 +38,17 @@
   });
 
   async function chamarJson(tipo: any, livro: any, capitulo: any) {
+    if(!tipo){
+      selectedTraduction = 'NVT'
+      tipo = 'NVT'
+    }
     book = await json(tipo, livro, capitulo);
     Promise.resolve(book).then((value) => {
       text = value.text;
       verses = value.verses;
       reference = value.reference;
     });
-    tipo
-      ? (printTraduction = `Tradução: ${tipo}`)
-      : (printTraduction = `Tradução: NVT`);
+      printTraduction = `Tradução: ${tipo}`;
   }
   // async function chamarApi(livro: any, capitulo: any) {
   //   book = await api(livro, capitulo);
@@ -89,7 +91,7 @@
             text={verse}
             verse={index + 1}
             {reference}
-            id={null}
+            traducao={selectedTraduction}
             autor={null}
             citacao={null}
           />
@@ -97,7 +99,7 @@
             text={verse}
             verse={index + 1}
             {reference}
-            id={null}
+            traducao={selectedTraduction}
             citacao={null}
             autor={null}
           />
@@ -111,7 +113,7 @@
         text={verses}
         {reference}
         verse={null}
-        id={null}
+        traducao={null}
         autor={null}
         citacao={null}
       />
@@ -119,7 +121,7 @@
         text={verses}
         {reference}
         verse={null}
-        id={null}
+        traducao={null}
         citacao={null}
         autor={null}
       />
@@ -129,10 +131,10 @@
 
   <div class="flex justify-center">
     <select
-      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 rounded-bl-sm rounded-tl-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-24"
+      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 rounded-bl-sm rounded-tl-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-28"
       on:change={handleTraductionSelection}
     >
-      <option class="bg-zinc-950" selected>---</option>
+      <option class="bg-zinc-950" selected>Versão</option>
       {#each traducoes as traducao}
         <option class="bg-zinc-950" value={traducao}>{traducao}</option>
       {/each}
@@ -141,7 +143,7 @@
       class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800/80 rounded-br-sm rounded-tr-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
       on:change={handleBookSelection}
     >
-      <option class="bg-zinc-950" selected>Livros da bíblia</option>
+      <option class="bg-zinc-950" selected>Livro</option>
       {#each livros as lv}
         <option class="bg-zinc-950" value={lv.titulo}>{lv.titulo}</option>
       {/each}

@@ -80,7 +80,7 @@
                   text={verse}
                   verse={index + 1}
                   {reference}
-                  id={null}
+                  traducao={selectedTraduction}
                   autor={null}
                   citacao={null}
                 />
@@ -88,7 +88,7 @@
                   text={verse}
                   verse={index + 1}
                   {reference}
-                  id={null}
+                  traducao={selectedTraduction}
                   citacao={null}
                   autor={null}
                 />
@@ -105,7 +105,7 @@
               class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 flex-1 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
               on:change={handleTraductionSelection}
             >
-              <option class="bg-zinc-950" selected>Escolha a tradução</option>
+              <option class="bg-zinc-950" selected>Versão</option>
               {#each traducoes as traducao}
                 <option class="bg-zinc-950" value={traducao}>{traducao}</option>
               {/each}
