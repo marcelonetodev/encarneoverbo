@@ -4,7 +4,7 @@
     export let text: any;
     export let verse: any;
     export let reference: any;
-    export let id: any;
+    export let traducao: any;
 
     let mensagemA: string[] = [];
     export let maxAnotacoes: number = 20;
@@ -17,21 +17,21 @@
         text: any,
         verse: any,
         reference: any,
-        id: any,
+        traducao: any,
         citacao: any,
         autor: any,
     ) {
         active = true;
         let novaMensagem = "";
-        if (text && verse && reference && !id) {
+        if (text && verse && reference && traducao) {
             novaMensagem =
-                `[No texto de **${reference}:${verse}** diz: "${text}"](biblia)` ||
+                `[No texto de **${reference}:${verse} ${traducao}** diz: "${text}"](biblia)` ||
                 "Versículo não disponível.";
         } else if (citacao && autor) {
             novaMensagem =
                 `"${citacao}" - ${autor}` ||
                 "Citação não disponível.";
-        }else if(text && !verse && reference && !id){
+        }else if(text && !verse && reference && !traducao){
             novaMensagem =
                 `[No texto de **${reference}** diz: "${text}"](biblia)` ||
                 "Versículo não disponível.";
@@ -52,7 +52,7 @@
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
     class=" text-zinc-500 px-2 py-1 text-sm rounded-bl-md hover:text-zinc-500 focus:outline-none absolute top-8 right-0 cursor-pointer"
-    on:click={() => setar(text, verse, reference, id, citacao, autor)}
+    on:click={() => setar(text, verse, reference, traducao, citacao, autor)}
     title="Salvar"
 >
     {#if !active}
