@@ -5,7 +5,7 @@
   
   <div class="flex flex-col gap-10">
     <Titulo
-      before="Pregações sobre o"
+      before="Aulas sobre o"
       key="Verbo"
       after="Anuncie a verdade, espalhe a esperança."
       />

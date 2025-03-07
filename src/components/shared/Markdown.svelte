@@ -112,12 +112,12 @@
   {#each mensagemA as msg, index}
     <!-- class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-sm sm:text-base text-justify text-zinc-400" -->
     <div
-      class="relative flex flex-col border border-zinc-950 justify-around p-5 rounded-sm gap-5 text-justify"
+      class="relative flex flex-col border-4 border-zinc-950 justify-around p-5 rounded-sm gap-5 text-justify"
     >
-      <p class="font-bold text-xlsm:text-3xl text-zinc-400">
-        Gravação {index + 1}:
+      <p class="font-bold text-xl lg:text-3xl text-zinc-400">
+        Nota {index + 1}:
       </p>
-      <p class="bg-zinc-950 rounded-sm text-md p-2 font-thin">{@html marked(msg)}</p>
+      <p class="bg-zinc-950 text-zinc-500 rounded-sm text-sm p-2">{@html marked(msg)}</p>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button
       class="bg-transparent text-red-700/50 hover:text-red-500/70 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"

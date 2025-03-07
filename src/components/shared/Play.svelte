@@ -20,42 +20,42 @@
 
 	const playlist = [
 		{
-			artist: "Diogo",
+			artist: "Diogo Pilgrim",
 			name: "Como interpretar o pentateuco",
 			audio: audio1,
 		},
 		{
-			artist: "Milton",
+			artist: "Milton Evangelista",
 			name: "O pentateuco, aplicação em Êxodo",
 			audio: audio2,
 		},
 		{
-			artist: "Eliene",
+			artist: "Eliene Evangelista",
 			name: "Como interpretar as narrativas/livros históricos",
 			audio: audio3,
 		},
 		{
-			artist: "Leidy",
+			artist: "Leidy Oliveira",
 			name: "Os livros históricos, aplicação em 1 e 2 Samuel",
 			audio: audio4,
 		},
 		{
-			artist: "Flávio",
+			artist: "Flávio Nunes",
 			name: " Com interpretar os Evangelhos e Históricos, aplicação Lucas e Atos",
 			audio: audio5,
 		},
 		{
-			artist: "Isabella",
+			artist: "Isabella Prado",
 			name: " A presença relacional de Deus em Mateus, Marcos, Lucas e Atos",
 			audio: audio6,
 		},
 		{
-			artist: "Heber",
+			artist: "Heber Oliveira",
 			name: "Com interpretar as cartas de Paulo, aplicação em 1ª Tessalonicenses",
 			audio: audio7,
 		},
 		{
-			artist: "Pedro",
+			artist: "Pedro Batista",
 			name: "As cartas de Paulo e aplicação em 1ª Tessalonicenses",
 			audio: audio8,
 		},
