@@ -117,7 +117,7 @@
       <p class="font-bold text-xlsm:text-3xl text-zinc-400">
         Gravação {index + 1}:
       </p>
-      <p class="bg-zinc-950 rounded-sm text-md p-2 font-thin">{@html marked(msg)}</p>
+      <p class="bg-zinc-950 rounded-sm text-sm p-2">{@html marked(msg)}</p>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button
       class="bg-transparent text-red-700/50 hover:text-red-500/70 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"

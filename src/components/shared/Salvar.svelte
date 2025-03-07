@@ -43,7 +43,7 @@
             reference
         ) {
             novaMensagem =
-                `[**${citacao} sobre "${reference}", ministrada por ${autor}**: "${text}"](pregacoes)` ||
+                `[**${citacao} sobre : "${text} do módulo "${reference}", ministrada por ${autor}**"](pregacoes)` ||
                 "Aula não disponível.";
         }
         for (let i = 0; i < maxAnotacoes; i++) {
