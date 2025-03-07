@@ -52,7 +52,7 @@
         {versiculo}
       </p>
       {#if autor}
-        <p class="flex-1 pr-2 text-end py-1 text-zinc-600 text-xs sm:text-sm">
+        <p class="flex-1 pr-8 text-end py-1 text-zinc-600 text-xs sm:text-sm">
           {autor}
         </p>
       {/if}
