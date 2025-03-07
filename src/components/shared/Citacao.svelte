@@ -19,7 +19,7 @@
                     text={null}
                     verse={null}
                     reference={null}
-                    id={null}
+                    traducao={null}
                     autor={cit.autor}
                     citacao={cit.citação}
                 />
@@ -27,7 +27,7 @@
                     text={null}
                     verse={null}
                     reference={null}
-                    id={null}
+                    traducao={null}
                     citacao={cit.citação}
                     autor={cit.autor}
                 />
