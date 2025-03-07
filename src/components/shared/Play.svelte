@@ -2,6 +2,7 @@
 	import AudioPlayer from "./AudioPlay.svelte";
 	import Titulo from "./Titulo.svelte";
 
+	import leg1 from "../../constants/legenda/Aula 01.vtt"
 	import audio1 from "../../constants/audio/Aula 01.m4a";
 	import audio2 from "../../constants/audio/Aula 02.m4a";
 	import audio3 from "../../constants/audio/A presença relacional de Deus Aula 03.m4a";
@@ -23,6 +24,7 @@
 			artist: "Diogo Pilgrim",
 			name: "Como interpretar o pentateuco",
 			audio: audio1,
+			leg: leg1
 		},
 		{
 			artist: "Milton Evangelista",
@@ -99,7 +101,7 @@
 					index={src.artist}
 					autor="Aula 0{index + 1}"
 				/>
-				<AudioPlayer src={value} />
+				<AudioPlayer src={value} leg={src.leg} />
 			{/await}
 		</div>
 	{/if}
