@@ -30,7 +30,7 @@
                 "Texto não disponível.";
             }else if(text && autor && citacao && !traducao && !verse  && reference){
                 textoParaCopiar =
-                `Veja a ${citacao}: "${text}" do módulo "${reference}", ministrada por ${autor} | Acesse em: encarneoverbo.com.br/pregacoes` ||
+                `Veja a ${citacao}: "${text}" do módulo "${reference}", ministrada por ${autor} | Acesse em: encarneoverbo.com.br/aulas` ||
                 "Texto não disponível.";
         }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {

@@ -62,8 +62,10 @@
 
 {#if textoMarkdown}
   <div
-    class="p-5 text-justify bg-zinc-950 font-light gap-5 text-sm sm:text-base text-zinc-400 rounded-sm"
+    class="p-5 text-justify bg-zinc-950 gap-5 text-sm lg:text-base text-zinc-500 rounded-sm"
   >
+  <p class=" text-zinc-500 text-sm">
     {@html marked.parse(textoMarkdown)}
+  </p>
   </div>
 {/if}
