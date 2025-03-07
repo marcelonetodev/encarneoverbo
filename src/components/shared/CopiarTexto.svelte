@@ -16,17 +16,21 @@
     ) {
         active = true;
         let textoParaCopiar = "";
-        if (text && verse && reference && traducao) {
+        if (text && verse && reference && traducao && !autor) {
             textoParaCopiar =
                 `${reference}:${verse} ${traducao} diz: "${text}"  | Para saber mais, acesse ${reference}:${verse} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
-        } else if (citacao && autor) {
+        } else if (citacao && autor && !text) {
             textoParaCopiar =
                 `"${citacao}" - ${autor}  | Para ver mais citações como essa, acesse: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
-        } else if(text && reference && !traducao && !verse){
+        } else if(text && reference && !traducao && !verse && !autor){
             textoParaCopiar =
                 `${reference} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
+                "Texto não disponível.";
+            }else if(text && autor && citacao && !traducao && !verse  && reference){
+                textoParaCopiar =
+                `Veja a ${citacao} sobre "${reference}", ministrada por ${autor}: "${text}" | Acesse em: encarneoverbo.com.br/pregacoes` ||
                 "Texto não disponível.";
         }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {

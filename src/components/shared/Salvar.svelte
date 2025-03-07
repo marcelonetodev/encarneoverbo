@@ -23,18 +23,28 @@
     ) {
         active = true;
         let novaMensagem = "";
-        if (text && verse && reference && traducao) {
+        if (text && verse && reference && traducao && !autor) {
             novaMensagem =
                 `[No texto de **${reference}:${verse} ${traducao}** diz: "${text}"](biblia)` ||
                 "Versículo não disponível.";
-        } else if (citacao && autor) {
+        } else if (citacao && autor && !reference && !text) {
             novaMensagem =
-                `"${citacao}" - ${autor}` ||
-                "Citação não disponível.";
-        }else if(text && !verse && reference && !traducao){
+                `"${citacao}" - ${autor}` || "Citação não disponível.";
+        } else if (text && !verse && reference && !traducao && !autor) {
             novaMensagem =
                 `[No texto de **${reference}** diz: "${text}"](biblia)` ||
                 "Versículo não disponível.";
+        } else if (
+            text &&
+            autor &&
+            citacao &&
+            !traducao &&
+            !verse &&
+            reference
+        ) {
+            novaMensagem =
+                `[**${citacao} sobre "${reference}", ministrada por ${autor}**: "${text}"](pregacoes)` ||
+                "Aula não disponível.";
         }
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();

@@ -8,7 +8,6 @@
     const selectElement = event.target as HTMLSelectElement;
     selectedBook = selectElement.value;
   }
-
 </script>
 
 <div class="flex flex-col gap-10">
