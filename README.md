@@ -37,7 +37,7 @@ npm install
 npm run dev
 ```
 
-O projeto estará disponível em `http://localhost:3000/`.
+O projeto estará disponível em `http://encarneoverbo.com.br/`.
 
 ## 🤝 Como Contribuir
 
