@@ -37,7 +37,7 @@
 			audio: audio3,
 		},
 		{
-			artist: "Leidy Oliveira",
+			artist: "Leidiane Pinto",
 			name: "Os livros históricos, com aplicação em 1ª e 2ª Samuel",
 			audio: audio4,
 		},
