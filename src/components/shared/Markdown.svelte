@@ -112,15 +112,15 @@
   {#each mensagemA as msg, index}
     <!-- class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-sm sm:text-base text-justify text-zinc-400" -->
     <div
-      class="relative flex flex-col border-4 border-zinc-950 justify-around p-5 rounded-sm gap-5 text-justify"
+      class="relative flex flex-col border-4 border-blue-950/30 justify-around p-5 rounded-sm gap-5 text-justify"
     >
-      <p class="font-bold text-xl lg:text-3xl text-zinc-400">
+      <p class="font-bold text-xl lg:text-3xl text-blue-900">
         Nota {index + 1}:
       </p>
       <p class="bg-zinc-950 text-zinc-500 rounded-sm text-sm p-2">{@html marked(msg)}</p>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button
-      class="bg-transparent text-red-700/50 hover:text-red-500/70 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
+      class="bg-transparent text-red-700/20 hover:text-red-500/70 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
         title="Apagar gravação"
         onclick={() => apagar(index)}
         ><svg
@@ -140,7 +140,7 @@
       </button>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button
-      class="bg-transparent text-green-700 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-16 cursor-pointer"
+      class="bg-transparent text-green-700/50 hover:text-green-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-16 cursor-pointer"
       title="Mesclar gravação"
       onclick={() => mesclar(index)}    
     >
@@ -151,7 +151,7 @@
     </button>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button 
-      class="bg-transparent text-zinc-700 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-8 cursor-pointer"
+      class="bg-transparent text-zinc-700/50 hover:text-zinc-500 px-2 py-1 text-sm focus:outline-none absolute top-0 right-8 cursor-pointer"
         title="Editar gravação"
         onclick={() => editar(index)}
       
@@ -168,9 +168,9 @@
   class="flex flex-col border border-zinc-950 justify-around p-3 sm:p-5 rounded-md gap-5"
 >
   <textarea
-    class="p-3 h-36 resize-none outline-none text-sm sm:text-base text-zinc-400 text-justify"
+    class="p-3 h-36 resize-none outline-none text-sm sm:text-base placeholder:text-blue-400/50 text-zinc-400 text-justify"
     bind:value={markdown}
-    placeholder="Digite sua anotação..."
+    placeholder="Faça suas anotações..."
   ></textarea>
   <Botao funcao={() => setar()} texto="Salvar" />
 </div>
