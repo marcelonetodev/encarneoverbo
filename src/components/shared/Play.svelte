@@ -28,7 +28,7 @@
 		},
 		{
 			artist: "Milton Evangelista",
-			name: "O pentateuco, aplicação em Êxodo",
+			name: "O pentateuco, com aplicação em Êxodo",
 			audio: audio2,
 		},
 		{
@@ -38,27 +38,27 @@
 		},
 		{
 			artist: "Leidy Oliveira",
-			name: "Os livros históricos, aplicação em 1 e 2 Samuel",
+			name: "Os livros históricos, com aplicação em 1ª e 2ª Samuel",
 			audio: audio4,
 		},
 		{
 			artist: "Flávio Nunes",
-			name: " Com interpretar os Evangelhos e Históricos, aplicação Lucas e Atos",
+			name: "Como interpretar os evangelhos e livros históricos, com aplicação em Lucas e Atos",
 			audio: audio5,
 		},
 		{
 			artist: "Isabella Prado",
-			name: " A presença relacional de Deus em Mateus, Marcos, Lucas e Atos",
+			name: "Aplicação em Mateus, Marcos, Lucas e Atos",
 			audio: audio6,
 		},
 		{
 			artist: "Heber Oliveira",
-			name: "Com interpretar as cartas de Paulo, aplicação em 1ª Tessalonicenses",
+			name: "Como interpretar as cartas de Paulo, com aplicação em 1ª Tessalonicenses",
 			audio: audio7,
 		},
 		{
 			artist: "Pedro Batista",
-			name: "As cartas de Paulo e aplicação em 1ª Tessalonicenses",
+			name: "As cartas de Paulo, com aplicação em 1ª Tessalonicenses",
 			audio: audio8,
 		},
 	];
