@@ -11,7 +11,7 @@
     <blockquote class="text-3xl sm:text-4xl md:text-5xl font-black">
       {before}
       <span
-        class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-blue-500"
+        class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-blue-900"
       >
         <span class="relative text-white dark:text-gray-950">{key}</span>
       </span>

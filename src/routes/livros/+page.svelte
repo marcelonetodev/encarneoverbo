@@ -60,8 +60,4 @@
       <option class="bg-zinc-900" value={b.id}>{b.titulo}</option>
     {/each}
   </select>
-  <div class="lg:hidden flex flex-col">
-    <span class="border-b border border-zinc-800"></span>
-    <Play />
-  </div>
 </div>

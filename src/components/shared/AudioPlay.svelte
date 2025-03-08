@@ -44,26 +44,22 @@
     export let leg;
 
     let player;
-    let legenda = ''; // Variável para armazenar a legenda que será exibida
+    let legenda = ''; 
 
     onMount(() => {
         players.add(player);
 
-        // Quando o player de áudio é carregado, adicionamos um ouvinte para as legendas
         player.addEventListener('loadeddata', () => {
             const track = player.querySelector('track');
             const trackElement = track.track;
 
-            trackElement.mode = 'showing';  // Exibe as legendas diretamente
+            trackElement.mode = 'showing'; 
 
-            // Ouvinte de evento que detecta a mudança de cue (legenda)
             trackElement.addEventListener('cuechange', () => {
                 const activeCue = trackElement.activeCues[0];
                 if (activeCue) {
-                    // Atualiza a legenda na variável reativa
                     legenda = activeCue.text;
                 } else {
-                    // Limpa a legenda
                     // legenda = '';
                 }
             });
@@ -79,7 +75,7 @@
 
     {#if legenda}
         <div id="legenda" class="bg-black rounded-sm my-3 p-5 w-full opacity-40 ">
-            <p class="text-thin text-zinc-400 text-center text-sm">{legenda}</p>
+            <p class="text-thin text-zinc-200 text-center text-sm">{legenda}</p>
         </div>
     {/if}
 </div>

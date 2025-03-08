@@ -1,78 +1,37 @@
 <script>
-	import AudioPlayer from "./AudioPlay.svelte";
+	import AudioPlay from "./AudioPlay.svelte";
 	import Titulo from "./Titulo.svelte";
-
-	import leg1 from "../../constants/legenda/Aula 01.vtt"
-	import audio1 from "../../constants/audio/Aula 01.m4a";
-	import audio2 from "../../constants/audio/Aula 02.m4a";
-	import audio3 from "../../constants/audio/A presença relacional de Deus Aula 03.m4a";
-	import audio4 from "../../constants/audio/Aula 04.m4a";
-	import audio5 from "../../constants/audio/A presença relacional de Deus Aula 05.m4a";
-	import audio6 from "../../constants/audio/A presença relacional de Deus Aula 06.m4a";
-	import audio7 from "../../constants/audio/Aula 07.m4a";
-	import audio8 from "../../constants/audio/A presença relacional de Deus Aula 08.m4a";
+	import playlist from "../../constants/playlist/playlist";
 	import Botao from "./Botao.svelte";
 	import Texto from "./Texto.svelte";
 	import CopiarTexto from "./CopiarTexto.svelte";
 	import Salvar from "./Salvar.svelte";
 
 	let count = 0;
-	const secundario = "A presença relacional de Deus";
-
-	const playlist = [
-		{
-			artist: "Diogo Pilgrim",
-			name: "Como interpretar o pentateuco",
-			audio: audio1,
-			leg: leg1
-		},
-		{
-			artist: "Milton Evangelista",
-			name: "O pentateuco, com aplicação em Êxodo",
-			audio: audio2,
-		},
-		{
-			artist: "Eliene Evangelista",
-			name: "Como interpretar as narrativas/livros históricos",
-			audio: audio3,
-		},
-		{
-			artist: "Leidiane Pinto",
-			name: "Os livros históricos, com aplicação em 1ª e 2ª Samuel",
-			audio: audio4,
-		},
-		{
-			artist: "Flávio Nunes",
-			name: "Como interpretar os evangelhos e livros históricos, com aplicação em Lucas e Atos",
-			audio: audio5,
-		},
-		{
-			artist: "Isabella Prado",
-			name: "Aplicação em Mateus, Marcos, Lucas e Atos",
-			audio: audio6,
-		},
-		{
-			artist: "Heber Oliveira",
-			name: "Como interpretar as cartas de Paulo, com aplicação em 1ª Tessalonicenses",
-			audio: audio7,
-		},
-		{
-			artist: "Pedro Batista",
-			name: "As cartas de Paulo, com aplicação em 1ª Tessalonicenses",
-			audio: audio8,
-		},
-	];
+	let desc = false;
+	let descB = "Mostrar descrição da aula";
+	const principal = "A presença relacional de Deus";
 
 	function proximo() {
 		count < playlist.length - 1 ? count++ : (count = 0);
+		desc = false;
+		descB = "Mostrar descrição da aula";
 	}
 
 	function anterior() {
 		count > 0 ? count-- : (count = playlist.length - 1);
+		desc = false;
+		descB = "Mostrar descrição da aula";
+	}
+	function descricao() {
+		desc = !desc;
+		descB == "Mostrar descrição da aula"
+			? (descB = "Esconder descrição da aula")
+			: (descB = "Mostrar descrição da aula");
 	}
 </script>
 
-<Titulo principal="Conhecer a Deus através das Escrituras" {secundario} />
+<Titulo secundario="Conhecer a Deus através das Escrituras" principal={principal} />
 
 {#each playlist as src, index}
 	{#if count === index}
@@ -83,7 +42,7 @@
 				<Salvar
 					verse={null}
 					traducao={null}
-					reference={secundario}
+					reference={principal}
 					text={src.name}
 					autor={src.artist}
 					citacao="Aula 0{index + 1}"
@@ -91,7 +50,7 @@
 				<CopiarTexto
 					verse={null}
 					traducao={null}
-					reference={secundario}
+					reference={principal}
 					text={src.name}
 					autor={src.artist}
 					citacao="Aula 0{index + 1}"
@@ -101,13 +60,21 @@
 					index={src.artist}
 					autor="Aula 0{index + 1}"
 				/>
-				<AudioPlayer src={value} leg={src.leg} />
+				<AudioPlay src={value} leg={src.leg} />
+				<div class="flex w-full justify-around p-5">
+					<Botao texto={descB} funcao={descricao} />
+				</div>
+				{#if desc}
+					<div class="">
+						<Texto textoMarkdown={src.description} />
+					</div>
+				{/if}
 			{/await}
 		</div>
 	{/if}
 {/each}
 
 <div class="flex w-full justify-around p-5">
-	<Botao texto="Pregação Anterior" funcao={anterior} />
-	<Botao texto="Próxima pregação" funcao={proximo} />
+	<Botao texto="Aula anterior" funcao={anterior} />
+	<Botao texto="Próxima aula" funcao={proximo} />
 </div>
