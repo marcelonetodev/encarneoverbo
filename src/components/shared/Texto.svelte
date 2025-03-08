@@ -39,11 +39,11 @@
 {#if versiculo}
   <div class="flex flex-row gap-5 py-5 px-4 bg-zinc-950 rounded-sm">
     {#if index}
-      <span class="pl-0 pr-0 py-1 text-zinc-600 text-xs sm:text-sm">
+      <span class="pl-0 pr-0 py-1 text-blue-950 text-xs sm:text-sm">
         {index}
       </span>
     {/if}
-    <span class="border-b border border-zinc-800"></span>
+    <span class="border-b border border-blue-950"></span>
     <div class="flex flex-col w-full">
 
       <p

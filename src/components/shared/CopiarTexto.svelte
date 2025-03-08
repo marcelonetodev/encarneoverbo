@@ -42,7 +42,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class="bg-transparent text-zinc-500 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
+    class="bg-transparent text-blue-900 hover:text-zinc-500 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
     on:click={() => copiarTexto(text, verse, reference, traducao, autor, citacao)}
     title="Copiar versículo"
 >

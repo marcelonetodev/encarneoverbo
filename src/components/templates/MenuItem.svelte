@@ -17,7 +17,7 @@
     {/if}
     {#if icone}
       <div
-        class="relative inline-flex  items-center justify-center w-10 h-10 overflow-hidden bg-transparent"
+        class="relative inline-flex  items-center justify-center w-10 h-10 overflow-hidden bg-blue-950/40 rounded-md"
       >
         <span class="font-medium text-gray-600 dark:text-gray-300">
             <svg
