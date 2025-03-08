@@ -12,7 +12,7 @@ O **Encarne o Verbo** é um espaço digital que busca promover o diálogo e a di
 
 O projeto está hospedado na **Vercel** e utiliza as seguintes tecnologias:
 
-- **Next.js** - Framework React para aplicações web modernas.
+- **Svelte** - Framework moderno para construção de interfaces reativas.
 - **Vercel** - Plataforma de deploy e hospedagem.
 - **Tailwind CSS** - Para estilização e responsividade.
 - **Markdown** - Para a estruturação dos conteúdos.
@@ -29,12 +29,12 @@ cd encarneoverbo
 
 ### 2. Instale as Dependências
 ```bash
-yarn install  # ou npm install
+npm install
 ```
 
 ### 3. Inicie o Servidor de Desenvolvimento
 ```bash
-yarn dev  # ou npm run dev
+npm run dev
 ```
 
 O projeto estará disponível em `http://localhost:3000/`.
@@ -56,8 +56,7 @@ Este projeto é licenciado sob a **MIT License** - sinta-se livre para utilizar 
 Se tiver dúvidas, sugestões ou quiser colaborar de outra forma, entre em contato:
 
 - 🌐 [Site Oficial](https://encarneoverbo.com.br)
-- 📧 Email: contato@encarneoverbo.com.br
-- 🐦 Twitter: [@encarneoverbo](https://twitter.com/encarneoverbo)
+- 📧 Email: celoneto.1995@gmail.com
 - 📸 Instagram: [@encarneoverbo](https://instagram.com/encarneoverbo)
 
 ---
