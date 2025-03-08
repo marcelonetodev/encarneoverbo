@@ -1,38 +1,65 @@
-# sv
+# Encarne o Verbo
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+![Encarne o Verbo](https://encarneoverbo.com.br/logo.png)
 
-## Creating a project
+Bem-vindo ao repositório do **Encarne o Verbo**! Este projeto open source tem como objetivo proporcionar uma plataforma para compartilhar conhecimento e reflexões sobre temas espirituais, filosóficos e sociais.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🌍 Sobre o Projeto
 
+O **Encarne o Verbo** é um espaço digital que busca promover o diálogo e a disseminação de ideias através de artigos, conteúdos multimídia e interações comunitárias. O projeto está em constante evolução e qualquer colaboração é bem-vinda!
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto está hospedado na **Vercel** e utiliza as seguintes tecnologias:
+
+- **Next.js** - Framework React para aplicações web modernas.
+- **Vercel** - Plataforma de deploy e hospedagem.
+- **Tailwind CSS** - Para estilização e responsividade.
+- **Markdown** - Para a estruturação dos conteúdos.
+
+## 📂 Como Rodar Localmente
+
+Se você deseja contribuir ou rodar o projeto em seu ambiente local, siga os passos abaixo:
+
+### 1. Clone o Repositório
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/seu-usuario/encarneoverbo.git
+cd encarneoverbo
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+### 2. Instale as Dependências
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+yarn install  # ou npm install
 ```
 
-## Building
-
-To create a production version of your app:
-
+### 3. Inicie o Servidor de Desenvolvimento
 ```bash
-npm run build
+yarn dev  # ou npm run dev
 ```
 
-You can preview the production build with `npm run preview`.
+O projeto estará disponível em `http://localhost:3000/`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## 🤝 Como Contribuir
+
+1. **Fork** este repositório.
+2. Crie um **branch** com sua funcionalidade (`git checkout -b minha-feature`).
+3. Faça o **commit** das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
+4. Faça o **push** para o branch (`git push origin minha-feature`).
+5. Abra um **Pull Request**.
+
+## 📄 Licença
+
+Este projeto é licenciado sob a **MIT License** - sinta-se livre para utilizar e contribuir!
+
+## 📬 Contato
+
+Se tiver dúvidas, sugestões ou quiser colaborar de outra forma, entre em contato:
+
+- 🌐 [Site Oficial](https://encarneoverbo.com.br)
+- 📧 Email: contato@encarneoverbo.com.br
+- 🐦 Twitter: [@encarneoverbo](https://twitter.com/encarneoverbo)
+- 📸 Instagram: [@encarneoverbo](https://instagram.com/encarneoverbo)
+
+---
+_Ajude-nos a expandir essa iniciativa e tornar o conhecimento acessível a mais pessoas!_ 🚀
+
