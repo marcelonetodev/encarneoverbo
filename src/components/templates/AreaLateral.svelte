@@ -122,7 +122,7 @@
   <!-- class="w-full bg-black text-white/80 border border-zinc-950 p-2 rounded-md" -->
   <Menu titulo="Pentateuco">
     <select
-      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
       on:change={handleSelectChange}
     >
       <option value="/">Livros</option>
@@ -136,7 +136,7 @@
 
   <Menu titulo="Históricos">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -157,7 +157,7 @@
 
   <Menu titulo="Poéticos">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -171,7 +171,7 @@
 
   <Menu titulo="Proféticos">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -197,7 +197,7 @@
 
   <Menu titulo="Evangelhos">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -210,7 +210,7 @@
 
   <Menu titulo="Atos dos Apóstolos">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -220,7 +220,7 @@
 
   <Menu titulo="Epístolas de Paulo">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -243,7 +243,7 @@
 
   <Menu titulo="Epístolas Gerais">
     <select
-    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+    class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
     on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
@@ -259,7 +259,7 @@
 
   <Menu titulo="Apocalipse">
     <select
-      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+      class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-950/80 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
       on:change={handleSelectChange}
     >
     <option value="/">Livros</option>
