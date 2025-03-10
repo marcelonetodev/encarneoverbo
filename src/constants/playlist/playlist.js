@@ -538,7 +538,7 @@ O capítulo 7 de Atos é um **resumo da história do Pentateuco** e destaca trê
         name: "Aplicação em Mateus, Marcos, Lucas e Atos",
         audio: audio6,
         leg: "",
-        description: `# AULA 05  
+        description: `# AULA 06  
 
 ## A PRESENÇA RELACIONAL DE DEUS 
 
