@@ -13,7 +13,7 @@
 <div
   class="
     flex flex-col min-h-screen
-    bg-black text-white dark:bg-black-800
+    dark:bg-black dark:text-white bg-zinc-200 text-black
     relative
   "
 >
@@ -22,7 +22,7 @@
   </div>
 
   <div
-    class="lg:hidden border-t-2 border-zinc-950 px-1 gap-1 rounded-t-lg list-none text-blue-500 p-1 bg-zinc-950 grid grid-cols-5 fixed z-1 bottom-0 w-full"
+    class="lg:hidden border-t-2 dark:border-zinc-950 border-zinc-300 px-1 gap-1 rounded-t-lg list-none text-blue-500 p-1 dark:bg-zinc-950 bg-zinc-300 grid grid-cols-5 fixed z-1 bottom-0 w-full"
   >
     <!-- <Menu titulo="Navegação"> -->
       <!-- texto="Início" -->

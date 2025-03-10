@@ -254,7 +254,127 @@ O capítulo 7 de Atos é um **resumo da história do Pentateuco** e destaca trê
         name: "Como interpretar as narrativas/livros históricos",
         audio: audio3,
         leg: "",
-        description: ``
+        description: `# AULA 03  
+
+## A PRESENÇA RELACIONAL DE DEUS
+# **COMO INTERPRETAR AS NARRATIVAS**  
+---
+
+## **O QUE SÃO NARRATIVAS BÍBLICAS?**  
+- São **histórias significativas** que recontam os eventos históricos do passado.  
+- O objetivo é **dar sentido e direção ao povo de Deus no presente**.  
+- **Exemplo:** Paulo relembra a história de Israel para advertir os Coríntios a não cometerem os mesmos erros *(1 Coríntios 10:1-11)*.  
+
+### **ELEMENTOS BÁSICOS DAS NARRATIVAS:**  
+1. **Narrador**  
+2. **Lugar/Cena**  
+3. **Personagens**  
+4. **Diálogo**  
+5. **Enredo**  
+
+---
+
+## **LIVROS DA BÍBLIA QUE APRESENTAM NARRATIVAS**  
+
+### **Antigo Testamento:**  
+- **Pentateuco:** Gênesis, Êxodo*, Números*  
+- **Históricos:** Josué, Juízes, Rute, 1 e 2 Samuel, 1 e 2 Reis, 1 e 2 Crônicas, Esdras, Neemias, Ester  
+- **Proféticos e Poéticos:** Daniel, Jeremias*, Ezequiel*, Isaías*, Jó*, Jonas, Ageu  
+
+### **Novo Testamento:**  
+- Mateus, Marcos, Lucas, João, Atos  
+
+(*Livros que também contêm trechos narrativos misturados com leis ou profecias.*)  
+
+---
+
+## **A NARRATIVA BÍBLICA COMO UMA HISTÓRIA UNIFICADA**  
+- **A história de Deus se desenvolve de forma única e contínua.**  
+- **Todas as histórias apontam para Cristo.**  
+- Os personagens podem ser:  
+  - **Protagonistas** *(Ex.: Jesus, Moisés, Davi, Paulo)*  
+  - **Antagonistas** *(Ex.: Faraó, Herodes, Judas Iscariotes)*  
+  - **Coadjuvantes** *(Ex.: Rute, João Batista, os discípulos)*  
+
+### **A NARRATIVA DE DEUS ABRANGE:**  
+- **Metanarrativa:** A grande história da redenção.  
+- **História do Povo Redimido:** Como Deus interage com Seu povo.  
+- **Cenas Relatadas:** Eventos específicos dentro da grande história.  
+
+---
+
+## **O QUE AS NARRATIVAS NÃO SÃO?**  
+- **Elas não são apenas registros históricos secos.**  
+- **Não são fábulas ou parábolas simbólicas sem base real.**  
+- **Não devem ser lidas como manuais de doutrina, mas interpretadas no seu contexto.**  
+
+---
+
+# **LIVROS HISTÓRICOS E CRISTO NA NARRATIVA**  
+
+## **JOSUÉ**  
+- **Tema:** Conquista e ocupação iniciais da Terra Prometida.  
+- **Cristo em Josué:**  
+  > Josué representa um tipo de Cristo como **Comandante do Exército do Senhor** *(Josué 5:13-14)*.  
+
+## **JUÍZES**  
+- **Tema:** Organização do povo em Canaã e seus fracassos em manter a aliança.  
+- **Cristo nos Juízes:**  
+  > Os juízes ilustram Cristo como **Salvador e Rei definitivo de Seu povo** *(Lucas 2:11; João 4:42)*.  
+
+## **RUTE**  
+- **Tema:** Início da família de Davi.  
+- **Cristo em Rute:**  
+  > Boaz é um **tipo de Cristo**, o parente resgatador que antecipa Jesus como o Redentor de todos os que creem *(1 Pedro 1:18-19)*.  
+
+## **1 E 2 SAMUEL**  
+- **Tema:** Transição da teocracia para a monarquia e o reinado de Davi.  
+- **Cristo em Samuel:**  
+  > A oração de Ana aponta para o **Futuro Rei Ungido – o Messias** *(1 Samuel 2:10)*.  
+  > A **Aliança Davídica** promete um **Reino Eterno através de Cristo** *(2 Samuel 7:12-16)*.  
+
+## **1 E 2 REIS**  
+- **Tema:** Divisão do Reino (Israel no Norte e Judá no Sul) e cativeiros de Israel e Judá.  
+- **Cristo em Reis:**  
+  > Cristo é o Rei verdadeiro que governa *(1 Reis 2:46)*.  
+
+## **1 E 2 CRÔNICAS**  
+- **Tema:** História pós-exílica focada nos reis de Judá, com ênfase no templo e na adoração.  
+- **Cristo em Crônicas:**  
+  > Cristo é o **Construtor do verdadeiro Templo** *(1 Crônicas 28:20)*.  
+
+## **ESDRAS E NEEMIAS**  
+- **Tema:** Retorno dos exilados e reconstrução do templo e da cidade.  
+- **Cristo em Esdras e Neemias:**  
+  > Cristo é o **Restaurador do Templo** *(Esdras 6:14-15)* e da nação *(Neemias 6:15)*.  
+
+## **ESTER**  
+- **Tema:** A preservação dos judeus no império persa.  
+- **Cristo em Ester:**  
+  > Cristo é aquele que **preserva Seu povo** *(Ester 4:14)*.  
+
+---
+
+## **CONCLUSÃO: O QUE TER EM MENTE AO LER AS NARRATIVAS?**  
+
+1. **A PRESENÇA DE DEUS NA NARRATIVA**  
+   - Deus é **o personagem principal** de toda a história.  
+   - Ele é **o herói supremo da redenção**.  
+
+2. **APLICAÇÃO EM 1 SAMUEL**  
+   - A história de Samuel nos ensina sobre **a liderança de Deus, Sua fidelidade e o papel da aliança**.  
+   - O reinado de Davi aponta diretamente para **Cristo como o Rei eterno prometido**.  
+
+---
+
+## **RESUMO FINAL**  
+- **As narrativas bíblicas não são meras histórias isoladas, mas fazem parte do plano redentor de Deus.**  
+- **Cristo é o centro da história bíblica.**  
+- **A presença de Deus se manifesta em cada narrativa, conduzindo Seu povo ao cumprimento de Sua promessa.**  
+- **Devemos ler as narrativas considerando seu contexto, propósito e aplicação para nossa vida hoje.**  
+
+> **"Toda a Escritura é inspirada por Deus e útil para o ensino, para a repreensão, para a correção e para a instrução na justiça."** *(2 Timóteo 3:16)*  
+`
     },
     {
         artist: "Leidiane Pinto",
@@ -418,7 +538,150 @@ O capítulo 7 de Atos é um **resumo da história do Pentateuco** e destaca trê
         name: "Aplicação em Mateus, Marcos, Lucas e Atos",
         audio: audio6,
         leg: "",
-        description: ``
+        description: `# AULA 05  
+
+## A PRESENÇA RELACIONAL DE DEUS 
+
+## **APLICAÇÃO EM MATEUS, MARCOS, LUCAS E ATOS**
+---
+
+## **INTRODUÇÃO**  
+> "Princípio do Evangelho do Filho de Deus." *(Marcos 1:1)*  
+
+---
+
+## **A IDENTIDADE DE JESUS EM MARCOS E MATEUS**  
+1. **Filho de Deus**  
+2. **Messias e Emanuel**  
+
+> "E dará à luz um filho e chamarás o seu nome JESUS; porque ele salvará o seu povo dos seus pecados.  
+> Tudo isto aconteceu para que se cumprisse o que foi dito da parte do Senhor, pelo profeta, dizendo:  
+> Eis que a virgem conceberá, e dará à luz um filho, e chamarão seu nome Emanuel, que traduzido é: Deus conosco."  
+> *(Mateus 1:21-23)*  
+
+- **A encarnação de Cristo é a manifestação máxima da presença relacional de Deus com a humanidade.**  
+- **Sua missão tem relação direta com a presença relacional de Deus.**  
+
+---
+
+## **A MISSÃO DE JESUS: O QUE E COMO**  
+
+### **O QUE?**  
+> O nome "Jesus" revela **o objetivo**: **Redimir o homem e restabelecer o relacionamento com Deus.**  
+
+### **COMO?**  
+> O nome "Emanuel" revela **como** isso acontece:  
+> **Aquele que planejou a salvação veio pessoalmente salvar, Ele mesmo é o executor.**  
+
+### **COMO ELE MANIFESTA A PRESENÇA?**  
+- **Manifestando o Reino:** "O Reino de Deus está próximo." *(Marcos 1:14-15)*  
+- **Perdoando pecados e curando pessoas:**  
+  > "Vendo-lhes a fé, Jesus disse ao paralítico: Homem, estão perdoados os teus pecados." *(Lucas 5:20)*  
+- **Morrendo na cruz para remover a separação do pecado:** *(Isaías 53:5)*  
+
+---
+
+## **DISCIPULADO: CHAMADOS PARA PERTO**  
+> "Venham comigo, e eu farei com que sejam pescadores de gente." *(Mateus 4:19)*  
+> "Viu Levi, filho de Alfeu, sentado na coletoria e lhe disse: 'Siga-me!'" *(Marcos 2:14)*  
+> "Jesus respondeu: 'Venham ver!' Então eles foram, viram onde Jesus estava morando e ficaram com Ele aquele dia." *(João 1:39)*  
+
+---
+
+## **PARA QUEM O REINO É REVELADO?**  
+> "A vós é confiado os mistérios do Reino de Deus." *(Marcos 4:1-20 - Parábola do Semeador)*  
+- Sem relacionamento com Jesus, as coisas do Reino não fazem sentido.  
+
+---
+
+## **A PRESENÇA É PEDAGÓGICA E TRANSFORMADORA**  
+> "E Jesus, vendo a multidão, subiu a um monte, e, assentando-se, aproximaram-se dele os seus discípulos; e, abrindo a sua boca, os ensinava." *(Mateus 5:1-13 - Sermão do Monte)*  
+
+---
+
+## **JESUS MANIFESTANDO A PRESENÇA DE DEUS**  
+- **Tem poder para perdoar pecados.**  
+- **Se declara o Senhor do Sábado.**  
+- **Tem autoridade sobre a natureza, acalmando a tempestade.**  
+- **Multiplica os pães como o Bom Pastor.**  
+- **Oferece perdão na mesa com os pecadores.**  
+- **No Monte da Transfiguração, é o cumprimento da Lei e das profecias.**  
+- **Anda sobre o mar, demonstrando estar acima das leis da física.**  
+- **Tem poder sobre o reino das trevas e será o juiz final.**  
+
+---
+
+## **A PRESENÇA É CRUCIFICADA**  
+- **O Noivo é tirado.** *(Mateus 9:15)*  
+- **O brado na cruz.**  
+- **O véu do templo é rasgado.**  
+- **Os discípulos se dispersam, fogem, negam, perdem a fé e a esperança.**  
+
+---
+
+## **A PRESENÇA RESSURRETA GARANTE:**  
+- **O reencontro com os discípulos para restaurar a fé.**  
+- **Cura das feridas e renovação da esperança.**  
+> *(João 21:4-12)*  
+
+---
+
+## **A PRESENÇA RELACIONAL COM OS DISCÍPULOS - A BASE DA ÚLTIMA ORDEM**  
+> "E, chegando-se Jesus, falou-lhes, dizendo:  
+> 'Toda autoridade me foi dada no céu e na terra.  
+> Portanto, ide, fazei discípulos de todas as nações, batizando-os em nome do Pai, e do Filho, e do Espírito Santo;  
+> ensinando-os a guardar todas as coisas que vos tenho mandado.  
+> E eis que eu estou convosco todos os dias, até a consumação do mundo. Amém.'"  
+> *(Mateus 28:18-20)*  
+
+---
+
+# **A PRESENÇA RELACIONAL EM LUCAS E ATOS**  
+
+## **JESUS RESSURRETO - ÊNFASE EM LUCAS**  
+> "E acharam a pedra revolvida do sepulcro. E, entrando, não acharam o corpo do Senhor Jesus.  
+> E aconteceu que, estando elas muito perplexas, eis que pararam junto delas dois homens, com vestes resplandecentes.  
+> Eles lhes disseram: 'Por que buscais o vivente entre os mortos? Não está aqui, mas ressuscitou.'"  
+> *(Lucas 24:2-6)*  
+
+---
+
+## **A PRESENÇA POR MEIO DO ESPÍRITO SANTO**  
+> "Eis que envio sobre vós a promessa de meu Pai; permanecei, pois, na cidade, até que do alto sejais revestidos de poder." *(Lucas 24:49)*  
+
+> "Recebereis poder quando o Espírito Santo descer sobre vós, e sereis minhas testemunhas,  
+> tanto em Jerusalém, como em toda a Judeia e Samaria, e até os confins da terra." *(Atos 1:8)*  
+
+> "Ao cumprir-se o dia de Pentecostes, estavam todos reunidos no mesmo lugar.  
+> De repente, veio do céu um som, como de um vento impetuoso, e encheu toda a casa onde estavam assentados.  
+> Apareceram línguas, como de fogo, e pousaram sobre cada um deles.  
+> Todos ficaram cheios do Espírito Santo e passaram a falar em outras línguas, segundo o Espírito lhes concedia." *(Atos 2:1-4)*  
+
+---
+
+## **CONSEQUÊNCIAS DO DERRAMAMENTO DO ESPÍRITO**  
+- **Intrepidez para proclamar o evangelho.**  
+- **Comunidade unida, vivendo em amor e partilha.**  
+- **Temor a Deus e compromisso com a doutrina dos apóstolos.**  
+- **Vida de oração e adoração constante.**  
+
+> "E perseveravam na doutrina dos apóstolos e na comunhão, no partir do pão e nas orações.  
+> Em cada alma havia temor; e muitos prodígios e sinais eram feitos por intermédio dos apóstolos.  
+> Todos os que creram estavam juntos e tinham tudo em comum.  
+> Vendiam as suas propriedades e bens, distribuindo entre todos, conforme a necessidade de cada um.  
+> Perseveravam unânimes no templo e partiam pão de casa em casa.  
+> Tomavam as refeições com alegria e singeleza de coração, louvando a Deus e contando com a simpatia de todo o povo.  
+> Enquanto isso, acrescentava-lhes o Senhor, dia a dia, os que iam sendo salvos." *(Atos 2:42-47)*  
+
+---
+
+## **CONCLUSÃO**  
+- **A presença de Deus em Cristo é o ponto central do Evangelho.**  
+- **Jesus restaurou a relação entre Deus e os homens.**  
+- **O Espírito Santo dá poder e direção à Igreja.**  
+- **Somos chamados a viver na presença de Deus diariamente.**  
+- **A promessa permanece: "Eu estou convosco todos os dias, até a consumação do mundo."** *(Mateus 28:20)*  
+`
     },
     {
         artist: "Heber Oliveira",
