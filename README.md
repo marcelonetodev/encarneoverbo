@@ -47,10 +47,6 @@ O projeto estará disponível em `http://encarneoverbo.com.br/`.
 4. Faça o **push** para o branch (`git push origin minha-feature`).
 5. Abra um **Pull Request**.
 
-## 📄 Licença
-
-Este projeto é licenciado sob a **MIT License** - sinta-se livre para utilizar e contribuir!
-
 ## 📬 Contato
 
 Se tiver dúvidas, sugestões ou quiser colaborar de outra forma, entre em contato:
