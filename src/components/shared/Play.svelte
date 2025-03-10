@@ -35,7 +35,7 @@
 
 {#each playlist as src, index}
 	{#if count === index}
-		<div class="bg-zinc-950 rounded-sm flex flex-col relative my-3">
+		<div class="dark:bg-zinc-950 bg-zinc-300 rounded-sm flex flex-col relative my-3">
 			{#await src.audio}
 				<p>Aguardando pregação</p>
 			{:then value}

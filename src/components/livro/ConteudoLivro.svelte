@@ -76,7 +76,7 @@
         {#if book !== null}
           <Titulo principal={reference} secundario={printTraduction} />
           <div
-            class="relative md:border lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5"
+            class="relative md:border lg:border-zinc-300 dark:lg:border-zinc-950 lg:rounded-sm gap-5 lg:p-5"
           >
             {#each verses as verse, index}
               <div class="relative my-3">
@@ -120,7 +120,7 @@
           <!-- <span class="border-b border border-zinc-800"></span> -->
           <div class="flex justify-center">
             <select
-              class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-800/80 flex-1 rounded-sm text-zinc-400 bg-zinc-950 focus:outline-none focus:ring-2 focus:ring-zinc-800 w-full"
+              class=" placeholder:text-zinc-950 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer p-4 font-light border border-zinc-300 dark:border-zinc-800/80 flex-1 rounded-sm text-zinc-400 bg-zinc-300 dark:bg-zinc-950 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800 w-full"
               on:change={handleTraductionSelection}
             >
               <option class="bg-zinc-950" selected>Versão</option>

@@ -112,12 +112,12 @@
   {#each mensagemA as msg, index}
     <!-- class="flex flex-col border border-zinc-800 justify-around p-5 rounded-md gap-5 text-sm sm:text-base text-justify text-zinc-400" -->
     <div
-      class="relative flex flex-col border-4 border-blue-950/30 justify-around p-5 rounded-sm gap-5 text-justify"
+      class="relative flex flex-col border-4 dark:border-blue-950/30 border-zinc-300 justify-around p-5 rounded-sm gap-5 text-justify"
     >
       <p class="font-bold text-xl lg:text-3xl text-blue-900">
         Nota {index + 1}:
       </p>
-      <p class="bg-zinc-950 text-zinc-500 rounded-sm text-sm p-2">{@html marked(msg)}</p>
+      <p class="dark:bg-zinc-950 bg-zinc-300 text-zinc-500 rounded-sm text-sm p-4">{@html marked(msg)}</p>
       <!-- svelte-ignore a11y_consider_explicit_label -->
       <button
       class="bg-transparent text-red-700/20 hover:text-red-500/70 px-2 py-1 text-sm rounded-tr-md focus:outline-none absolute top-0 right-0 cursor-pointer"
@@ -165,10 +165,10 @@
 {/if}
 
 <div
-  class="flex flex-col border border-zinc-950 justify-around p-3 sm:p-5 rounded-md gap-5"
+  class="flex flex-col border border-zinc-300 dark:border-zinc-950 justify-around p-3 sm:p-5 rounded-md gap-5"
 >
   <textarea
-    class="p-3 h-36 resize-none outline-none text-sm sm:text-base placeholder:text-blue-400/50 text-zinc-400 text-justify"
+    class="p-3 h-36 resize-none outline-none text-sm sm:text-base placeholder:text-zinc-400 dark:placeholder:text-zinc-400/50 text-zinc-400 text-justify"
     bind:value={markdown}
     placeholder="Faça suas anotações..."
   ></textarea>

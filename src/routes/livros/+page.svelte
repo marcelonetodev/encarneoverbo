@@ -53,7 +53,7 @@
     on:change={handleBookSelection}
     id="livro-select"
     name="livros"
-    class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease focus:border-slate-400 hover:border-slate-400 shadow-sm focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border border-zinc-800/80 rounded-sm bg-zinc-950 text-zinc-400 focus:outline-none focus:ring-2 focus:ring-zinc-800"
+    class=" placeholder:text-slate-40 pl-5 pr-8 py-2 transition duration-300 ease dark:focus:border-slate-400 hover:border-slate-400 shadow-sm dark:focus:shadow-md appearance-none cursor-pointer flex-1 p-4 font-light border dark:border-zinc-800/80 border-zinc-300 rounded-sm bg-zinc-300 dark:bg-zinc-950 text-zinc-400 focus:outline-none dark:focus:ring-2 dark:focus:ring-zinc-800"
   >
     <option class="bg-zinc-900" selected>Livro</option>
     {#each livros as b}

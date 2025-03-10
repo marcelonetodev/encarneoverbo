@@ -109,7 +109,7 @@
 </script>
 
 <aside
-  class="flex flex-col self-start gap-10 min-w-72 border border-zinc-950 p-5 rounded-sm"
+  class="flex flex-col self-start gap-10 min-w-72 border border-zinc-300 dark:border-zinc-950 p-5 rounded-sm"
 >
   <Menu titulo="Navegação">
     <MenuItem texto="Início" href="/" />
