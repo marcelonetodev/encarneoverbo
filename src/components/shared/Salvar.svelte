@@ -61,7 +61,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class=" text-green-500/40 px-2 py-1 text-sm rounded-bl-md hover:text-green-500 focus:outline-none absolute top-8 right-0 cursor-pointer"
+    class="px-1 py-0 text-sm rounded-b-sm hover:text-black dark:text-zinc-100 text-zinc-500 dark:bg-zinc-800/50 bg-zinc-100 opacity-50 focus:outline-none absolute top-8 right-2 cursor-pointer"
     on:click={() => setar(text, verse, reference, traducao, citacao, autor)}
     title="Salvar"
 >
