@@ -24,14 +24,32 @@
             textoParaCopiar =
                 `"${citacao}" - ${autor}  | Para ver mais citações como essa, acesse: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
-        } else if(text && reference && !traducao && !verse && !autor){
+        } else if (text && reference && !traducao && !verse && !autor) {
             textoParaCopiar =
                 `${reference} diz: "${text}"  | Para saber mais, acesse ${reference} em: encarneoverbo.com.br/biblia` ||
                 "Texto não disponível.";
-            }else if(text && autor && citacao && !traducao && !verse  && reference){
-                textoParaCopiar =
+        } else if (
+            text &&
+            autor &&
+            citacao &&
+            !traducao &&
+            !verse &&
+            reference
+        ) {
+            textoParaCopiar =
                 `Veja a ${citacao}: "${text}" do módulo "${reference}", ministrada por ${autor} | Acesse em: encarneoverbo.com.br/aulas` ||
                 "Texto não disponível.";
+        }else if (
+            text &&
+            autor &&
+            !citacao &&
+            !traducao &&
+            !verse &&
+            reference
+        ) {
+            textoParaCopiar =
+                `Compre o livro "${text}", do autor "${autor}" | Acesse em: ${reference}` ||
+                "Link não disponível.";
         }
         navigator.clipboard.writeText(textoParaCopiar).then(() => {
             alert("Texto copiado para a área de transferência!");
@@ -42,8 +60,9 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class=" text-white hover:text-zinc-900 px-1 py-0 text-sm focus:outline-none absolute top-2 opacity-50 right-2 bg-zinc-500 dark:bg-zinc-800/50 rounded-t-sm cursor-pointer"
-    on:click={() => copiarTexto(text, verse, reference, traducao, autor, citacao)}
+    class=" text-white hover:bg-blue-500 px-1 py-0 text-sm focus:outline-none absolute top-2 opacity-50 right-2 bg-zinc-500 dark:bg-zinc-800/50 rounded-t-sm cursor-pointer"
+    on:click={() =>
+        copiarTexto(text, verse, reference, traducao, autor, citacao)}
     title="Copiar versículo"
 >
     {#if !active}

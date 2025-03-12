@@ -1,5 +1,8 @@
 <script lang="ts">
     import livraria from "../../constants/livraria/livraria.json";
+    import Citacao from "./Citacao.svelte";
+    import CopiarTexto from "./CopiarTexto.svelte";
+    import Salvar from "./Salvar.svelte";
     import Titulo from "./Titulo.svelte";
 </script>
 
@@ -13,6 +16,7 @@
                 target="_blank"
                 class="flex flex-col gap-5 my-5 md:my-0 rounded-sm dark:bg-zinc-800/50 bg-zinc-300 p-5 max-w-80"
             >
+
                 <img
                     src={lv.imagem}
                     alt="Imagem do livro"
@@ -23,6 +27,36 @@
         {/each}
     </div>
     <p class="text-base text-zinc-500 text-center">
+
+                <div class="relative flex flex-col">
+                    <img
+                        src={lv.imagem}
+                        alt="Imagem do livro"
+                        class="h-auto lg:h-80 md:h80 object-fill overflow-hidden rounded-sm"
+                    />
+                    <Salvar
+                        reference={lv.link_compra}
+                        text={lv.título}
+                        autor={lv.autor}
+                        verse={lv.imagem}
+                        traducao={null}
+                        citacao=""
+                    />
+                    <CopiarTexto
+                        reference={lv.link_compra}
+                        text={lv.título}
+                        autor={lv.autor}
+                        verse={null}
+                        traducao={null}
+                        citacao=""
+                    />
+                    <Titulo principalMenor={lv.título} secundario={lv.autor} />
+                </div>
+            </a>
+        {/each}
+    </div>
+    <p class="text-center text-base text-zinc-500">
+
         Você será redirecionado para o site da amazon clicando no livro desejado
     </p>
 {/if}

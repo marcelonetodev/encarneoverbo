@@ -45,6 +45,17 @@
             novaMensagem =
                 `[**${citacao} sobre : "${text} do módulo "${reference}", ministrada por ${autor}**"](aulas)` ||
                 "Aula não disponível.";
+        }else if (
+            text &&
+            autor &&
+            !citacao &&
+            !traducao &&
+            !verse &&
+            reference
+        ) {
+            novaMensagem =
+                `[**"${text}" de "${autor}**"](${reference})` ||
+                "Link não disponível.";
         }
         for (let i = 0; i < maxAnotacoes; i++) {
             let aux = i.toString();
@@ -61,7 +72,7 @@
 
 <!-- svelte-ignore a11y_consider_explicit_label -->
 <button
-    class="px-1 py-0 text-sm rounded-b-sm hover:text-black dark:text-zinc-100 text-zinc-500 dark:bg-zinc-800/50 bg-zinc-100 opacity-50 focus:outline-none absolute top-8 right-2 cursor-pointer"
+    class="px-1 py-0 text-sm rounded-b-sm hover:bg-green-500 dark:text-zinc-100 text-white dark:bg-zinc-800/50 bg-zinc-500 opacity-50 focus:outline-none absolute top-8 right-2 cursor-pointer"
     on:click={() => setar(text, verse, reference, traducao, citacao, autor)}
     title="Salvar"
 >
