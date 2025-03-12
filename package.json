@@ -24,6 +24,7 @@
 	},
 	"dependencies": {
 		"@vercel/speed-insights": "^1.2.0",
-		"marked": "^15.0.7"
+		"marked": "^15.0.7",
+		"svelte-icons": "^2.1.0"
 	}
 }

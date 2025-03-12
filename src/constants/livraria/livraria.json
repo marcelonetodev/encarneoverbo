@@ -1,0 +1,200 @@
+[
+    {
+        "título": "Cristianismo Puro e Simples",
+        "autor": "C.S. Lewis",
+        "link_compra": "https://amzn.to/3XMFI0B",
+        "imagem": "https://m.media-amazon.com/images/I/81R+HyKqtwL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Treinando Corações, Ensinando Mentes",
+        "autor": "Starr Meade",
+        "link_compra": "https://amzn.to/3FznCJ7",
+        "imagem": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1617046541i/57570115.jpg"
+    },
+    {
+        "título": "Ego Transformado",
+        "autor": "Timothy Keller",
+        "link_compra": "https://amzn.to/4hnuOW1",
+        "imagem": "https://m.media-amazon.com/images/I/71Vb4sTcewL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "O Deus que destrói sonhos",
+        "autor": "Rodrigo Bibo",
+        "link_compra": "https://amzn.to/41VGqet",
+        "imagem": "https://m.media-amazon.com/images/I/91VxtptiBgL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Manso e humilde: o coração de Cristo para quem peca e para quem sofre",
+        "autor": "Dane C. Ortlund",
+        "link_compra": "https://amzn.to/3Fz5yPk",
+        "imagem": "https://m.media-amazon.com/images/I/81H18BWkniL.jpg"
+    },
+    {
+        "título": "O evangelho segundo João - Volume 1 (Série Comentários Bíblicos)",
+        "autor": "João Calvino",
+        "link_compra": "https://amzn.to/3R0V6CO",
+        "imagem": "https://m.media-amazon.com/images/I/814dM6eaneL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "Somos todos Teólogos: Uma introdução à Teologia Sistemática",
+        "autor": "R. C. Sproul",
+        "link_compra": "https://amzn.to/41MsZMC",
+        "imagem": "https://m.media-amazon.com/images/I/81INSYo80wL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "O que Deus tem a ver com sexo? | Coleção Teologia para todos: A sexualidade cristã e os desafios contemporâneos",
+        "autor": "David Riker",
+        "link_compra": "https://amzn.to/41Mv2QK",
+        "imagem": "https://m.media-amazon.com/images/I/81m1cA1VcsL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "Em defesa de Cristo",
+        "autor": "Lee Strobel",
+        "link_compra": "https://amzn.to/3DJNphe",
+        "imagem": "https://m.media-amazon.com/images/I/71mKWBb2bYL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Cinco pontos: Em direção a uma experiência mais profunda da graça de Deus",
+        "autor": "John Piper",
+        "link_compra": "https://amzn.to/3XMGcnr",
+        "imagem": "https://m.media-amazon.com/images/I/81rDA11NwXL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Como ler a Bíblia livro por livro",
+        "autor": "Gordon D. Fee",
+        "link_compra": "https://amzn.to/3XMGieN",
+        "imagem": "https://m.media-amazon.com/images/I/81qcnB5h7jL.jpg"
+    },
+    {
+        "título": "O verdadeiro Evangelho",
+        "autor": "Paul Washer",
+        "link_compra": "https://amzn.to/4219WQ0",
+        "imagem": "https://m.media-amazon.com/images/I/812B408OiyL.jpg"
+    },
+    {
+        "título": "O Peregrino",
+        "autor": "John Bunyan",
+        "link_compra": "https://amzn.to/4iFkud6",
+        "imagem": "https://media3.ubook.com/catalog/book-cover-image/1331820/400x600/1331820-2406250317-o-peregrino.jpg"
+    },
+    {
+        "título": "Graça",
+        "autor": "Max Lucado",
+        "link_compra": "https://amzn.to/4hy7XXP",
+        "imagem": "https://m.media-amazon.com/images/I/61UvIB4PNhL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Doze Homens Comuns",
+        "autor": "John MacArthur",
+        "link_compra": "https://amzn.to/3Fldeoi",
+        "imagem": "https://thomasnelson.com.br/cdn/shop/products/9788578609313.jpg?v=1686060112"
+    },
+    {
+        "título": "A Guerra pela Verdade",
+        "autor": "John MacArthur",
+        "link_compra": "https://amzn.to/41YubxE",
+        "imagem": "https://m.media-amazon.com/images/I/81nPcMEpsUL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "A Santidade de Deus",
+        "autor": "R.C. Sproul",
+        "link_compra": "https://amzn.to/420o77Y",
+        "imagem": "https://m.media-amazon.com/images/I/51RQ32ZE-hL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Eleitos de Deus",
+        "autor": "R.C. Sproul",
+        "link_compra": "https://amzn.to/43JiwEj",
+        "imagem": "https://m.media-amazon.com/images/I/71ZZEuC3CzL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "O Conhecimento de Deus",
+        "autor": "J.I. Packer",
+        "link_compra": "https://amzn.to/3DyiWCU",
+        "imagem": "https://m.media-amazon.com/images/I/81Qnip59+oL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "Fundamentos da Fé Cristã",
+        "autor": "J.I. Packer",
+        "link_compra": "https://amzn.to/4hxTs6u",
+        "imagem": "https://m.media-amazon.com/images/I/61uIE4uVngL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "Teologia Sistemática",
+        "autor": "Wayne Grudem",
+        "link_compra": "https://amzn.to/3FALTP1",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/803335/teologia_sistematica_grudem_2a_ed_revisada_e_ampliada_previsao_22_08_2910_1_a408458085faae4031ac0bf8ec724116.jpg"
+    },
+    {
+        "título": "Bases da Fé Cristã",
+        "autor": "Wayne Grudem",
+        "link_compra": "https://amzn.to/3DA6bHX",
+        "imagem": "https://m.media-amazon.com/images/I/91BoFi5NyiL.jpg"
+    },
+    {
+        "título": "Conhecimento do Santo",
+        "autor": "A.W. Tozer",
+        "link_compra": "https://amzn.to/4kKQQF9",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/1323385/o_conhecimento_do_santo_a_w_tozer_12191_1_e9392cdc0350d3a697040dc4da61803f.jpg"
+    },
+    {
+        "título": "Deus na Era Secular",
+        "autor": "Timothy Keller",
+        "link_compra": "https://amzn.to/43DI2La",
+        "imagem": "https://m.media-amazon.com/images/I/71-z0sa6qGL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Até Que Nada Mais Importe",
+        "autor": "Luciano Subirá",
+        "link_compra": "https://amzn.to/4hrtC40",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/889745/ate_que_nada_mais_importe_luciano_subira_197_1_e622ad0ef5358493154bf8af8626d5c2.jpg"
+    },
+    {
+        "título": "Cartas de um diabo a seu aprendiz",
+        "autor": "C.S. Lewis",
+        "link_compra": "https://amzn.to/3FnZrxs",
+        "imagem": "https://m.media-amazon.com/images/I/91w74bA251L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Quando Um Judeu Governar o Mundo",
+        "autor": "Joel Richardson",
+        "link_compra": "https://amzn.to/3DKFa4v",
+        "imagem": "https://m.media-amazon.com/images/I/61xXNR4X0NL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "Escatologia essencial",
+        "autor": "Victor Vieira",
+        "link_compra": "https://amzn.to/41LSqxO",
+        "imagem": "https://m.media-amazon.com/images/I/715H7fnQfXL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "O Anticristo Islâmico: O Messias Esperado pelo Islã",
+        "autor": "Joel Richardson",
+        "link_compra": "https://amzn.to/3XPfMl1",
+        "imagem": "https://m.media-amazon.com/images/I/61N7me+dhTL._UF894,1000_QL80_.jpg"
+    },
+    {
+        "título": "A Igreja do Século 20",
+        "autor": "John Walker",
+        "link_compra": "https://amzn.to/4bJI5Hk",
+        "imagem": "https://elshaddai.com.br/wp-content/uploads/2018/04/A-IGREJA-DO-S%C3%89CULO-20-JOHN-WALKER.jpg"
+    },
+    {
+        "título": "Sai da Frente! Eu Quero Ver Jesus",
+        "autor": "Harold Walker",
+        "link_compra": "https://amzn.to/3XMTrV8",
+        "imagem": "https://m.media-amazon.com/images/I/81jaLe0VgaL._AC_UF350,350_QL50_.jpg"
+    },
+    {
+        "título": "Preparados para o Fim?",
+        "autor": "Harold Walker",
+        "link_compra": "https://amzn.to/3XHETpS",
+        "imagem": "https://m.media-amazon.com/images/I/51cCs9rYgVL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "título": "No Vale da Sombra da Morte",
+        "autor": "Harold Walker",
+        "link_compra": "https://amzn.to/41HV084",
+        "imagem": "https://m.media-amazon.com/images/I/31Pn21gyRXL.jpg"
+    }
+]
