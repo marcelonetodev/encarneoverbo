@@ -65,7 +65,7 @@
 					<Botao texto={descB} funcao={descricao} />
 				</div>
 				{#if desc}
-					<div class="">
+					<div>
 						<Texto textoMarkdown={src.description} />
 					</div>
 				{/if}
